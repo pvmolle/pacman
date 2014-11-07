@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pacman", "Pacman\Pacman.csproj", "{937D6621-823E-4E51-9CD4-BA748404D73F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assets", "Assets", "{269C1942-E432-4550-BE21-8CA0BAA1773F}"
+	ProjectSection(SolutionItems) = preProject
+		Assets\blinky.png = Assets\blinky.png
+		Assets\clyde.png = Assets\clyde.png
+		Assets\inky.png = Assets\inky.png
+		Assets\pacman-down.png = Assets\pacman-down.png
+		Assets\pacman-left.png = Assets\pacman-left.png
+		Assets\pacman-right.png = Assets\pacman-right.png
+		Assets\pacman-up.png = Assets\pacman-up.png
+		Assets\pinky.png = Assets\pinky.png
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{093955B8-3FAE-481E-88E8-D2811E527C24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{937D6621-823E-4E51-9CD4-BA748404D73F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{937D6621-823E-4E51-9CD4-BA748404D73F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{937D6621-823E-4E51-9CD4-BA748404D73F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{937D6621-823E-4E51-9CD4-BA748404D73F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{093955B8-3FAE-481E-88E8-D2811E527C24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{093955B8-3FAE-481E-88E8-D2811E527C24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{093955B8-3FAE-481E-88E8-D2811E527C24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{093955B8-3FAE-481E-88E8-D2811E527C24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
