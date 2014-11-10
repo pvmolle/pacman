@@ -9,6 +9,24 @@ namespace Pacman
     class Enemy : AMoveable
     {
         private IStrategy strategy;
+        private int position;
+        private int speed;
+        private bool isFleeing;
+
+        public bool IsFleeing
+        {
+            get
+            {
+                return isFleeing;
+            }
+            set
+            {
+                // TODO
+                isFleeing = value;
+            }
+        }
+
+        public Vector Direction { get; set; }
 
         public Enemy(IStrategy strategy)
         {

@@ -11,16 +11,21 @@ namespace Pacman
     /// </summary>
     class StrategyClyde : IStrategy
     {
+        private Random r;
+
+        public StrategyClyde() {
+            r = new Random();
+        }
+
         public void Loop(AMoveable gameObject)
         {
-            // random direction: 1,1 and 0,0 are not possible
-            Random r = new Random();
+            // random direction: 1,1 and 0,0 are not possible       
             int x = r.Next(-1, 1); 
             int y = 0;
             if (x == 0)
             {
                 y = r.Next(0, 1) * 2 - 1;
-            }
+            }  
         }
     }
 }
