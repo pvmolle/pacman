@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Pacman
 {
-    interface IStrategy
+    public interface IStrategy
     {
-        void Loop(AMoveable gameObject);
+       void Loop(AMoveable gameObject);
     }
 }

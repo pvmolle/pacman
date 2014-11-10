@@ -25,7 +25,8 @@ namespace Pacman
             if (x == 0)
             {
                 y = r.Next(0, 1) * 2 - 1;
-            }  
+            }
+            gameObject.Direction = new Vector() { X = x, Y = y };
         }
     }
 }

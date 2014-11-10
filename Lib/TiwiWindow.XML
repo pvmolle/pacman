@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TiwiWindow</name>
+    </assembly>
+    <members>
+        <member name="T:Tiwi.Window">
+            <summary>
+            A simple class for displaying a window and handling different events (mouse, keyboard, timer).
+            </summary>
+        </member>
+        <member name="M:Tiwi.Window.LeftMouseClick(System.Windows.Point)">
+            <summary>
+            Event handler for left mouse click
+            </summary>
+            <param name="p">Coordinates of mouse inside window</param>
+        </member>
+        <member name="M:Tiwi.Window.RightMouseClick(System.Windows.Point)">
+            <summary>
+            Event handler for right mouse click
+            </summary>
+            <param name="p">Coordinates of mouse inside window</param>
+        </member>
+        <member name="M:Tiwi.Window.MouseMove(System.Windows.Point)">
+            <summary>
+            Event handler for mouse move (when left button is clicked)
+            </summary>
+            <param name="p">Coordinates of mouse inside window</param>
+        </member>
+        <member name="M:Tiwi.Window.KeyPressed(System.Windows.Input.Key)">
+            <summary>
+            Event handler for keyboard input
+            </summary>
+            <param name="k">The key pressed</param>
+        </member>
+        <member name="M:Tiwi.Window.TimerTick">
+            <summary>
+            Event handler for timer
+            </summary>
+        </member>
+        <member name="M:Tiwi.Window.DrawRectangle(System.Windows.Point,System.Windows.Size,System.Windows.Media.Brush,System.Windows.Media.Brush)">
+            <summary>
+            Draws a rectangle
+            </summary>
+            <param name="p">Upper-left point inside the window to draw the rectangle</param>
+            <param name="size">Size (width and height) of the rectangle</param>
+            <param name="stroke">Stroke color</param>
+            <param name="fill">Fill color</param>
+        </member>
+        <member name="M:Tiwi.Window.DrawEllipse(System.Windows.Point,System.Windows.Size,System.Windows.Media.Brush,System.Windows.Media.Brush)">
+            <summary>
+            Draws an ellipse
+            </summary>
+            <param name="p">Upper-left point inside the window to draw the ellipse</param>
+            <param name="size">Size (width and height) of the ellipse</param>
+            <param name="stroke">Stroke color</param>
+            <param name="fill">Fill color</param>
+        </member>
+        <member name="M:Tiwi.Window.DrawText(System.Windows.Point,System.Windows.Media.Brush,System.Windows.Media.Brush,System.String)">
+            <summary>
+            Renders some text on the window
+            </summary>
+            <param name="p">Upper-left point inside the window to draw the text</param>
+            <param name="foreground">Foreground (text) color</param>
+            <param name="background">Background color</param>
+            <param name="text">Text to render</param>
+        </member>
+        <member name="M:Tiwi.Window.DrawLine(System.Windows.Point,System.Windows.Point,System.Windows.Media.Brush)">
+            <summary>
+            Draws a straight line on the window between two points
+            </summary>
+            <param name="x1">First point</param>
+            <param name="x2">Second point</param>
+            <param name="stroke">Stroke color</param>
+        </member>
+        <member name="M:Tiwi.Window.ClearWindow">
+            <summary>
+            Clear the window (remove all drawings)
+            </summary>
+        </member>
+        <member name="M:Tiwi.Window.DrawImage(System.Windows.Point,System.Windows.Size,System.Windows.Media.Imaging.BitmapImage)">
+            <summary>
+            Draw an image on the window
+            </summary>
+            <param name="p">Upper-left point inside the window to draw the rectangle</param>
+            <param name="size">Size (width and height) of the rectangle</param>
+            <param name="image">The bitmap image</param>
+        </member>
+        <member name="M:Tiwi.Window.StartTimer">
+            <summary>
+            Starts the timer
+            </summary>
+        </member>
+        <member name="M:Tiwi.Window.StopTimer">
+            <summary>
+            Stops the timer
+            </summary>
+        </member>
+        <member name="P:Tiwi.Window.Title">
+            <summary>
+            Gets or sets the title 
+            </summary>
+        </member>
+        <member name="P:Tiwi.Window.Width">
+            <summary>
+            Gets or sets the width 
+            </summary>
+        </member>
+        <member name="P:Tiwi.Window.Height">
+            <summary>
+            Gets or sets the height 
+            </summary>
+        </member>
+        <member name="P:Tiwi.Window.Background">
+            <summary>
+            Gets or sets the background 
+            </summary>
+        </member>
+        <member name="P:Tiwi.Window.Debug">
+            <summary>
+            Gets or sets whether debug info is displayed in the console
+            </summary>
+        </member>
+        <member name="P:Tiwi.Window.TickInterval">
+            <summary>
+            Gets or sets the timer tick interval
+            </summary>
+        </member>
+        <member name="T:Tiwi.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Tiwi.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Tiwi.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>
