@@ -6,25 +6,13 @@ using System.Threading.Tasks;
 
 namespace Pacman
 {
-    class Enemy : AMoveable
+    public class Enemy : AMoveable
     {
-        private IStrategy strategy;
         private int position;
-        private int speed;
-        private bool isFleeing;
+        protected IStrategy strategy;
+        public int Speed { get; set; }
 
-        public bool IsFleeing
-        {
-            get
-            {
-                return isFleeing;
-            }
-            set
-            {
-                // TODO
-                isFleeing = value;
-            }
-        }
+        public abstract bool IsFleeing;
 
         public Enemy(IStrategy strategy)
         {
