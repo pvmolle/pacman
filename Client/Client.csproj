@@ -40,7 +40,7 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="TiwiWindow">
-      <HintPath>..\..\..\..\..\..\Desktop\TiwiWindow.dll</HintPath>
+      <HintPath>..\..\..\Users\Sam\Dropbox\_UGent\softwareontwikkeling\labo\labo 7\TiwiWindow\TiwiWindow.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

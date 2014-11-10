@@ -41,8 +41,6 @@
   <ItemGroup>
     <Compile Include="AMoveable.cs" />
     <Compile Include="Enemy.cs" />
-    <Compile Include="GameObjectFactory.cs" />
-    <Compile Include="GameObjectTypes.cs" />
     <Compile Include="IGameObject.cs" />
     <Compile Include="IStrategy.cs" />
     <Compile Include="Pacman.cs" />

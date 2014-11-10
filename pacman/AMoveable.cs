@@ -8,21 +8,16 @@ namespace Pacman
 {
     abstract class AMoveable : IGameObject
     {
-        private AMoveable[][] game;
+        private IGameObject[][] objects;
+        public Vector Direction { get; set; }
 
-        public AMoveable()
+        public AMoveable(IGameObject[][] objects)
         {
-            // TODO
+            this.objects = objects;
         }
 
-        public AMoveable(AMoveable[][] game)
-        {
-            this.game = game;
-        }
+        public AMoveable() { }
 
-        void AMoveable.Loop()
-        {
-            throw new NotImplementedException();
-        }
+        public abstract void Loop();
     }
 }

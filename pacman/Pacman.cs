@@ -30,7 +30,7 @@ namespace Pacman
             throw new NotImplementedException();
         }
 
-        public void Loop()
+        public override void Loop()
         {
             throw new NotImplementedException();
         }

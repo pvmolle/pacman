@@ -26,14 +26,12 @@ namespace Pacman
             }
         }
 
-        public Vector Direction { get; set; }
-
         public Enemy(IStrategy strategy)
         {
             this.strategy = strategy;
         }
 
-        public void Loop()
+        public override void Loop()
         {
             strategy.Loop(this);
         }

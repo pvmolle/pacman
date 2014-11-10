@@ -19,6 +19,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assets", "Assets", "{269C19
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{093955B8-3FAE-481E-88E8-D2811E527C24}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{8571682D-39C4-4443-937E-209B8D604F6C}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Users\Sam\Dropbox\_UGent\softwareontwikkeling\labo\labo 7\TiwiWindow\TiwiWindow.dll = ..\..\Users\Sam\Dropbox\_UGent\softwareontwikkeling\labo\labo 7\TiwiWindow\TiwiWindow.dll
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
