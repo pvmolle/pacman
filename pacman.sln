@@ -21,7 +21,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csp
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{8571682D-39C4-4443-937E-209B8D604F6C}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\Users\Sam\Dropbox\_UGent\softwareontwikkeling\labo\labo 7\TiwiWindow\TiwiWindow.dll = ..\..\Users\Sam\Dropbox\_UGent\softwareontwikkeling\labo\labo 7\TiwiWindow\TiwiWindow.dll
+		Lib\TiwiWindow.dll = Lib\TiwiWindow.dll
 	EndProjectSection
 EndProject
 Global

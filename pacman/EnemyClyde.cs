@@ -9,7 +9,7 @@ namespace Pacman
     public class EnemyClyde : Enemy
     {
         public static IStrategy defaultStrategy;
-        public bool IsFleeing
+        public override bool IsFleeing
         {
             get
             {
