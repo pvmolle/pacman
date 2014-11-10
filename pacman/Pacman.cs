@@ -8,7 +8,11 @@ namespace Pacman
 {
     class Pacman : AMoveable
     {
-        private Vector direction;
+        public Pacman(IGameObject[][] objects)
+            : base(objects)
+        {
+
+        }
 
         public void MoveUp()
         {
