@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Pacman
 {
-    abstract class AMoveable : AMoveable
+    abstract class AMoveable : IGameObject
     {
         private AMoveable[][] game;
 
