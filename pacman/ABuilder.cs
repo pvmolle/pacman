@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Pacman
 {
-    abstract class ABuilder
+    public abstract class ABuilder
     {
         internal IGameObject[][] objects;
         internal int indexX, indexY;
@@ -17,7 +17,7 @@ namespace Pacman
             indexY = 0;
         }
 
-        public abstract void BuildPart(string type);
+        public abstract void AddGameObject(string type);
 
         public IGameObject[][] GetWorld()
         {
