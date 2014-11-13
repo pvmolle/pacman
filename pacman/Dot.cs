@@ -8,5 +8,6 @@ namespace Pacman
 {
     public class Dot : IGameObject
     {
+
     }
 }

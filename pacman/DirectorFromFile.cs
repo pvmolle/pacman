@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Pacman
 {
-    class DirectorFromFile : ADirector
+    public class DirectorFromFile : ADirector
     {
         public DirectorFromFile(string path)
         {

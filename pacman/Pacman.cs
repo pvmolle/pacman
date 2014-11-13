@@ -8,6 +8,38 @@ namespace Pacman
 {
     class Pacman : AMoveable
     {
+        public string Resource
+        {
+            get
+            {
+                string resource;
+                if (Direction.X == 0)
+                {
+                    if (Direction.Y == 1)
+                    {
+                        resource = "../../../assets/pacman-up.png";
+                    }
+                    else
+                    {
+                        resource = "../../../assets/pacman-down.png";
+                    }
+                }
+                else
+                {
+                    if (Direction.X == -1)
+                    {
+                        resource = "../../../assets/pacman-left.png";
+                    }
+                    else
+                    {
+                        resource = "../../../assets/pacman-right.png";
+                    }
+                }
+
+                return resource;
+            }
+        }
+
         public Pacman(IGameObject[,] objects)
             : base(objects)
         {

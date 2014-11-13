@@ -46,6 +46,9 @@
     <Compile Include="DirectorFromFile.cs" />
     <Compile Include="Dot.cs" />
     <Compile Include="Enemy.cs" />
+    <Compile Include="EnemyInky.cs" />
+    <Compile Include="EnemyPinky.cs" />
+    <Compile Include="EnemyBlinky.cs" />
     <Compile Include="EnemyClyde.cs" />
     <Compile Include="IGameObject.cs" />
     <Compile Include="IStrategy.cs" />

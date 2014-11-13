@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Pacman
 {
-    public class EnemyClyde : Enemy
+    public class EnemyBlinky : Enemy
     {
         public static IStrategy defaultStrategy;
-        public const string Resource = "../../../assets/clyde.png";
+        public const string Resource = "../../../assets/blinky.png";
 
         public override bool IsFleeing
         {
@@ -26,12 +26,13 @@ namespace Pacman
                 }
                 else
                 {
-                    strategy = EnemyClyde.defaultStrategy;
+                    strategy = EnemyBlinky.defaultStrategy;
                 }
             }
         }
 
-        public EnemyClyde(IStrategy strategy) : base(strategy)
+        public EnemyBlinky(IStrategy strategy)
+            : base(strategy)
         {
         }
     }

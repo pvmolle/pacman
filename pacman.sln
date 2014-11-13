@@ -9,6 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assets", "Assets", "{269C19
 	ProjectSection(SolutionItems) = preProject
 		Assets\blinky.png = Assets\blinky.png
 		Assets\clyde.png = Assets\clyde.png
+		Assets\config.txt = Assets\config.txt
 		Assets\inky.png = Assets\inky.png
 		Assets\pacman-down.png = Assets\pacman-down.png
 		Assets\pacman-left.png = Assets\pacman-left.png

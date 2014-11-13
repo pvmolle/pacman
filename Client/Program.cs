@@ -8,8 +8,13 @@ namespace Client
 {
     class Program
     {
+        [STAThread]
         static void Main(string[] args)
         {
+            GameWindow window = new GameWindow();
+
+            window.ShowDialog();
+            Console.ReadKey();
         }
     }
 }
