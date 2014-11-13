@@ -67,7 +67,7 @@
     <Compile Include="StrategyFleeing.cs" />
     <Compile Include="StrategyInky.cs" />
     <Compile Include="StrategyPinky.cs" />
-    <Compile Include="PositionVector.cs" />
+    <Compile Include="Vector2D.cs" />
     <Compile Include="Wall.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

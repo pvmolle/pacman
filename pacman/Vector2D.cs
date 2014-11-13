@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Pacman
 {
-    public struct Vector2D
+    public class Vector2D
     {
-        public Vector2D(int x, int y) : this()
+        public Vector2D(int x, int y)
         {
             X = x;
             Y = y;

@@ -11,13 +11,14 @@ namespace Pacman
     public abstract class AMoveable : IGameObject
     {
         private IGameObject[,] objects;
-        public Vector2D Direction { get; set; }
+        internal Vector2D Direction { get; set; }
         private BitmapImage moveable;
         protected Size size = new Size(20, 20);
         protected abstract string Resource { get; }
 
         public AMoveable(IGameObject[,] objects)
         {
+            Direction = new Vector2D(1, 0);
             this.objects = objects;
             moveable = new BitmapImage(new Uri(Resource, UriKind.Relative));
         }
