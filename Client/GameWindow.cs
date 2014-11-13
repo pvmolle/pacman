@@ -35,22 +35,13 @@ namespace Client
 
         public void Draw()
         {
-            
-        }
-
-        public void DrawWall(PositionVector position)
-        {
-            DrawRectangle(new Point(position.X, position.Y), new Size(10, 10), wallColor, wallColor);
-        }
-
-        public void DrawDot(PositionVector position)
-        {
-            DrawEllipse(new Point(position.X, position.Y), new Size(10, 10), dotColor, dotColor);
-        }
-
-        public void DrawPowerup(PositionVector position)
-        {
-            DrawRectangle(new Point(position.X, position.Y), new Size(20, 20), dotColor, dotColor);
+            for (int i = 0; i < gameObjects.GetLength(0); i++)
+            {
+                for (int j = 0; j < gameObjects.GetLength(1); j++)
+                {
+                    gameObjects[i, j].Draw(this, new PositionVector(0,0));
+                }
+            }
         }
 
         protected override void TimerTick()
