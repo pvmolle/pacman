@@ -8,7 +8,7 @@ namespace Pacman
 {
     class Pacman : AMoveable
     {
-        public Pacman(IGameObject[][] objects)
+        public Pacman(IGameObject[,] objects)
             : base(objects)
         {
 

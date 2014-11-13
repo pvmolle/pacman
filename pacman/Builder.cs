@@ -21,9 +21,9 @@ namespace Pacman
                     throw new Exception("Invalid part type");
             }
 
-            objects[indexY][indexX] = gameObject;
+            objects[indexY, indexX] = gameObject;
             indexX++;
-            if (indexX >= objects[indexY].Length)
+            if (indexX >= objects.GetLength(0))
             {
                 indexY++;
                 indexX = 0;

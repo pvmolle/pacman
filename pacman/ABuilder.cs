@@ -8,8 +8,9 @@ namespace Pacman
 {
     public abstract class ABuilder
     {
-        internal IGameObject[][] objects;
-        internal int indexX, indexY;
+        protected IGameObject[,] objects;
+        protected int indexX, indexY;
+        protected Vector dimension;
 
         public ABuilder()
         {
@@ -17,9 +18,14 @@ namespace Pacman
             indexY = 0;
         }
 
+        public void SetDimension(Vector dimension)
+        {
+            this.dimension = dimension;
+        }
+
         public abstract void AddGameObject(string type);
 
-        public IGameObject[][] GetWorld()
+        public IGameObject[,] GetWorld()
         {
             return objects;
         }

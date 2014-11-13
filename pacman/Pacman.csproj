@@ -40,8 +40,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ABuilder.cs" />
+    <Compile Include="ADirector.cs" />
     <Compile Include="AMoveable.cs" />
     <Compile Include="Builder.cs" />
+    <Compile Include="DirectorFromFile.cs" />
     <Compile Include="Enemy.cs" />
     <Compile Include="EnemyClyde.cs" />
     <Compile Include="IGameObject.cs" />

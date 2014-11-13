@@ -8,10 +8,10 @@ namespace Pacman
 {
     public abstract class AMoveable : IGameObject
     {
-        private IGameObject[][] objects;
+        private IGameObject[,] objects;
         public Vector Direction { get; set; }
 
-        public AMoveable(IGameObject[][] objects)
+        public AMoveable(IGameObject[,] objects)
         {
             this.objects = objects;
         }
