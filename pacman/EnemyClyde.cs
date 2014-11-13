@@ -9,7 +9,13 @@ namespace Pacman
     public class EnemyClyde : Enemy
     {
         public static IStrategy defaultStrategy;
-        public const string Resource = "../../../assets/clyde.png";
+        protected override string Resource
+        {
+            get
+            {
+                return "../../../assets/clyde.png";
+            }
+        }
 
         public override bool IsFleeing
         {
@@ -35,9 +41,6 @@ namespace Pacman
         {
         }
 
-        public void Draw(Tiwi.Window window)
-        {
-            throw new NotImplementedException();
-        }
+        
     }
 }

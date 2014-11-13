@@ -8,6 +8,6 @@ namespace Pacman
 {
     public interface IGameObject
     {
-        void Draw(Tiwi.Window window);
+        void Draw(Tiwi.Window window, PositionVector position);
     }
 }

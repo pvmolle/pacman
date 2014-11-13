@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Media.Imaging;
 
 namespace Pacman
 {
@@ -10,19 +12,24 @@ namespace Pacman
     {
         private IGameObject[,] objects;
         public PositionVector Direction { get; set; }
+        private BitmapImage moveable;
+        protected Size size = new Size(20, 20);
+        protected abstract string Resource { get; }
 
         public AMoveable(IGameObject[,] objects)
         {
             this.objects = objects;
         }
 
-        public AMoveable() { }
+        public AMoveable() {
+            moveable = new BitmapImage(new Uri(Resource, UriKind.Relative));
+        }
 
         public abstract void Loop();
 
-        public void Draw(Tiwi.Window window)
+        public void Draw(Tiwi.Window window, PositionVector position)
         {
-            throw new NotImplementedException();
+            window.DrawImage(new Point(position.X, position.Y), size, moveable);
         }
     }
 }

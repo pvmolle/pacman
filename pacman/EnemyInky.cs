@@ -9,7 +9,13 @@ namespace Pacman
     public class EnemyInky : Enemy
     {
         public static IStrategy defaultStrategy;
-        public const string Resource = "../../../assets/inky.png";
+        protected override string Resource
+        {
+            get
+            {
+                return "../../../assets/inky.png";
+            }
+        }
 
         public override bool IsFleeing
         {

@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Media.Imaging;
 
 namespace Pacman
 {
@@ -10,6 +12,7 @@ namespace Pacman
     {
         private int position;
         protected IStrategy strategy;
+
         public int Speed { get; set; }
 
         public abstract bool IsFleeing { get; set; }

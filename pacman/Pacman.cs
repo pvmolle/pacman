@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Media.Imaging;
 
 namespace Pacman
 {
     class Pacman : AMoveable
     {
-        public string Resource
+        protected override string Resource
         {
             get
             {
@@ -42,9 +44,7 @@ namespace Pacman
 
         public Pacman(IGameObject[,] objects)
             : base(objects)
-        {
-
-        }
+        { }
 
         public void MoveUp()
         {
@@ -67,11 +67,6 @@ namespace Pacman
         }
 
         public override void Loop()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Draw(Tiwi.Window window)
         {
             throw new NotImplementedException();
         }
