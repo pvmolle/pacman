@@ -34,5 +34,10 @@ namespace Pacman
         public EnemyClyde(IStrategy strategy) : base(strategy)
         {
         }
+
+        public void Draw(Tiwi.Window window)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

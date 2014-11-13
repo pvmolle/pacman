@@ -35,5 +35,10 @@ namespace Pacman
             : base(strategy)
         {
         }
+
+        public void Draw(Tiwi.Window window)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

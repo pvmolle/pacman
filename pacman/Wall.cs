@@ -8,5 +8,9 @@ namespace Pacman
 {
     public class Wall : IGameObject
     {
+        public void Draw(Tiwi.Window window)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

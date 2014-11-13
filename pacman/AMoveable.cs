@@ -9,7 +9,7 @@ namespace Pacman
     public abstract class AMoveable : IGameObject
     {
         private IGameObject[,] objects;
-        public Vector Direction { get; set; }
+        public PositionVector Direction { get; set; }
 
         public AMoveable(IGameObject[,] objects)
         {
@@ -19,5 +19,10 @@ namespace Pacman
         public AMoveable() { }
 
         public abstract void Loop();
+
+        public void Draw(Tiwi.Window window)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

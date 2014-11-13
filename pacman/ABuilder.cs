@@ -10,7 +10,7 @@ namespace Pacman
     {
         protected IGameObject[,] objects;
         protected int indexX, indexY;
-        protected Vector dimension;
+        protected PositionVector dimension;
 
         public ABuilder()
         {
@@ -18,7 +18,7 @@ namespace Pacman
             indexY = 0;
         }
 
-        public void SetDimension(Vector dimension)
+        public void SetDimension(PositionVector dimension)
         {
             this.dimension = dimension;
         }

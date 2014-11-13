@@ -70,5 +70,10 @@ namespace Pacman
         {
             throw new NotImplementedException();
         }
+
+        public void Draw(Tiwi.Window window)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

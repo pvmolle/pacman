@@ -9,7 +9,7 @@ namespace Pacman
     public abstract class ADirector
     {
         protected string[,] objects;
-        protected Vector dimension;
+        protected PositionVector dimension;
 
         public abstract IGameObject[,] Construct(ABuilder builder);
     }

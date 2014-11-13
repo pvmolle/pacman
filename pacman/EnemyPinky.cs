@@ -31,6 +31,11 @@ namespace Pacman
             }
         }
 
+        public void Draw(Tiwi.Window window)
+        {
+            throw new NotImplementedException();
+        }
+
         public EnemyPinky(IStrategy strategy)
             : base(strategy)
         {

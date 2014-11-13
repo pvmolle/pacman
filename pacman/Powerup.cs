@@ -8,5 +8,9 @@ namespace Pacman
 {
     public class Powerup : IGameObject
     {
+        public void Draw(Tiwi.Window window)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
