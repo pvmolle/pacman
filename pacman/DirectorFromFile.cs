@@ -33,14 +33,14 @@ namespace Pacman
         {
             using (StreamReader sr = new StreamReader(path)) {
                 string[] arr = sr.ReadLine().Split(' ');
-                dimension = new PositionVector(int.Parse(arr[0]), int.Parse(arr[1]));
+                dimension = new Vector2D(int.Parse(arr[0]), int.Parse(arr[1]));
                 objects = new string[dimension.Y, dimension.X];
                 for (int i = 0; i < dimension.Y; i++)
                 {
                     arr = sr.ReadLine().Split(' ');
                     for (int j = 0; j < dimension.X; j++)
                     {
-
+                        objects[i, j] = arr[j];
                     }
                 }
             }

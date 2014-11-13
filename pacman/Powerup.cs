@@ -10,11 +10,11 @@ namespace Pacman
 {
     public class Powerup : Dot
     {
-        private static Size size = new Size(20, 20);
+        private static Size size = new Size(12, 12);
 
-        public override void Draw(Tiwi.Window window, PositionVector position)
+        public override void Draw(Tiwi.Window window, Vector2D position)
         {
-            window.DrawEllipse(new Point(position.X, position.Y), new Size(10, 10), dotColor, dotColor);
+            window.DrawEllipse(new Point(position.X + 4, position.Y + 4), size, dotColor, dotColor);
         }
     }
 }

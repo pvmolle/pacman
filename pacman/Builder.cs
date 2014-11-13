@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -44,7 +45,7 @@ namespace Pacman
 
             objects[indexY, indexX] = gameObject;
             indexX++;
-            if (indexX >= objects.GetLength(0))
+            if (indexX >= objects.GetLength(1))
             {
                 indexY++;
                 indexX = 0;

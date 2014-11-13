@@ -10,13 +10,13 @@ namespace Pacman
 {
     public class Dot : IGameObject
     {
-        private static Size size = new Size(10, 10);
+        private static Size size = new Size(8, 8);
         protected static SolidColorBrush dotColor = new SolidColorBrush(Color.FromRgb(0XF1, 0XAC, 0X8B));
 
 
-        public virtual void Draw(Tiwi.Window window, PositionVector position)
+        public virtual void Draw(Tiwi.Window window, Vector2D position)
         {
-            window.DrawEllipse(new Point(position.X, position.Y), new Size(10, 10), dotColor, dotColor);
+            window.DrawEllipse(new Point(position.X + 6, position.Y + 6), size, dotColor, dotColor);
         }
     }
 }

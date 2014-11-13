@@ -11,7 +11,7 @@ namespace Pacman
     public abstract class AMoveable : IGameObject
     {
         private IGameObject[,] objects;
-        public PositionVector Direction { get; set; }
+        public Vector2D Direction { get; set; }
         private BitmapImage moveable;
         protected Size size = new Size(20, 20);
         protected abstract string Resource { get; }
@@ -24,7 +24,7 @@ namespace Pacman
 
         public abstract void Loop();
 
-        public void Draw(Tiwi.Window window, PositionVector position)
+        public void Draw(Tiwi.Window window, Vector2D position)
         {
             window.DrawImage(new Point(position.X, position.Y), size, moveable);
         }

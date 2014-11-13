@@ -1,5 +1,12 @@
-4 4
-wall wall wall wall
-dot dot clyde wall
-pacman wall wall wall
-wall wall powerup inky 
+20 11
+wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall
+wall powerup dot dot dot wall dot dot dot dot dot dot dot dot wall dot dot dot dot wall
+wall dot wall wall dot wall dot wall wall wall wall wall wall dot wall dot wall wall dot wall
+wall dot wall dot dot dot dot dot dot dot dot dot dot dot dot dot dot wall dot wall
+wall dot wall dot wall wall dot wall wall dot dot wall wall dot wall wall dot wall dot wall
+wall dot dot dot dot dot dot wall inky pinky blinky clyde wall dot dot dot dot dot dot wall
+wall dot wall dot wall wall dot wall wall wall wall wall wall dot wall wall dot wall dot wall
+wall dot wall dot dot dot dot dot dot pacman dot dot dot dot dot dot dot wall dot wall
+wall dot wall wall dot wall dot wall wall wall wall wall wall dot wall dot wall wall dot wall
+wall dot dot dot dot wall dot dot dot dot dot dot dot dot wall dot dot dot powerup wall
+wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall
