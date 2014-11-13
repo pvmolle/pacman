@@ -11,20 +11,29 @@ namespace Pacman
     public abstract class Enemy : AMoveable
     {
         private int position;
-        protected IStrategy strategy;
+        private IStrategy attackingStrategy;
+        private IStrategy fleeingStrategy;
+        
+        public bool IsFleeing { get; set; }
 
         public int Speed { get; set; }
 
-        public abstract bool IsFleeing { get; set; }
-
-        public Enemy(IStrategy strategy)
+        public Enemy(IGameObject[,] objects, IStrategy attackingStrategy, IStrategy fleeingStrategy) : base(objects)
         {
-            this.strategy = strategy;
+            this.attackingStrategy = attackingStrategy;
+            this.fleeingStrategy = fleeingStrategy;
         }
 
         public override void Loop()
         {
-            strategy.Loop(this);
+            if (IsFleeing)
+            {
+                fleeingStrategy.Loop(this);
+            }
+            else
+            {
+                attackingStrategy.Loop(this);
+            }
         }
     }
 }

@@ -19,9 +19,6 @@ namespace Pacman
         public AMoveable(IGameObject[,] objects)
         {
             this.objects = objects;
-        }
-
-        public AMoveable() {
             moveable = new BitmapImage(new Uri(Resource, UriKind.Relative));
         }
 

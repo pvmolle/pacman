@@ -17,30 +17,11 @@ namespace Pacman
             }
         }
 
-        public override bool IsFleeing
+        public EnemyClyde(IGameObject[,] objects, IStrategy attackingStrategy, IStrategy fleeingStrategy)
+            : base(objects, attackingStrategy, fleeingStrategy)
         {
-            get
-            {
-                return IsFleeing;
-            }
-            set
-            {
-                IsFleeing = value;
-                if (IsFleeing)
-                {
-                    strategy = new StrategyFleeing();
-                }
-                else
-                {
-                    strategy = EnemyClyde.defaultStrategy;
-                }
-            }
+
         }
 
-        public EnemyClyde(IStrategy strategy) : base(strategy)
-        {
-        }
-
-        
     }
 }

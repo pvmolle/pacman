@@ -17,6 +17,27 @@ namespace Pacman
                 case "pacman":
                     gameObject = new Pacman(objects);
                     break;
+                case "wall":
+                    gameObject = new Wall();
+                    break;
+                case "dot":
+                    gameObject = new Dot();
+                    break;
+                case "powerup":
+                    gameObject = new Powerup();
+                    break;
+                case "clyde":
+                    gameObject = new EnemyClyde(objects, new StrategyClyde(), new StrategyFleeing());
+                    break;
+                case "inky":
+                    gameObject = new EnemyInky(objects, new StrategyClyde(), new StrategyFleeing());
+                    break;
+                case "pinky":
+                    gameObject = new EnemyPinky(objects, new StrategyClyde(), new StrategyFleeing());
+                    break;
+                case "blinky":
+                    gameObject = new EnemyBlinky(objects, new StrategyClyde(), new StrategyFleeing());
+                    break;
                 default:
                     throw new Exception("Invalid part type");
             }

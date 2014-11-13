@@ -8,7 +8,6 @@ namespace Pacman
 {
     public class EnemyInky : Enemy
     {
-        public static IStrategy defaultStrategy;
         protected override string Resource
         {
             get
@@ -17,34 +16,11 @@ namespace Pacman
             }
         }
 
-        public override bool IsFleeing
+        public EnemyInky(IGameObject[,] objects, IStrategy attackingStrategy, IStrategy fleeingStrategy)
+            : base(objects, attackingStrategy, fleeingStrategy)
         {
-            get
-            {
-                return IsFleeing;
-            }
-            set
-            {
-                IsFleeing = value;
-                if (IsFleeing)
-                {
-                    strategy = new StrategyFleeing();
-                }
-                else
-                {
-                    strategy = EnemyInky.defaultStrategy;
-                }
-            }
+
         }
 
-        public EnemyInky(IStrategy strategy)
-            : base(strategy)
-        {
-        }
-
-        public void Draw(Tiwi.Window window)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
