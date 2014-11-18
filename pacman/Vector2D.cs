@@ -16,5 +16,16 @@ namespace Pacman
 
         public int X { get; set; }
         public int Y { get; set; }
+
+        public override bool Equals(object obj)
+        {
+            if (obj == null)
+            {
+                return false;
+            }
+
+            Vector2D v = obj as Vector2D;
+            return this.X == v.X && this.Y == v.Y;
+        }
     }
 }
