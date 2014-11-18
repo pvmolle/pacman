@@ -46,6 +46,13 @@ namespace Pacman
             {
                 int x = Location.X + Direction.X;
                 int y = Location.Y + Direction.Y;
+                
+                AGameObject target = Field.GameObjects[y, x];
+                if (target is Wall || target is Enemy)
+                {
+                    return;
+                }
+
                 Position = 0;
                 AGameObject previousObjectCovered = objectCovered;
                 objectCovered = Field.GameObjects[y, x];

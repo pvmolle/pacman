@@ -22,6 +22,7 @@ namespace Pacman
             while (queue.Count > 0)
             {
                 Vector2D fetched = queue.Dequeue();
+
                 int x, y;
                 foreach (Vector2D d in AMoveable.Directions)
                 {
@@ -51,7 +52,7 @@ namespace Pacman
             {
                 int y = from.Y + d.Y;
                 int x = from.X + d.X;
-                if (field.Contains(x, y) && weights[y, x] < value && !(gameObjects[y, x] is Enemy))
+                if (field.Contains(x, y) && weights[y, x] < value && !(gameObjects[y, x] is Enemy || gameObjects[y, x] is Wall))
                 {
                     value = weights[y, x];
                     direction = d;

@@ -19,14 +19,13 @@ namespace Pacman
 
         public void Loop(AMoveable gameObject)
         {
-            // random direction: 1,1 and 0,0 are not possible       
-            int x = r.Next(-1, 1); 
-            int y = 0;
-            if (x == 0)
-            {
-                y = r.Next(0, 1) * 2 - 1;
-            }
-            gameObject.Direction = new Vector2D(x, y);
+            Field field = gameObject.Field;
+            int height = field.GameObjects.GetLength(0);
+            int width = field.GameObjects.GetLength(1);
+            Vector2D randomLocation = new Vector2D(r.Next(height), r.Next(width));
+
+            gameObject.Direction = MazeSolver.SolveForDirection(gameObject.Field, gameObject.Location, randomLocation);
+            gameObject.Speed = .2;
         }
     }
 }
