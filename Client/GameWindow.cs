@@ -13,7 +13,7 @@ namespace Client
 {
     class GameWindow : Tiwi.Window
     {
-        private IGameObject[,] gameObjects;
+        private AGameObject[,] gameObjects;
         private IList<AMoveable> moveableObjects;
         private int score;
         private SolidColorBrush wallColor, dotColor;

@@ -42,7 +42,7 @@ namespace Pacman
             }
         }
 
-        public Pacman(IGameObject[,] objects)
+        public Pacman(AGameObject[,] objects)
             : base(objects)
         { }
 

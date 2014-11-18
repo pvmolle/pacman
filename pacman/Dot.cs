@@ -8,15 +8,24 @@ using System.Windows.Media;
 
 namespace Pacman
 {
-    public class Dot : IGameObject
+    public class Dot : AGameObject
     {
         private static Size size = new Size(6, 6);
-        protected static SolidColorBrush dotColor = new SolidColorBrush(Color.FromRgb(0XF1, 0XAC, 0X8B));
+        protected static SolidColorBrush dotColor = new SolidColorBrush(Color.FromRgb(0XF1, 0XAC, 0X8B));      
+        public bool IsVisible { get; set; }
 
-
-        public virtual void Draw(Tiwi.Window window, Vector2D position)
+        public Dot()
         {
-            window.DrawEllipse(new Point(position.X + 6, position.Y + 6), size, dotColor, dotColor);
+            IsVisible = true;
+            Points = 10;
+        }
+
+        public override void Draw(Tiwi.Window window, Vector2D position)
+        {
+            if (IsVisible)
+            {
+                window.DrawEllipse(new Point(position.X + 6, position.Y + 6), size, dotColor, dotColor);
+            }
         }
     }
 }

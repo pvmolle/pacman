@@ -19,7 +19,7 @@ namespace Pacman
             }
         }
 
-        public EnemyBlinky(IGameObject[,] objects, IStrategy attackingStrategy, IStrategy fleeingStrategy)
+        public EnemyBlinky(AGameObject[,] objects, IStrategy attackingStrategy, IStrategy fleeingStrategy)
             : base(objects, attackingStrategy, fleeingStrategy)
         {
 

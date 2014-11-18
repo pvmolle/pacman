@@ -13,15 +13,17 @@ namespace Pacman
         private int position;
         private IStrategy attackingStrategy;
         private IStrategy fleeingStrategy;
+        private AGameObject objectCovered; // The item that's under the enemy
         
         public bool IsFleeing { get; set; }
 
         public int Speed { get; set; }
 
-        public Enemy(IGameObject[,] objects, IStrategy attackingStrategy, IStrategy fleeingStrategy) : base(objects)
+        public Enemy(AGameObject[,] objects, IStrategy attackingStrategy, IStrategy fleeingStrategy) : base(objects)
         {
             this.attackingStrategy = attackingStrategy;
             this.fleeingStrategy = fleeingStrategy;
+            Points = 200;
         }
 
         public override void Loop()
@@ -34,6 +36,8 @@ namespace Pacman
             {
                 attackingStrategy.Loop(this);
             }
+
+            // actual movement
         }
     }
 }

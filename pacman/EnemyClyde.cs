@@ -17,7 +17,7 @@ namespace Pacman
             }
         }
 
-        public EnemyClyde(IGameObject[,] objects, IStrategy attackingStrategy, IStrategy fleeingStrategy)
+        public EnemyClyde(AGameObject[,] objects, IStrategy attackingStrategy, IStrategy fleeingStrategy)
             : base(objects, attackingStrategy, fleeingStrategy)
         {
 

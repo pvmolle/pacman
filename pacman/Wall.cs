@@ -8,12 +8,12 @@ using System.Windows.Media;
 
 namespace Pacman
 {
-    public class Wall : IGameObject
+    public class Wall : AGameObject
     {
         private static Size size = new Size(20, 20);
         private static SolidColorBrush wallColor = new SolidColorBrush(Color.FromRgb(0x00, 0x2C, 0xD2));
 
-        public void Draw(Tiwi.Window window, Vector2D position)
+        public override void Draw(Tiwi.Window window, Vector2D position)
         {
             window.DrawRectangle(new Point(position.X, position.Y), size, wallColor, wallColor);
         }

@@ -11,7 +11,7 @@ namespace Pacman
     {
         public override void AddGameObject(string type)
         {
-            IGameObject gameObject;
+            AGameObject gameObject;
 
             switch (type)
             {

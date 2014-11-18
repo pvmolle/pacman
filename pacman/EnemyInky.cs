@@ -16,7 +16,7 @@ namespace Pacman
             }
         }
 
-        public EnemyInky(IGameObject[,] objects, IStrategy attackingStrategy, IStrategy fleeingStrategy)
+        public EnemyInky(AGameObject[,] objects, IStrategy attackingStrategy, IStrategy fleeingStrategy)
             : base(objects, attackingStrategy, fleeingStrategy)
         {
 
