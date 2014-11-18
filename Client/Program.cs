@@ -12,9 +12,9 @@ namespace Client
         static void Main(string[] args)
         {
             GameWindow window = new GameWindow();
-
             window.ShowDialog();
-            Console.ReadKey();
+
+           // Console.ReadKey();
         }
     }
 }

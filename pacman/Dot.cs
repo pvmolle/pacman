@@ -10,7 +10,7 @@ namespace Pacman
 {
     public class Dot : IGameObject
     {
-        private static Size size = new Size(8, 8);
+        private static Size size = new Size(6, 6);
         protected static SolidColorBrush dotColor = new SolidColorBrush(Color.FromRgb(0XF1, 0XAC, 0X8B));
 
 

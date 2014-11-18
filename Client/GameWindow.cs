@@ -21,6 +21,7 @@ namespace Client
         public GameWindow()
         {
             Init();
+            Title = "Pacman";
             DrawGame();
             TickInterval = new TimeSpan(0, 0, 0, 0, 500);
             StartTimer();
