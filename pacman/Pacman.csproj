@@ -58,6 +58,7 @@
     <Compile Include="EnemyBlinky.cs" />
     <Compile Include="EnemyClyde.cs" />
     <Compile Include="AGameObject.cs" />
+    <Compile Include="Field.cs" />
     <Compile Include="IStrategy.cs" />
     <Compile Include="Pacman.cs" />
     <Compile Include="Powerup.cs" />

@@ -14,13 +14,13 @@ namespace Pacman
         private IStrategy attackingStrategy;
         private IStrategy fleeingStrategy;
         private AGameObject objectCovered; // The item that's under the enemy
-        
+
         public bool IsFleeing { get; set; }
 
         public int Speed { get; set; }
 
-        public Enemy(AGameObject[,] objects, Vector2D location, IStrategy attackingStrategy, IStrategy fleeingStrategy)
-            : base(objects, location)
+        public Enemy(Field field, Vector2D location, IStrategy attackingStrategy, IStrategy fleeingStrategy)
+            : base(field, location)
         {
             this.attackingStrategy = attackingStrategy;
             this.fleeingStrategy = fleeingStrategy;

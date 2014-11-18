@@ -14,7 +14,21 @@ namespace Pacman
     {
         public void Loop(AMoveable gameObject)
         {
-            throw new NotImplementedException();
+            AGameObject[,] objects = gameObject.Field.GameObjects;
+            int height = objects.GetLength(0);
+            int width = objects.GetLength(1);
+            int max = Math.Max(height, width);
+            int[,] field = new int[height, width];
+
+            // Locate Pacman
+            
+
+
+        }
+
+        private void SetValue(int[,] field, int startY, int startX, int value)
+        {
+
         }
     }
 }

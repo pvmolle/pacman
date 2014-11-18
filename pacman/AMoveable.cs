@@ -10,16 +10,16 @@ namespace Pacman
 {
     public abstract class AMoveable : AGameObject
     {
-        internal AGameObject[,] objects;
+        internal Field Field { get; set; }
         internal Vector2D Direction { get; set; }
         private BitmapImage moveable;
         protected Size size = new Size(20, 20);
         protected abstract string Resource { get; }
 
-        public AMoveable(AGameObject[,] objects, Vector2D location) : base(location)
+        public AMoveable(Field field, Vector2D location) : base(location)
         {
             Direction = new Vector2D(1, 0);
-            this.objects = objects;
+            Field = field;
             moveable = new BitmapImage(new Uri(Resource, UriKind.Relative));
         }
 

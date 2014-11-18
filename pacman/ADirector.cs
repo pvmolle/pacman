@@ -11,6 +11,6 @@ namespace Pacman
         protected string[,] objects;
         protected Vector2D dimension;
 
-        public abstract AGameObject[,] Construct(ABuilder builder);
+        public abstract Field Construct(ABuilder builder);
     }
 }

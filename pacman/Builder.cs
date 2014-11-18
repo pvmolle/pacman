@@ -17,7 +17,7 @@ namespace Pacman
             switch (type)
             {
                 case "pacman":
-                    gameObject = new Pacman(objects, location);
+                    gameObject = new Pacman(field, location);
                     break;
                 case "wall":
                     gameObject = new Wall(location);
@@ -29,24 +29,24 @@ namespace Pacman
                     gameObject = new Powerup(location);
                     break;
                 case "clyde":
-                    gameObject = new EnemyClyde(objects, location, new StrategyClyde(), new StrategyFleeing());
+                    gameObject = new EnemyClyde(field, location, new StrategyClyde(), new StrategyFleeing());
                     break;
                 case "inky":
-                    gameObject = new EnemyInky(objects, location, new StrategyClyde(), new StrategyFleeing());
+                    gameObject = new EnemyInky(field, location, new StrategyClyde(), new StrategyFleeing());
                     break;
                 case "pinky":
-                    gameObject = new EnemyPinky(objects, location, new StrategyClyde(), new StrategyFleeing());
+                    gameObject = new EnemyPinky(field, location, new StrategyClyde(), new StrategyFleeing());
                     break;
                 case "blinky":
-                    gameObject = new EnemyBlinky(objects, location, new StrategyClyde(), new StrategyFleeing());
+                    gameObject = new EnemyBlinky(field, location, new StrategyClyde(), new StrategyFleeing());
                     break;
                 default:
                     throw new Exception("Invalid part type");
             }
 
-            objects[indexY, indexX] = gameObject;
+            field.GameObjects[indexY, indexX] = gameObject;
             indexX++;
-            if (indexX >= objects.GetLength(1))
+            if (indexX >= field.GameObjects.GetLength(1))
             {
                 indexY++;
                 indexX = 0;

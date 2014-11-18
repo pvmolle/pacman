@@ -8,7 +8,7 @@ namespace Pacman
 {
     public abstract class ABuilder
     {
-        protected AGameObject[,] objects;
+        protected Field field;
         protected int indexX, indexY;
         protected Vector2D dimension;
 
@@ -16,19 +16,20 @@ namespace Pacman
         {
             indexX = 0;
             indexY = 0;
+            field = new Field();
         }
 
         public void SetDimension(Vector2D dimension)
         {
             this.dimension = dimension;
-            objects = new AGameObject[dimension.Y, dimension.X];
+            field.GameObjects = new AGameObject[dimension.Y, dimension.X];
         }
 
         public abstract void AddGameObject(string type);
 
-        public AGameObject[,] GetWorld()
+        public Field GetWorld()
         {
-            return objects;
+            return field;
         }
     }
 }

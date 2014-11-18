@@ -8,7 +8,7 @@ using System.Windows.Media.Imaging;
 
 namespace Pacman
 {
-    class Pacman : AMoveable
+    public class Pacman : AMoveable
     {
         protected override string Resource
         {
@@ -42,8 +42,8 @@ namespace Pacman
             }
         }
 
-        public Pacman(AGameObject[,] objects, Vector2D location)
-            : base(objects, location)
+        public Pacman(Field field, Vector2D location)
+            : base(field, location)
         { }
 
         public void MoveUp()

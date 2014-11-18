@@ -19,8 +19,8 @@ namespace Pacman
             }
         }
 
-        public EnemyBlinky(AGameObject[,] objects, Vector2D location, IStrategy attackingStrategy, IStrategy fleeingStrategy)
-            : base(objects, location, attackingStrategy, fleeingStrategy)
+        public EnemyBlinky(Field field, Vector2D location, IStrategy attackingStrategy, IStrategy fleeingStrategy)
+            : base(field, location, attackingStrategy, fleeingStrategy)
         {
 
         }

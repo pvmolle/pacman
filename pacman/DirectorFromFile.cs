@@ -14,7 +14,7 @@ namespace Pacman
             ReadFileContents(path);
         }
 
-        public override AGameObject[,] Construct(ABuilder builder)
+        public override Field Construct(ABuilder builder)
         {
             builder.SetDimension(dimension);
 

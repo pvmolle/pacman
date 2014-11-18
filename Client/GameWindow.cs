@@ -13,8 +13,7 @@ namespace Client
 {
     class GameWindow : Tiwi.Window
     {
-        private AGameObject[,] gameObjects;
-        private IList<AMoveable> moveableObjects;
+        private Field field;
         private int score;
 
         public GameWindow()
@@ -30,18 +29,18 @@ namespace Client
         {
             this.Background = new SolidColorBrush(Color.FromRgb(0, 0, 0));
             ADirector director = new DirectorFromFile(@"../../../Assets/config.txt");
-            gameObjects = director.Construct(new Builder());
-            Width = gameObjects.GetLength(1) * 20;
-            Height = gameObjects.GetLength(0) * 20;
+            field = director.Construct(new Builder());
+            Width = field.GameObjects.GetLength(1) * 20;
+            Height = field.GameObjects.GetLength(0) * 20;
         }
 
         public void DrawGame()
         {
-            for (int i = 0; i < gameObjects.GetLength(0); i++)
+            for (int i = 0; i < field.GameObjects.GetLength(0); i++)
             {
-                for (int j = 0; j < gameObjects.GetLength(1); j++)
+                for (int j = 0; j < field.GameObjects.GetLength(1); j++)
                 {
-                    gameObjects[i, j].Draw(this, new Vector2D(j * 20, i * 20));
+                    field.GameObjects[i, j].Draw(this, new Vector2D(j * 20, i * 20));
                 }
             }
         }
