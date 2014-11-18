@@ -12,58 +12,62 @@ namespace Pacman
     /// </summary>
     class StrategyBlinky : IStrategy
     {
+        Queue<Vector2D> queue;
+        int[,] weights;
+
         public void Loop(AMoveable gameObject)
         {
+            queue = new Queue<Vector2D>();
+
             Field gameField = gameObject.Field;
             AGameObject[,] gameObjects = gameField.GameObjects;
             int height = gameObjects.GetLength(0);
             int width = gameObjects.GetLength(1);
-            int max = Math.Max(height, width);
-            int[,] field = new int[height, width];
-            SetValue(gameField, field, gameField.Pacman.Location.Y, gameField.Pacman.Location.X, 0, max);
+            weights = new int[height, width];
+
+            queue.Enqueue(new Vector2D(gameField.Pacman.Location.X, gameField.Pacman.Location.Y));
+
+            while (queue.Count > 0)
+            {
+                Vector2D fetched = queue.Dequeue();
+                int x, y;
+                foreach (Vector2D d in AMoveable.Directions)
+                {
+                    y = fetched.Y + d.Y;
+                    x = fetched.X + d.X;
+                    if (gameField.Contains(x, y))
+                    {
+                        AGameObject g = gameObjects[y, x];
+                        Vector2D toAdd = new Vector2D(x, y);
+                        if (g is Wall)
+                        {
+                            weights[y, x] = int.MaxValue;
+                        }
+                        else if (!(g is Pacman) && !queue.Contains(toAdd) && weights[y, x] == 0)
+                        {
+                            weights[y, x] = weights[fetched.Y, fetched.X] + 1;
+                            queue.Enqueue(toAdd);
+                        }
+                    }
+                }
+            }
+
+            int value = int.MaxValue;
             Vector2D direction = new Vector2D(0, 0);
-            int y, x;
-            int value = max;
+
             foreach (Vector2D d in AMoveable.Directions)
             {
-                y = gameObject.Location.Y + d.Y;
-                x = gameObject.Location.X + d.X;
-                if (gameField.Contains(x, y) && field[y, x] < value)
+                int y = gameObject.Location.Y + d.Y;
+                int x = gameObject.Location.X + d.X;
+                if (gameField.Contains(x, y) && weights[y, x] < value && !(gameObjects[y, x] is Enemy))
                 {
-                    value = field[y, x];
+                    value = weights[y, x];
                     direction = d;
                 }
             }
+
             gameObject.Direction = direction;
-            gameObject.Speed = 1;
-        }
-
-        private void SetValue(Field gameField, int[,] field, int y, int x, int value, int max)
-        {
-            if (!gameField.Contains(x, y))
-            {
-                return;
-            }
-
-            AGameObject g = gameField.GameObjects[y, x];
-
-            if (g is Pacman)
-            {
-                field[y, x] = 0;
-            }
-            else if (g is Enemy || g is Wall)
-            {
-                field[y, x] = max;
-            }
-            else if (field[y, x] == 0 && field[y, x] > value)
-            {
-                field[y, x] = value;
-            }
-
-            SetValue(gameField, field, y - 1, x, value + 1, max);
-            SetValue(gameField, field, y + 1, x, value + 1, max);
-            SetValue(gameField, field, y, x - 1, value + 1, max);
-            SetValue(gameField, field, y, x + 1, value + 1, max);
+            gameObject.Speed = .2;
         }
     }
 }
