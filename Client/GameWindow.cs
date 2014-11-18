@@ -15,7 +15,7 @@ namespace Client
     class GameWindow : Tiwi.Window
     {
         private Field field;
-        private int score;
+        // private int score;
         private UpCommand upCommand = new UpCommand();
         private DownCommand downCommand = new DownCommand();
         private LeftCommand leftCommand = new LeftCommand();
