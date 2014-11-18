@@ -26,7 +26,7 @@ namespace Client
             Init();
             Title = "Pacman";
             DrawGame();
-            TickInterval = new TimeSpan(0, 0, 0, 0, 10);
+            TickInterval = new TimeSpan(0, 0, 0, 0, 17); // 60 FPS
             StartTimer();
         }
 

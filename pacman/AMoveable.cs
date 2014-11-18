@@ -21,11 +21,11 @@ namespace Pacman
         protected abstract string Resource { get; }
         private AGameObject objectCovered;
 
-        public AMoveable(Field field, Vector2D location) : base(location)
+        public AMoveable(Field field, Vector2D location)
+            : base(location)
         {
             Direction = new Vector2D(1, 0);
             Field = field;
-           
         }
 
         static AMoveable()

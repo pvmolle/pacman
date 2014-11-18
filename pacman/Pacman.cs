@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -45,7 +46,7 @@ namespace Pacman
         public Pacman(Field field, Vector2D location)
             : base(field, location)
         {
-            
+
         }
 
         public void MoveUp()
@@ -70,29 +71,33 @@ namespace Pacman
 
         public override void Loop()
         {
-            Move();
-            Speed = 0;
-            return;
-
-            // collision detection
-            // check if dot, powerup or enemy
-            Vector2D nextLocation = new Vector2D(Location.X + Direction.X, Location.Y + Direction.Y);
-            AGameObject gameObject = Field.GameObjects[nextLocation.Y, nextLocation.X];
-
-            if (gameObject is Powerup)
+            // Do nothing when we don't move pacman
+            if (Speed == 0)
             {
-                // add points change game state
-            }
-            else if (gameObject is Dot)
-            {
-                // add points, remote dot 
-            }
-            else if (gameObject is Enemy)
-            {
-                // game over
+                return;
             }
 
-            Location = nextLocation; // move
+            // Check the type of the next object
+            int x = Location.X + Direction.X;
+            int y = Location.Y + Direction.Y;
+            AGameObject nextObjectCovered = Field.GameObjects[y, x];
+
+            // Game over!
+            if (nextObjectCovered is Enemy)
+            {
+                Debug.WriteLine("Game Over");
+            }
+            // Dot
+            else if (nextObjectCovered is Wall == false)
+            {
+                // Superpowers
+                if (nextObjectCovered is Powerup)
+                {
+
+                }
+                Move();
+                Speed = 0;
+            }
         }
     }
 }
