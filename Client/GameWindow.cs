@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 
@@ -15,6 +16,10 @@ namespace Client
     {
         private Field field;
         private int score;
+        private UpCommand upCommand = new UpCommand();
+        private DownCommand downCommand = new DownCommand();
+        private LeftCommand leftCommand = new LeftCommand();
+        private RightCommand rightCommand = new RightCommand();
 
         public GameWindow()
         {
@@ -50,6 +55,28 @@ namespace Client
             base.TimerTick();
             ClearWindow();
             DrawGame();
+        }
+
+        protected override void OnKeyDown(KeyEventArgs e)
+        {
+            base.OnKeyDown(e);
+
+            switch (e.Key)
+            {
+                case (Key.Left):
+                    leftCommand.Execute(field.Pacman);
+                    break;
+                case (Key.Right):
+                    rightCommand.Execute(field.Pacman);
+                    break;
+                case (Key.Up):
+                    upCommand.Execute(field.Pacman);
+                    break;
+                case (Key.Down):
+                    downCommand.Execute(field.Pacman);
+
+                    break;
+            }
         }
     }
 }

@@ -68,11 +68,25 @@ namespace Pacman
 
         public override void Loop()
         {
+            // collision detection
+            // check if dot, powerup or enemy
+            Vector2D nextLocation = new Vector2D(Location.X + Direction.X, Location.Y + Direction.Y);
+            AGameObject gameObject = Field.GameObjects[nextLocation.Y, nextLocation.X];
 
+            if (gameObject is Powerup)
+            {
+                // add points change game state
+            }
+            else if (gameObject is Dot)
+            {
+                // add points, remote dot 
+            }
+            else if (gameObject is Enemy)
+            {
+                // game over
+            }
 
-
-
-            throw new NotImplementedException();
+            Location = nextLocation; // move
         }
     }
 }
