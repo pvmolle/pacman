@@ -67,7 +67,7 @@ namespace Pacman
             }
 
             gameObject.Direction = direction;
-            gameObject.Speed = 1;
+            gameObject.Speed = .2;
         }
     }
 }

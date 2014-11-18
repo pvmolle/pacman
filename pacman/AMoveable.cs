@@ -13,9 +13,9 @@ namespace Pacman
         public static List<Vector2D> Directions;
 
         internal Field Field { get; set; }
-        internal int Position { get; set; }
+        internal double Position { get; set; }
         internal Vector2D Direction { get; set; }
-        public int Speed { get; set; }
+        public double Speed { get; set; }
         private BitmapImage moveable;
         protected Size size = new Size(20, 20);
         protected abstract string Resource { get; }
