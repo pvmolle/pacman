@@ -17,7 +17,7 @@ namespace Pacman
                 string resource;
                 if (Direction.X == 0)
                 {
-                    if (Direction.Y == 1)
+                    if (Direction.Y == -1)
                     {
                         resource = "../../../assets/pacman-up.png";
                     }
@@ -44,7 +44,9 @@ namespace Pacman
 
         public Pacman(Field field, Vector2D location)
             : base(field, location)
-        { }
+        {
+            
+        }
 
         public void MoveUp()
         {
@@ -68,6 +70,10 @@ namespace Pacman
 
         public override void Loop()
         {
+            Move();
+            Speed = 0;
+            return;
+
             // collision detection
             // check if dot, powerup or enemy
             Vector2D nextLocation = new Vector2D(Location.X + Direction.X, Location.Y + Direction.Y);

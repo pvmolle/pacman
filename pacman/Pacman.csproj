@@ -61,7 +61,6 @@
     <Compile Include="EnemyClyde.cs" />
     <Compile Include="AGameObject.cs" />
     <Compile Include="Field.cs" />
-    <Compile Include="InputHandler.cs" />
     <Compile Include="IStrategy.cs" />
     <Compile Include="LeftCommand.cs" />
     <Compile Include="Pacman.cs" />

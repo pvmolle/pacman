@@ -10,7 +10,8 @@ namespace Pacman
     {
         public void Execute(Pacman pacman)
         {
-            pacman.Direction = new Vector2D(1, 0);
+            pacman.Speed = 1;
+            pacman.Direction = new Vector2D(-1, 0);
         }
     }
 }
