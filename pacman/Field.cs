@@ -25,8 +25,12 @@ namespace Pacman
                 int i = 0, j = 0;
                 while (i < GameObjects.GetLength(0) && !(GameObjects[i, j] is Pacman))
                 {
-                    i++;
-                    j = (j + 1) % GameObjects.GetLength(1);
+                    j++;
+                    if (j >= GameObjects.GetLength(1))
+                    {
+                        i++;
+                        j = 0;
+                    }
                 }
 
                 pacman = (Pacman)GameObjects[i, j];

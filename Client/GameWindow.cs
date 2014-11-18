@@ -45,7 +45,11 @@ namespace Client
             {
                 for (int j = 0; j < field.GameObjects.GetLength(1); j++)
                 {
-                    field.GameObjects[i, j].Draw(this, new Vector2D(j * 20, i * 20));
+                    AGameObject gameObject;
+                    if ((gameObject = field.GameObjects[i, j]) != null)
+                    {
+                        field.GameObjects[i, j].Draw(this, new Vector2D(j * 20, i * 20));
+                    }
                 }
             }
         }
@@ -54,6 +58,11 @@ namespace Client
         {
             base.TimerTick();
             ClearWindow();
+            field.Pacman.Loop();
+            foreach (Enemy enemy in field.Enemies)
+            {
+                enemy.Loop();
+            }
             DrawGame();
         }
 
@@ -74,7 +83,6 @@ namespace Client
                     break;
                 case (Key.Down):
                     downCommand.Execute(field.Pacman);
-
                     break;
             }
         }
