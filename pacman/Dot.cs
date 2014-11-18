@@ -12,20 +12,15 @@ namespace Pacman
     {
         private static Size size = new Size(6, 6);
         protected static SolidColorBrush dotColor = new SolidColorBrush(Color.FromRgb(0XF1, 0XAC, 0X8B));      
-        public bool IsVisible { get; set; }
 
         public Dot()
         {
-            IsVisible = true;
             Points = 10;
         }
 
         public override void Draw(Tiwi.Window window, Vector2D position)
         {
-            if (IsVisible)
-            {
-                window.DrawEllipse(new Point(position.X + 6, position.Y + 6), size, dotColor, dotColor);
-            }
+            window.DrawEllipse(new Point(position.X + 6, position.Y + 6), size, dotColor, dotColor);
         }
     }
 }
