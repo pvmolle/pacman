@@ -93,7 +93,11 @@ namespace Pacman
                 // Superpowers
                 if (nextObjectCovered is Powerup)
                 {
-
+                    Field.GameObjects[y, x] = null;
+                }
+                else
+                {
+                    Field.GameObjects[y, x] = null;
                 }
                 Move();
                 Speed = 0;
