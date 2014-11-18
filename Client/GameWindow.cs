@@ -16,7 +16,6 @@ namespace Client
         private AGameObject[,] gameObjects;
         private IList<AMoveable> moveableObjects;
         private int score;
-        private SolidColorBrush wallColor, dotColor;
 
         public GameWindow()
         {
@@ -32,8 +31,6 @@ namespace Client
             this.Background = new SolidColorBrush(Color.FromRgb(0, 0, 0));
             ADirector director = new DirectorFromFile(@"../../../Assets/config.txt");
             gameObjects = director.Construct(new Builder());
-            wallColor = new SolidColorBrush(Color.FromRgb(0x00, 0x2C, 0xD2));
-            dotColor = new SolidColorBrush(Color.FromRgb(0XF1, 0XAC, 0X8B));
             Width = gameObjects.GetLength(1) * 20;
             Height = gameObjects.GetLength(0) * 20;
         }

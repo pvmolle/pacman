@@ -12,7 +12,8 @@ namespace Pacman
     {
         private static Size size = new Size(12, 12);
 
-        public Powerup()
+        public Powerup(Vector2D location)
+            : base(location)
         {
             Points = 50;
         }

@@ -19,7 +19,8 @@ namespace Pacman
 
         public int Speed { get; set; }
 
-        public Enemy(AGameObject[,] objects, IStrategy attackingStrategy, IStrategy fleeingStrategy) : base(objects)
+        public Enemy(AGameObject[,] objects, Vector2D location, IStrategy attackingStrategy, IStrategy fleeingStrategy)
+            : base(objects, location)
         {
             this.attackingStrategy = attackingStrategy;
             this.fleeingStrategy = fleeingStrategy;

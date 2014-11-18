@@ -11,9 +11,9 @@ namespace Pacman
     public class Dot : AGameObject
     {
         private static Size size = new Size(6, 6);
-        protected static SolidColorBrush dotColor = new SolidColorBrush(Color.FromRgb(0XF1, 0XAC, 0X8B));      
+        protected static SolidColorBrush dotColor = new SolidColorBrush(Color.FromRgb(0XF1, 0XAC, 0X8B));
 
-        public Dot()
+        public Dot(Vector2D location) : base(location)
         {
             Points = 10;
         }

@@ -42,8 +42,8 @@ namespace Pacman
             }
         }
 
-        public Pacman(AGameObject[,] objects)
-            : base(objects)
+        public Pacman(AGameObject[,] objects, Vector2D location)
+            : base(objects, location)
         { }
 
         public void MoveUp()
@@ -68,6 +68,10 @@ namespace Pacman
 
         public override void Loop()
         {
+
+
+
+
             throw new NotImplementedException();
         }
     }

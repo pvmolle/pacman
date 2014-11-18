@@ -10,13 +10,13 @@ namespace Pacman
 {
     public abstract class AMoveable : AGameObject
     {
-        private AGameObject[,] objects;
+        internal AGameObject[,] objects;
         internal Vector2D Direction { get; set; }
         private BitmapImage moveable;
         protected Size size = new Size(20, 20);
         protected abstract string Resource { get; }
 
-        public AMoveable(AGameObject[,] objects)
+        public AMoveable(AGameObject[,] objects, Vector2D location) : base(location)
         {
             Direction = new Vector2D(1, 0);
             this.objects = objects;
