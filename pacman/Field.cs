@@ -62,5 +62,10 @@ namespace Pacman
                 return enemies;
             }
         }
+
+        public bool Contains(int x, int y)
+        {
+            return y >= 0 && y < GameObjects.GetLength(0) && x >= 0 && x < GameObjects.GetLength(1);
+        }
     }
 }

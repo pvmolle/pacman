@@ -10,14 +10,10 @@ namespace Pacman
 {
     public abstract class Enemy : AMoveable
     {
-        private int position;
         private IStrategy attackingStrategy;
-        private IStrategy fleeingStrategy;
-        private AGameObject objectCovered; // The item that's under the enemy
+        private IStrategy fleeingStrategy; // The item that's under the enemy
 
         public bool IsFleeing { get; set; }
-
-        public int Speed { get; set; }
 
         public Enemy(Field field, Vector2D location, IStrategy attackingStrategy, IStrategy fleeingStrategy)
             : base(field, location)
@@ -38,7 +34,8 @@ namespace Pacman
                 attackingStrategy.Loop(this);
             }
 
-            // actual movement
+            // Actual movement
+            Move();
         }
     }
 }
