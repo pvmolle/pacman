@@ -24,7 +24,7 @@ namespace Client
         public GameWindow()
         {
             Init();
-            Title = "Pacman";
+            Title = "Pacman - Score: 0";
             DrawGame();
             TickInterval = new TimeSpan(0, 0, 0, 0, 17); // 60 FPS
             StartTimer();
@@ -64,6 +64,7 @@ namespace Client
                 enemy.Loop();
             }
             DrawGame();
+            Title = "Pacman - Score: " + field.Score;
         }
 
         protected override void OnKeyDown(KeyEventArgs e)

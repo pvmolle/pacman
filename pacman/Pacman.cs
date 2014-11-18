@@ -94,10 +94,12 @@ namespace Pacman
                 if (nextObjectCovered is Powerup)
                 {
                     Field.GameObjects[y, x] = null;
+                    Field.Score += nextObjectCovered.Points;
                 }
-                else
+                else if (nextObjectCovered is Dot)
                 {
                     Field.GameObjects[y, x] = null;
+                    Field.Score += nextObjectCovered.Points;
                 }
                 Move();
                 Speed = 0;

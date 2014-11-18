@@ -11,7 +11,7 @@ namespace Pacman
         private int points = 0;
         internal Vector2D Location { get; set; }
 
-        protected int Points
+        public int Points
         {
             get { return points; }
             set { points = value; }

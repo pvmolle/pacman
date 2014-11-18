@@ -10,6 +10,7 @@ namespace Pacman
     {
         private Pacman pacman;
         private List<Enemy> enemies;
+        public int Score { get; set; }
 
         public AGameObject[,] GameObjects { get; set; }
 
