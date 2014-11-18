@@ -63,6 +63,7 @@
     <Compile Include="Field.cs" />
     <Compile Include="IStrategy.cs" />
     <Compile Include="LeftCommand.cs" />
+    <Compile Include="MazeSolver.cs" />
     <Compile Include="Pacman.cs" />
     <Compile Include="Powerup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
