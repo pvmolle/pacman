@@ -16,7 +16,6 @@ namespace Client
     class GameWindow : Tiwi.Window
     {
         private Field field;
-        // private int score;
         private UpCommand upCommand = new UpCommand();
         private DownCommand downCommand = new DownCommand();
         private LeftCommand leftCommand = new LeftCommand();
@@ -27,7 +26,7 @@ namespace Client
             Init();
             Title = "Pacman - Score: 0";
             DrawGame();
-            TickInterval = new TimeSpan(0, 0, 0, 0, 34 * 2); // 15 FPS
+            TickInterval = new TimeSpan(0, 0, 0, 0, 68); // 15 FPS
             StartTimer();
         }
 
@@ -60,14 +59,7 @@ namespace Client
             base.TimerTick();
             if (!field.IsGameOver)
             {
-                ClearWindow();
-                field.Pacman.Loop();
-                foreach (Enemy enemy in field.Enemies)
-                {
-                    enemy.Loop();
-                }
-                field.Pacman.DetectCollision();
-                DrawGame();
+                GameLoop();
                 Title = "Pacman - Score: " + field.Score;
             }
             else
@@ -77,6 +69,18 @@ namespace Client
                 this.DrawText(new Point((this.Width / 2) - 50, this.Height / 2), Brushes.Black, Brushes.White, "Game Over!\nYou scored " + field.Score + " points");
             }
 
+        }
+
+        public void GameLoop()
+        {
+            ClearWindow();
+            field.Pacman.Loop();
+            foreach (Enemy enemy in field.Enemies)
+            {
+                enemy.Loop();
+            }
+            field.Pacman.DetectCollision();
+            DrawGame();
         }
 
         protected override void OnKeyDown(KeyEventArgs e)

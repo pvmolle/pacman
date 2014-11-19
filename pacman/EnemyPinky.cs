@@ -12,7 +12,14 @@ namespace Pacman
         {
             get
             {
-                return "../../../assets/pinky.png";
+                if (IsFleeing)
+                {
+                    return "../../../assets/ghost.png";
+                }
+                else
+                {
+                    return "../../../assets/pinky.png";
+                }
             }
         }
 

@@ -75,14 +75,25 @@ namespace Pacman
         /// </summary>
         public void DetectCollision()
         {
+            AGameObject toRemove = null;
             foreach (AGameObject enemy in Field.Enemies)
             {
+                
                 if (enemy.Location.Equals(Location))
                 {
-                    Debug.WriteLine("Game Over");
-                    Field.IsGameOver = true;
+                    if (!((Enemy)enemy).IsFleeing)
+                    {
+                        Debug.WriteLine("Game Over");
+                        Field.IsGameOver = true;
+                    }
+                    else
+                    {
+                        Field.Score += enemy.Points;
+                        toRemove = enemy;
+                    }                 
                 }
             }
+            Field.Enemies.Remove((Enemy)toRemove);
         }
 
         public override void Loop()
@@ -103,8 +114,14 @@ namespace Pacman
                 if (nextObjectCovered is Powerup)
                 {
                     // Superpowers
+                    foreach (AGameObject enemy in Field.Enemies)
+                    {
+                        ((Enemy)enemy).IsFleeing = true;
+                    }
                 }
             }
+
+           
 
             Move();
             Speed = 0;

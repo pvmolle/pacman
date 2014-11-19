@@ -15,14 +15,21 @@ namespace Pacman
         {
             get
             {
-                return "../../../assets/blinky.png";
+                if (IsFleeing)
+                {
+                    return "../../../assets/ghost.png";
+                }
+                else
+                {
+                    return "../../../assets/blinky.png";
+                }           
             }
         }
 
         public EnemyBlinky(Field field, Vector2D location, IStrategy attackingStrategy, IStrategy fleeingStrategy)
             : base(field, location, attackingStrategy, fleeingStrategy)
         {
-
+            
         }
 
     }
