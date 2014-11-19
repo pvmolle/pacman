@@ -17,6 +17,12 @@ namespace Pacman
         public int X { get; set; }
         public int Y { get; set; }
 
+        public Vector2D(Vector2D v)
+        {
+            this.X = v.X;
+            this.Y = v.Y;
+        }
+
         public override bool Equals(object obj)
         {
             if (obj == null)
@@ -32,6 +38,13 @@ namespace Pacman
         {
             this.X += v.X;
             this.Y += v.Y;
+        }
+
+        public double Distance(Vector2D v)
+        {
+            double a = this.X - v.X;
+            double b = this.Y - v.Y;
+            return Math.Sqrt(a * a + b * b);
         }
 
         public override int GetHashCode()

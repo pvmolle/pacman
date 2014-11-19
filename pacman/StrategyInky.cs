@@ -14,7 +14,18 @@ namespace Pacman
     {
         public void Loop(AMoveable gameObject)
         {
-            throw new NotImplementedException();
+            Field field = gameObject.Field;
+            AMoveable pacman = field.Pacman;
+            Vector2D destination = new Vector2D(pacman.Location);
+            Vector2D direction = new Vector2D(pacman.Direction);
+            int i = 0;
+            while (gameObject.Location.Distance(destination) > 4 && i < 4 && field.Contains(destination.X, destination.Y))
+            {
+                destination.Add(direction);
+                i++;
+            }
+            gameObject.Direction = MazeSolver.SolveForDirection(field, gameObject.Location, destination);
+            gameObject.Speed = Enemy.DefaultSpeed;
         }
     }
 }

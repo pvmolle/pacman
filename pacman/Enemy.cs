@@ -10,6 +10,8 @@ namespace Pacman
 {
     public abstract class Enemy : AMoveable
     {
+        public static double DefaultSpeed = .2;
+
         private IStrategy attackingStrategy;
         private IStrategy fleeingStrategy; // The item that's under the enemy
 

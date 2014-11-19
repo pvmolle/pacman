@@ -25,7 +25,7 @@ namespace Pacman
             Vector2D randomLocation = new Vector2D(r.Next(height), r.Next(width));
 
             gameObject.Direction = MazeSolver.SolveForDirection(gameObject.Field, gameObject.Location, randomLocation);
-            gameObject.Speed = .2;
+            gameObject.Speed = Enemy.DefaultSpeed;
         }
     }
 }
