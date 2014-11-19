@@ -15,7 +15,20 @@ namespace Pacman
         public void Loop(AMoveable gameObject)
         {
             Field field = gameObject.Field;
-            gameObject.Direction = MazeSolver.SolveForDirection(field, gameObject.Location, field.Pacman.GetDestination(4));
+            Pacman pacman = field.Pacman;
+            Enemy blinky = field.GetBlinky();
+            Vector2D target;
+
+            if (blinky == null || gameObject.Location.Distance(pacman.Location) <= 4)
+            {
+                target = pacman.Location;
+            }
+            else
+            {
+                target = pacman.GetDestination(4);
+            }
+
+            gameObject.Direction = MazeSolver.SolveForDirection(field, gameObject.Location, target);
             gameObject.Speed = Enemy.DefaultSpeed;
         }
     }

@@ -13,7 +13,31 @@ namespace Pacman
     {
         public void Loop(AMoveable gameObject)
         {
-            throw new NotImplementedException();
+            Field field = gameObject.Field;
+            Pacman pacman = field.Pacman;
+            Enemy blinky = field.GetBlinky();
+            Vector2D target;
+
+            if (blinky == null || gameObject.Location.Distance(pacman.Location) <= 2)
+            {
+                target = pacman.Location;
+            }
+            else
+            {
+                Vector2D towards = pacman.GetDestination(2);
+                Vector2D distanceVector = gameObject.Location.GetDistanceVector(towards);
+                int difference = (int)gameObject.Location.Distance(towards);
+                int i = 0;
+                while (i < difference && field.Contains(towards))
+                {
+                    towards.Add(distanceVector);
+                    i++;
+                }
+                target = towards;
+            }
+
+            gameObject.Direction = MazeSolver.SolveForDirection(field, gameObject.Location, target);
+            gameObject.Speed = Enemy.DefaultSpeed;
         }
     }
 }
