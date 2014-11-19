@@ -48,7 +48,7 @@ namespace Pacman
                 int y = Location.Y + Direction.Y;
                 
                 AGameObject target = Field.GameObjects[y, x];
-                if (target is Wall || target is Enemy)
+                if (target is Wall || (this is Enemy && target is Enemy))
                 {
                     return;
                 }
