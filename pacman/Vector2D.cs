@@ -28,6 +28,12 @@ namespace Pacman
             return this.X == v.X && this.Y == v.Y;
         }
 
+        public void Add(Vector2D v)
+        {
+            this.X += v.X;
+            this.Y += v.Y;
+        }
+
         public override int GetHashCode()
         {
             return base.GetHashCode();
