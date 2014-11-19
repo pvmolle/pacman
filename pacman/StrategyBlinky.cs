@@ -16,7 +16,7 @@ namespace Pacman
         public void Loop(AMoveable gameObject)
         {
             gameObject.Direction = MazeSolver.SolveForDirection(gameObject.Field, gameObject.Location, gameObject.Field.Pacman.Location);
-            gameObject.Speed = .2;
+            gameObject.Speed = Enemy.DefaultSpeed;
         }
     }
 }

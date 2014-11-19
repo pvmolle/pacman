@@ -32,7 +32,7 @@ namespace Pacman
                     gameObject = new EnemyClyde(field, location, new StrategyClyde(), new StrategyFleeing());
                     break;
                 case "inky":
-                    gameObject = new EnemyInky(field, location, new StrategyClyde(), new StrategyFleeing());
+                    gameObject = new EnemyInky(field, location, new StrategyInky(), new StrategyFleeing());
                     break;
                 case "pinky":
                     gameObject = new EnemyPinky(field, location, new StrategyClyde(), new StrategyFleeing());
