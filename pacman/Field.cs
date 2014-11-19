@@ -74,5 +74,18 @@ namespace Pacman
         {
             return GameObjects[location.Y, location.X];
         }
+
+        public bool AllDotsCleared()
+        {
+            int count = 0;
+            foreach (AGameObject go in GameObjects)
+            {
+                if (go is Dot || go is Powerup)
+                {
+                    count++;
+                }
+            }
+            return count == 0 ? true : false;
+        }
     }
 }

@@ -57,16 +57,20 @@ namespace Client
         protected override void TimerTick()
         {
             base.TimerTick();
-            if (!field.IsGameOver)
-            {
-                GameLoop();
-                Title = "Pacman - Score: " + field.Score;
-            }
-            else
+            if (field.IsGameOver)
             {
                 Title = "Pacman";
                 this.DrawRectangle(new Point((this.Width / 2) - 60, (this.Height / 2) - 5), new Size(135, 45), Brushes.White, Brushes.White);
                 this.DrawText(new Point((this.Width / 2) - 50, this.Height / 2), Brushes.Black, Brushes.White, "Game Over!\nYou scored " + field.Score + " points");
+            }
+            else if (field.AllDotsCleared())
+            {
+                Title = "Pacman - Score: " + field.Score;
+            }
+            else
+            {
+                GameLoop();
+                Title = "Pacman - Score: " + field.Score;
             }
 
         }
