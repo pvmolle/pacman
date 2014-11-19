@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assets", "Assets", "{269C19
 		Assets\pacman-right.png = Assets\pacman-right.png
 		Assets\pacman-up.png = Assets\pacman-up.png
 		Assets\pinky.png = Assets\pinky.png
+		Assets\play.png = Assets\play.png
+		Assets\splash.png = Assets\splash.png
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{093955B8-3FAE-481E-88E8-D2811E527C24}"
