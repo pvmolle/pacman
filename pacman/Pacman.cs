@@ -86,9 +86,10 @@ namespace Pacman
             if (nextObjectCovered is Enemy)
             {
                 Debug.WriteLine("Game Over");
+                Field.IsGameOver = true;
             }
             // Dot
-            else if (nextObjectCovered is Wall == false)
+            else if (!(nextObjectCovered is Wall))
             {
                 // Superpowers
                 if (nextObjectCovered is Powerup)

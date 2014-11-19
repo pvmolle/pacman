@@ -1,6 +1,7 @@
 ﻿using Pacman;
 using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -57,14 +58,24 @@ namespace Client
         protected override void TimerTick()
         {
             base.TimerTick();
-            ClearWindow();
-            field.Pacman.Loop();
-            foreach (Enemy enemy in field.Enemies)
+            if (!field.IsGameOver)
             {
-                enemy.Loop();
+                ClearWindow();
+                field.Pacman.Loop();
+                foreach (Enemy enemy in field.Enemies)
+                {
+                    enemy.Loop();
+                }
+                DrawGame();
+                Title = "Pacman - Score: " + field.Score;
             }
-            DrawGame();
-            Title = "Pacman - Score: " + field.Score;
+            else
+            {
+                Title = "Pacman";
+                this.DrawRectangle(new Point((this.Width / 2) - 60, (this.Height / 2) - 5), new Size(135, 45), Brushes.White, Brushes.White);
+                this.DrawText(new Point((this.Width / 2) - 50, this.Height / 2), Brushes.Black, Brushes.White, "Game Over!\nYou scored " + field.Score + " points");
+            }
+
         }
 
         protected override void OnKeyDown(KeyEventArgs e)
