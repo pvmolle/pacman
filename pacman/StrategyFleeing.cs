@@ -10,7 +10,7 @@ namespace Pacman
     {
         public void Loop(AMoveable gameObject)
         {
-           
+            gameObject.Speed = 0;
         }
     }
 }

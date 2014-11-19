@@ -68,17 +68,15 @@ namespace Pacman
         {
             throw new NotImplementedException();
         }
-        
+
         /// <summary>
         /// Detect when an enemy is at the same location as pacman.
         /// If so, game over
         /// </summary>
         public void DetectCollision()
         {
-            AGameObject toRemove = null;
             foreach (AGameObject enemy in Field.Enemies)
             {
-                
                 if (enemy.Location.Equals(Location))
                 {
                     if (!((Enemy)enemy).IsFleeing)
@@ -86,14 +84,8 @@ namespace Pacman
                         Debug.WriteLine("Game Over");
                         Field.IsGameOver = true;
                     }
-                    else
-                    {
-                        Field.Score += enemy.Points;
-                        toRemove = enemy;
-                    }                 
                 }
             }
-            Field.Enemies.Remove((Enemy)toRemove);
         }
 
         public override void Loop()
@@ -106,8 +98,8 @@ namespace Pacman
             int y = Location.Y + Direction.Y;
             AGameObject nextObjectCovered = Field.GameObjects[y, x];
 
-            // Dot
-            if (nextObjectCovered is Dot)
+            // Dot, powerup or enemy in fleeing state
+            if (nextObjectCovered is Dot || (nextObjectCovered is Enemy && ((Enemy)nextObjectCovered).IsFleeing))
             {
                 Field.GameObjects[y, x] = null;
                 Field.Score += nextObjectCovered.Points;
@@ -120,8 +112,6 @@ namespace Pacman
                     }
                 }
             }
-
-           
 
             Move();
             Speed = 0;
