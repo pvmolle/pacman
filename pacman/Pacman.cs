@@ -88,33 +88,47 @@ namespace Pacman
             }
         }
 
+        public void HandleEnemyCollision(Enemy enemy)
+        {
+            if (enemy.IsFleeing)
+            {
+                Field.Enemies.Remove(enemy);
+                Field.Score += enemy.Points;
+            }
+            else
+            {
+                Field.IsGameOver = true;
+            }
+        }
+
         public override void Loop()
         {
-            // Do nothing when we don't move pacman
-            if (Speed == 0) return;
+            Move();
+            Speed = 0;
 
-            // Check the type of the next object
-            int x = Location.X + Direction.X;
-            int y = Location.Y + Direction.Y;
-            AGameObject nextObjectCovered = Field.GameObjects[y, x];
+            AGameObject objectCovered = Field.Pacman.objectCovered;
 
-            // Dot, powerup or enemy in fleeing state
-            if (nextObjectCovered is Dot || (nextObjectCovered is Enemy && ((Enemy)nextObjectCovered).IsFleeing))
+            if (objectCovered == null)
             {
-                Field.GameObjects[y, x] = null;
-                Field.Score += nextObjectCovered.Points;
-                if (nextObjectCovered is Powerup)
+                return;
+            }
+
+            if (objectCovered is Enemy)
+            {
+                HandleEnemyCollision((Enemy)objectCovered);
+            }
+            else
+            {
+                Field.Score += objectCovered.Points;
+                if (objectCovered is Powerup)
                 {
-                    // Superpowers
                     foreach (AGameObject enemy in Field.Enemies)
                     {
                         ((Enemy)enemy).IsFleeing = true;
                     }
                 }
             }
-
-            Move();
-            Speed = 0;
+            Field.Pacman.objectCovered = null;
         }
     }
 }

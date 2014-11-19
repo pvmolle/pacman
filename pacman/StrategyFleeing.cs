@@ -10,7 +10,8 @@ namespace Pacman
     {
         public void Loop(AMoveable gameObject)
         {
-            gameObject.Speed = 0;
+            gameObject.Direction = MazeSolver.SolveForDirection(gameObject.Field, gameObject.Location, gameObject.Field.Pacman.Location, false);
+            gameObject.Speed = .2;
         }
     }
 }

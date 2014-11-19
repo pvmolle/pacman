@@ -69,5 +69,10 @@ namespace Pacman
         {
             return y >= 0 && y < GameObjects.GetLength(0) && x >= 0 && x < GameObjects.GetLength(1);
         }
+
+        public AGameObject GetObject(Vector2D location)
+        {
+            return GameObjects[location.Y, location.X];
+        }
     }
 }

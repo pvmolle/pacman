@@ -38,6 +38,11 @@ namespace Pacman
 
             // Actual movement
             Move();
+
+            if (objectCovered is Pacman)
+            {
+                Field.IsGameOver = true;
+            }
         }
     }
 }
