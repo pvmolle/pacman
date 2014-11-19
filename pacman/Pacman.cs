@@ -69,25 +69,6 @@ namespace Pacman
             throw new NotImplementedException();
         }
 
-        /// <summary>
-        /// Detect when an enemy is at the same location as pacman.
-        /// If so, game over
-        /// </summary>
-        public void DetectCollision()
-        {
-            foreach (AGameObject enemy in Field.Enemies)
-            {
-                if (enemy.Location.Equals(Location))
-                {
-                    if (!((Enemy)enemy).IsFleeing)
-                    {
-                        Debug.WriteLine("Game Over");
-                        Field.IsGameOver = true;
-                    }
-                }
-            }
-        }
-
         public void HandleEnemyCollision(Enemy enemy)
         {
             if (enemy.IsFleeing)
