@@ -72,10 +72,6 @@ namespace Pacman
         public override void Loop()
         {
             // Do nothing when we don't move pacman
-            if (Speed == 0)
-            {
-                return;
-            }
 
             // Check the type of the next object
             int x = Location.X + Direction.X;
@@ -88,22 +84,34 @@ namespace Pacman
                 Debug.WriteLine("Game Over");
                 Field.IsGameOver = true;
             }
+
+            // Superpowers
+            if (nextObjectCovered is Powerup)
+            {
+                Field.GameObjects[y, x] = null;
+                Field.Score += nextObjectCovered.Points;
+            }
             // Dot
-         
-                // Superpowers
-                if (nextObjectCovered is Powerup)
-                {
-                    Field.GameObjects[y, x] = null;
-                    Field.Score += nextObjectCovered.Points;
-                }
-                else if (nextObjectCovered is Dot)
-                {
-                    Field.GameObjects[y, x] = null;
-                    Field.Score += nextObjectCovered.Points;
-                }
-                Move();
-                Speed = 0;
-            
+            else if (nextObjectCovered is Dot)
+            {
+                Field.GameObjects[y, x] = null;
+                Field.Score += nextObjectCovered.Points;
+            }
+
+
+            Move();
+            Speed = 0;
+
+
+            // collision detection
+            if (objectCovered is Enemy)
+            {
+                Debug.WriteLine("Game Over");
+                Field.IsGameOver = true;
+            }
+
+
+
         }
     }
 }

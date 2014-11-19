@@ -19,7 +19,7 @@ namespace Pacman
         private BitmapImage moveable;
         protected Size size = new Size(20, 20);
         protected abstract string Resource { get; }
-        private AGameObject objectCovered;
+        protected AGameObject objectCovered;
 
         public AMoveable(Field field, Vector2D location)
             : base(location)
