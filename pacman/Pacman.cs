@@ -69,6 +69,18 @@ namespace Pacman
             throw new NotImplementedException();
         }
 
+        public Vector2D GetDestination(int placesAhead)
+        {
+            Vector2D destination = new Vector2D(this.Location);
+            int i = 0;
+            while (this.Location.Distance(destination) > placesAhead && i < placesAhead && this.Field.Contains(destination.X, destination.Y))
+            {
+                destination.Add(this.Direction);
+                i++;
+            }
+            return destination;
+        }
+
         public void HandleEnemyCollision(Enemy enemy)
         {
             if (enemy.IsFleeing)
