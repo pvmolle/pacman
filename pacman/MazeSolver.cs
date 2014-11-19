@@ -8,7 +8,7 @@ namespace Pacman
 {
     public class MazeSolver
     {
-        public static Vector2D SolveForDirection(Field field, Vector2D from, Vector2D to)
+        public static Vector2D SolveForDirection(Field field, Vector2D from, Vector2D to, bool towards = true)
         {
             Queue<Vector2D> queue  = new Queue<Vector2D>();
 
@@ -45,14 +45,14 @@ namespace Pacman
                 }
             }
 
-            int value = int.MaxValue;
+            int value = towards ? int.MaxValue : int.MinValue;
             Vector2D direction = new Vector2D(0, 0);
 
             foreach (Vector2D d in AMoveable.Directions)
             {
                 int y = from.Y + d.Y;
                 int x = from.X + d.X;
-                if (field.Contains(x, y) && weights[y, x] < value && !(gameObjects[y, x] is Enemy || gameObjects[y, x] is Wall))
+                if (field.Contains(x, y) && ((towards && weights[y, x] < value) || (!towards && weights[y, x] > value)) && !(gameObjects[y, x] is Enemy || gameObjects[y, x] is Wall))
                 {
                     value = weights[y, x];
                     direction = d;
