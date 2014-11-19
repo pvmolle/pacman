@@ -89,8 +89,7 @@ namespace Pacman
                 Field.IsGameOver = true;
             }
             // Dot
-            else if (!(nextObjectCovered is Wall))
-            {
+         
                 // Superpowers
                 if (nextObjectCovered is Powerup)
                 {
@@ -104,7 +103,7 @@ namespace Pacman
                 }
                 Move();
                 Speed = 0;
-            }
+            
         }
     }
 }
