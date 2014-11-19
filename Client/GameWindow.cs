@@ -66,6 +66,7 @@ namespace Client
                 {
                     enemy.Loop();
                 }
+                field.Pacman.DetectCollision();
                 DrawGame();
                 Title = "Pacman - Score: " + field.Score;
             }

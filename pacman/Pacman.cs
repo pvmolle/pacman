@@ -68,50 +68,46 @@ namespace Pacman
         {
             throw new NotImplementedException();
         }
+        
+        /// <summary>
+        /// Detect when an enemy is at the same location as pacman.
+        /// If so, game over
+        /// </summary>
+        public void DetectCollision()
+        {
+            foreach (AGameObject enemy in Field.Enemies)
+            {
+                if (enemy.Location.Equals(Location))
+                {
+                    Debug.WriteLine("Game Over");
+                    Field.IsGameOver = true;
+                }
+            }
+        }
 
         public override void Loop()
         {
             // Do nothing when we don't move pacman
+            if (Speed == 0) return;
 
             // Check the type of the next object
             int x = Location.X + Direction.X;
             int y = Location.Y + Direction.Y;
             AGameObject nextObjectCovered = Field.GameObjects[y, x];
 
-            // Game over!
-            if (nextObjectCovered is Enemy)
-            {
-                Debug.WriteLine("Game Over");
-                Field.IsGameOver = true;
-            }
-
-            // Superpowers
-            if (nextObjectCovered is Powerup)
-            {
-                Field.GameObjects[y, x] = null;
-                Field.Score += nextObjectCovered.Points;
-            }
             // Dot
-            else if (nextObjectCovered is Dot)
+            if (nextObjectCovered is Dot)
             {
                 Field.GameObjects[y, x] = null;
                 Field.Score += nextObjectCovered.Points;
+                if (nextObjectCovered is Powerup)
+                {
+                    // Superpowers
+                }
             }
-
 
             Move();
             Speed = 0;
-
-
-            // collision detection
-            if (objectCovered is Enemy)
-            {
-                Debug.WriteLine("Game Over");
-                Field.IsGameOver = true;
-            }
-
-
-
         }
     }
 }
