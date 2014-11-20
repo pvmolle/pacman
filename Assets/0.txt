@@ -1,25 +1,24 @@
-24 25
-wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall
-wall powerup dot dot dot dot dot dot dot dot dot dot wall dot dot dot dot dot dot dot dot dot dot powerup wall
-wall dot wall wall wall wall dot wall wall wall wall dot wall dot wall wall wall wall dot wall wall wall dot dot wall
-wall dot wall wall wall wall dot wall wall wall wall dot wall dot wall wall wall wall dot wall wall wall dot dot wall
-wall dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot wall
-wall dot wall wall wall wall dot wall dot wall wall wall wall wall wall wall dot wall dot wall wall wall dot dot wall
-wall dot dot dot dot dot dot wall dot dot dot dot wall dot dot dot dot wall dot dot dot dot dot dot wall
-wall wall wall wall wall wall dot wall wall wall wall dot wall dot wall wall wall wall dot wall wall wall wall wall wall
-wall wall wall wall wall wall dot wall dot dot dot dot dot dot dot dot dot wall dot wall wall wall wall wall wall
-wall wall wall wall wall wall dot wall dot wall wall wall dot wall wall wall dot wall dot wall wall wall wall wall wall
-wall wall wall wall wall wall dot wall dot wall wall wall dot wall wall wall dot wall dot wall wall wall wall wall wall
-wall powerup dot dot dot dot dot dot dot wall wall null blinky null wall wall dot dot dot dot dot dot dot powerup wall
-wall wall wall wall wall wall dot wall dot wall wall wall null wall wall wall dot wall dot wall wall wall wall wall wall
-wall wall wall wall wall wall dot wall dot wall wall wall wall wall wall wall dot wall dot wall wall wall wall wall wall
-wall wall wall wall wall wall dot wall dot dot dot dot dot dot dot dot dot wall dot wall wall wall wall wall wall
-wall wall wall wall wall wall dot wall dot wall wall wall wall wall wall wall dot wall dot wall wall wall wall wall wall
-wall dot dot dot dot dot dot dot dot dot dot dot wall dot dot dot dot dot dot dot dot dot dot dot wall
-wall dot wall wall wall wall dot wall wall wall dot dot wall dot dot wall wall wall dot wall wall wall wall dot wall
-wall dot dot dot dot wall dot dot dot dot dot dot dot dot dot dot dot dot dot wall dot dot dot dot wall
-wall wall wall wall dot wall dot wall dot wall wall wall wall wall wall wall dot wall dot wall dot wall wall wall wall
-wall dot dot dot dot dot dot wall dot dot dot dot wall dot dot dot dot wall dot dot dot dot dot dot wall
-wall dot wall wall wall wall wall wall wall wall wall dot wall dot wall wall wall wall wall wall wall wall wall dot wall
-wall powerup dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot powerup wall
-wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall
+21 23
+wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall
+wall powerup dot dot dot dot dot dot dot dot wall dot dot dot dot dot dot dot dot powerup wall
+wall dot wall wall wall dot wall wall wall dot wall dot wall wall wall dot wall wall wall dot wall
+wall dot wall wall wall dot wall wall wall dot wall dot wall wall wall dot wall wall wall dot wall
+wall dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot wall
+wall dot wall wall wall dot wall dot wall wall wall wall wall dot wall dot wall wall wall dot wall
+wall dot dot dot dot dot wall dot dot dot wall dot dot dot wall dot dot dot dot dot wall
+wall dot wall wall wall dot wall wall wall dot wall dot wall wall wall dot wall wall wall dot wall
+wall dot dot dot wall dot wall dot dot dot dot dot dot dot wall dot wall dot dot dot wall
+wall wall wall dot wall dot wall dot wall wall dot wall wall dot wall dot wall dot wall wall wall
+wall dot dot dot wall dot dot dot wall null blinky null wall dot dot dot wall dot dot dot wall
+wall dot wall wall wall dot wall dot wall null null null wall dot wall dot wall wall wall dot wall
+wall dot dot dot wall dot wall dot wall wall wall wall wall dot wall dot wall dot dot dot wall
+wall wall wall dot wall dot wall dot dot dot pacman dot dot dot wall dot wall dot wall wall wall
+wall wall wall dot wall dot wall dot wall wall wall wall wall dot wall dot wall dot wall wall wall
+wall dot dot dot dot dot dot dot dot dot wall dot dot dot dot dot dot dot dot dot wall
+wall dot wall wall wall dot wall wall wall dot wall dot wall wall wall dot wall wall wall dot wall
+wall dot dot dot wall dot dot dot dot dot dot dot dot dot dot dot wall dot dot dot wall
+wall wall wall dot wall dot wall dot wall wall wall wall wall dot wall dot wall dot wall wall wall
+wall dot dot dot dot dot wall dot dot dot wall dot dot dot wall dot dot dot dot dot wall
+wall dot wall wall wall wall wall wall wall dot wall dot wall wall wall wall wall wall wall dot wall
+wall powerup dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot powerup wall
+wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall wall
