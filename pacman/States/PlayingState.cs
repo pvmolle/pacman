@@ -42,7 +42,7 @@ namespace Pacman
             }
             else if (field.IsGameWon)
             {
-                manager.Switch(new MenuState(manager, level));
+                manager.Switch(new MenuState(manager, (level + 1)%2));
             }
             field.Pacman.Loop();
             foreach (Enemy enemy in field.Enemies)
