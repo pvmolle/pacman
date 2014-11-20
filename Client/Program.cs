@@ -12,11 +12,8 @@ namespace Client
         [STAThread]
         static void Main(string[] args)
         {
-            MenuWindow window = new MenuWindow();
-            window.Background = Brushes.LightGray;
+            GameWindow window = new GameWindow();
             window.ShowDialog();
-
-           // Console.ReadKey();
         }
     }
 }

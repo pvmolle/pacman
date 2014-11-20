@@ -65,7 +65,7 @@
     <Compile Include="GameObjects\AGameObject.cs" />
     <Compile Include="Field.cs" />
     <Compile Include="Strategies\IDrawable.cs" />
-    <Compile Include="States\IGameState.cs" />
+    <Compile Include="States\AGameState.cs" />
     <Compile Include="Strategies\IStrategy.cs" />
     <Compile Include="Commands\LeftCommand.cs" />
     <Compile Include="Strategies\ILoopable.cs" />

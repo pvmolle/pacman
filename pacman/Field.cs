@@ -11,6 +11,21 @@ namespace Pacman
         private Pacman pacman;
         private List<Enemy> enemies;
         public bool IsGameOver { get; set; }
+        public bool AllDotsCleared
+        {
+            get
+            {
+                int count = 0;
+                foreach (AGameObject go in GameObjects)
+                {
+                    if (go is Dot || go is Powerup)
+                    {
+                        count++;
+                    }
+                }
+                return count == 0;
+            }
+        }
         public int Score { get; set; }
 
         public AGameObject[,] GameObjects { get; set; }
@@ -64,10 +79,10 @@ namespace Pacman
                 return enemies;
             }
         }
-
         public Enemy GetBlinky()
-        {  
-            foreach (Enemy enemy in Enemies) {
+        {
+            foreach (Enemy enemy in Enemies)
+            {
                 if (enemy is EnemyBlinky)
                 {
                     return enemy;
@@ -89,19 +104,6 @@ namespace Pacman
         public AGameObject GetObject(Vector2D location)
         {
             return GameObjects[location.Y, location.X];
-        }
-
-        public bool AllDotsCleared()
-        {
-            int count = 0;
-            foreach (AGameObject go in GameObjects)
-            {
-                if (go is Dot || go is Powerup)
-                {
-                    count++;
-                }
-            }
-            return count == 0 ? true : false;
         }
     }
 }

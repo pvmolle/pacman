@@ -6,16 +6,24 @@ using System.Threading.Tasks;
 
 namespace Pacman
 {
-    public class EndState : IGameState, IDrawable
+    public class EndState : AGameState
     {
-        public void OnEntering()
+        public EndState(GameStateManager manager, int level = 0) : base(manager, level) { }
+
+        public override void OnEntering()
         {
-            throw new NotImplementedException();
         }
 
-        public void Draw(Tiwi.Window window)
+        public override void HandleClick(System.Windows.Point p)
         {
-            throw new NotImplementedException();
+        }
+
+        public override void HandleKeyDown(System.Windows.Input.KeyEventArgs e)
+        {
+        }
+
+        public override void Init(Tiwi.Window window)
+        {
         }
     }
 }
