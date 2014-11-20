@@ -35,11 +35,6 @@ namespace Pacman
             currentState.Init(window);
         }
 
-        public void Draw()
-        {
-            drawable.Draw(window); 
-        }
-
         public void Tick()
         {
             if (loopable != null)
@@ -50,7 +45,7 @@ namespace Pacman
             if (drawable != null)
             {
                 drawable.Draw(window);
-            }          
+            }
         }
 
         private void SetDrawableAndLoopAble(AGameState state) {

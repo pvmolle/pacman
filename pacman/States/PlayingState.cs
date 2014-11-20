@@ -16,7 +16,7 @@ namespace Pacman
         private LeftCommand leftCommand = new LeftCommand();
         private RightCommand rightCommand = new RightCommand();
 
-        public PlayingState(GameStateManager manager, int level) : base(manager, level) { }
+        public PlayingState(GameStateManager manager, int level = 0) : base(manager, level) { }
 
         public void Draw(Tiwi.Window window)
         {
@@ -36,11 +36,6 @@ namespace Pacman
 
         public void Loop(Tiwi.Window window)
         {
-            field.Pacman.Loop();
-            foreach (Enemy enemy in field.Enemies)
-            {
-                enemy.Loop();
-            }
             if (field.IsGameOver)
             {
                 manager.Switch(new EndState(manager, level));
@@ -49,13 +44,18 @@ namespace Pacman
             {
                 manager.Switch(new MenuState(manager, level));
             }
+            field.Pacman.Loop();
+            foreach (Enemy enemy in field.Enemies)
+            {
+                enemy.Loop();
+            }
         }
 
         public override void Init(Tiwi.Window window)
         {
             window.Title = "Pacman - Score: 0";
             window.Background = new SolidColorBrush(Color.FromRgb(0, 0, 0));
-            ADirector director = new DirectorFromFile(@"../../../Assets/config.txt");
+            ADirector director = new DirectorFromFile(String.Format(@"../../../Assets/{0}.txt", level));
             field = director.Construct(new Builder());
             window.Width = field.GameObjects.GetLength(1) * 20;
             window.Height = field.GameObjects.GetLength(0) * 20;

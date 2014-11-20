@@ -40,6 +40,9 @@ namespace Pacman
                 case "blinky":
                     gameObject = new EnemyBlinky(field, location, new StrategyBlinky(), new StrategyFleeing());
                     break;
+                case "null":
+                    gameObject = null;
+                    break;
                 default:
                     throw new Exception("Invalid part type");
             }

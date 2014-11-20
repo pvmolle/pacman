@@ -4,14 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Media;
 using System.Windows.Media.Imaging;
 
 namespace Pacman
 {
     public class MenuState : AGameState
     {
+        private BitmapImage logo;
         private BitmapImage play;
-        private Point playButton = new Point(100, 200);
+        private Point playButton;
 
         public MenuState(GameStateManager manager, int level = 0) : base(manager, level) { }
 
@@ -37,11 +39,16 @@ namespace Pacman
         public override void Init(Tiwi.Window window)
         {
             window.Title = "Pacman";
-            window.Width = 400;
-            window.Height = 220;
-            BitmapImage splash = new BitmapImage(new Uri(@"../../../assets/splash.png", UriKind.Relative));
+            window.Background = Brushes.Black;
+            window.Width = 420;
+            window.Height = 460;
+            logo = new BitmapImage(new Uri(@"../../../assets/logo.png", UriKind.Relative));
+            int x = 420 / 2 - logo.PixelWidth / 4;
+            int y = 50;
+            window.DrawImage(new Point(x, y), new Size(logo.PixelWidth / 2, logo.PixelHeight / 2), logo);
             play = new BitmapImage(new Uri(@"../../../assets/play.png", UriKind.Relative));
-            window.DrawImage(new Point(10, 50), new Size(splash.PixelWidth, splash.PixelHeight), splash);
+            playButton.X = 420 / 2 - play.PixelWidth / 2;
+            playButton.Y = 250;
             window.DrawImage(playButton, new Size(play.PixelWidth, play.PixelHeight), play);
         }
     }

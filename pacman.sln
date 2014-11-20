@@ -1,17 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pacman", "Pacman\Pacman.csproj", "{937D6621-823E-4E51-9CD4-BA748404D73F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assets", "Assets", "{269C1942-E432-4550-BE21-8CA0BAA1773F}"
 	ProjectSection(SolutionItems) = preProject
+		Assets\0.txt = Assets\0.txt
 		Assets\blinky.png = Assets\blinky.png
 		Assets\clyde.png = Assets\clyde.png
 		Assets\config.txt = Assets\config.txt
+		Assets\ghost-blink.png = Assets\ghost-blink.png
 		Assets\ghost.png = Assets\ghost.png
 		Assets\inky.png = Assets\inky.png
+		Assets\logo.png = Assets\logo.png
 		Assets\pacman-down.png = Assets\pacman-down.png
 		Assets\pacman-left.png = Assets\pacman-left.png
 		Assets\pacman-right.png = Assets\pacman-right.png
