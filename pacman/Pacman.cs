@@ -69,23 +69,16 @@ namespace Pacman
             throw new NotImplementedException();
         }
 
-        /// <summary>
-        /// Detect when an enemy is at the same location as pacman.
-        /// If so, game over
-        /// </summary>
-        public void DetectCollision()
+        public Vector2D GetDestination(int placesAhead)
         {
-            foreach (AGameObject enemy in Field.Enemies)
+            Vector2D destination = new Vector2D(this.Location);
+            int i = 0;
+            while (i < placesAhead && this.Field.Contains(destination.X, destination.Y))
             {
-                if (enemy.Location.Equals(Location))
-                {
-                    if (!((Enemy)enemy).IsFleeing)
-                    {
-                        Debug.WriteLine("Game Over");
-                        Field.IsGameOver = true;
-                    }
-                }
+                destination.Add(this.Direction);
+                i++;
             }
+            return destination;
         }
 
         public void HandleEnemyCollision(Enemy enemy)

@@ -65,9 +65,25 @@ namespace Pacman
             }
         }
 
+        public Enemy GetBlinky()
+        {  
+            foreach (Enemy enemy in Enemies) {
+                if (enemy is EnemyBlinky)
+                {
+                    return enemy;
+                }
+            }
+            return null;
+        }
+
         public bool Contains(int x, int y)
         {
             return y >= 0 && y < GameObjects.GetLength(0) && x >= 0 && x < GameObjects.GetLength(1);
+        }
+
+        public bool Contains(Vector2D v)
+        {
+            return Contains(v.X, v.Y);
         }
 
         public AGameObject GetObject(Vector2D location)

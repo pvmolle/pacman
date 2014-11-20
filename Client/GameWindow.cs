@@ -82,7 +82,6 @@ namespace Client
             {
                 enemy.Loop();
             }
-            field.Pacman.DetectCollision();
             DrawGame();
         }
 
