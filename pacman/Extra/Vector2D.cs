@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Pacman
 {
@@ -15,11 +11,11 @@ namespace Pacman
         }
 
         public int X { get; set; }
+
         public int Y { get; set; }
 
         public Vector2D()
         {
-
         }
 
         public Vector2D(Vector2D v)

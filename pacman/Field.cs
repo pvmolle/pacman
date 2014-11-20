@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace Pacman
 {
@@ -10,7 +6,9 @@ namespace Pacman
     {
         private Pacman pacman;
         private List<Enemy> enemies;
+
         public bool IsGameOver { get; set; }
+
         public bool IsGameWon
         {
             get
@@ -26,6 +24,7 @@ namespace Pacman
                 return count == 0 || (enemies != null && enemies.Count == 0);
             }
         }
+
         public int Score { get; set; }
 
         public AGameObject[,] GameObjects { get; set; }
@@ -54,6 +53,7 @@ namespace Pacman
                 return pacman;
             }
         }
+
         public List<Enemy> Enemies
         {
             get
@@ -79,6 +79,7 @@ namespace Pacman
                 return enemies;
             }
         }
+
         public Enemy GetBlinky()
         {
             foreach (Enemy enemy in Enemies)

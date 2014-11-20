@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Media;
 
 namespace Pacman
@@ -13,7 +8,10 @@ namespace Pacman
         private static Size size = new Size(20, 20);
         private static SolidColorBrush wallColor;
 
-        public Wall(Vector2D location) : base(location) { }
+        public Wall(Vector2D location)
+            : base(location)
+        {
+        }
 
         static Wall()
         {

@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Pacman
+﻿namespace Pacman
 {
     /// <summary>
     /// Pinky is a Pink Ghost that is Mischievous, Persistent, and Tricky.
     /// </summary>
-    class StrategyPinky : IStrategy
+    internal class StrategyPinky : IStrategy
     {
         public void Loop(AMoveable gameObject)
         {

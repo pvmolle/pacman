@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Pacman
+﻿namespace Pacman
 {
     public class EnemyInky : Enemy
     {
@@ -26,8 +20,6 @@ namespace Pacman
         public EnemyInky(Field field, Vector2D location, IStrategy attackingStrategy, IStrategy fleeingStrategy)
             : base(field, location, attackingStrategy, fleeingStrategy)
         {
-
         }
-
     }
 }

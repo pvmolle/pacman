@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Pacman
+﻿namespace Pacman
 {
     public abstract class AGameObject
     {
         private int points = 0;
+
         internal Vector2D Location { get; set; }
 
         public int Points
@@ -21,7 +16,7 @@ namespace Pacman
         {
             Location = location;
         }
-        
+
         public abstract void Draw(Tiwi.Window window, Vector2D position);
     }
 }

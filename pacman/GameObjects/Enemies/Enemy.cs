@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Media.Imaging;
-
-namespace Pacman
+﻿namespace Pacman
 {
     public abstract class Enemy : AMoveable
     {
@@ -35,7 +27,8 @@ namespace Pacman
 
         protected override string Resource
         {
-            get {
+            get
+            {
                 if (ticks <= 12 && ticks % 3 == 0)
                 {
                     return "../../../assets/ghost-blink.png";

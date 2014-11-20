@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Pacman
+﻿namespace Pacman
 {
-    class StrategyFleeing : IStrategy
+    internal class StrategyFleeing : IStrategy
     {
         public void Loop(AMoveable gameObject)
         {

@@ -1,22 +1,13 @@
 ﻿using Pacman;
 using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
 
 namespace Client
 {
-    class GameWindow : Tiwi.Window
+    internal class GameWindow : Tiwi.Window
     {
         private GameStateManager manager;
-
 
         public GameWindow()
         {
@@ -36,7 +27,7 @@ namespace Client
         protected override void OnKeyDown(KeyEventArgs e)
         {
             base.OnKeyDown(e);
-            manager.KeyDownHandler(e); 
+            manager.KeyDownHandler(e);
         }
 
         protected override void LeftMouseClick(Point p)

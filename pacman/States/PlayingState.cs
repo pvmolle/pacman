@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Input;
 using System.Windows.Media;
 
@@ -16,7 +12,10 @@ namespace Pacman
         private LeftCommand leftCommand = new LeftCommand();
         private RightCommand rightCommand = new RightCommand();
 
-        public PlayingState(GameStateManager manager, int level = 0) : base(manager, level) { }
+        public PlayingState(GameStateManager manager, int level = 0)
+            : base(manager, level)
+        {
+        }
 
         public void Draw(Tiwi.Window window)
         {
@@ -42,7 +41,7 @@ namespace Pacman
             }
             else if (field.IsGameWon)
             {
-                manager.Switch(new MenuState(manager, (level + 1)%2));
+                manager.Switch(new MenuState(manager, (level + 1) % 2));
             }
             field.Pacman.Loop();
             foreach (Enemy enemy in field.Enemies)
@@ -62,10 +61,6 @@ namespace Pacman
             window.Height = field.GameObjects.GetLength(0) * 20;
         }
 
-        public override void OnEntering()
-        {
-        }
-
         public override void HandleClick(System.Windows.Point p)
         {
         }
@@ -77,12 +72,15 @@ namespace Pacman
                 case (Key.Left):
                     leftCommand.Execute(field.Pacman);
                     break;
+
                 case (Key.Right):
                     rightCommand.Execute(field.Pacman);
                     break;
+
                 case (Key.Up):
                     upCommand.Execute(field.Pacman);
                     break;
+
                 case (Key.Down):
                     downCommand.Execute(field.Pacman);
                     break;

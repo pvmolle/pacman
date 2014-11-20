@@ -1,19 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Pacman
 {
     /// <summary>
     /// Clyde is an Orange Ghost that is Ignorant and Goofy
     /// </summary>
-    class StrategyClyde : IStrategy
+    internal class StrategyClyde : IStrategy
     {
         private Random r;
 
-        public StrategyClyde() {
+        public StrategyClyde()
+        {
             r = new Random();
         }
 

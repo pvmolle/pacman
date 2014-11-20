@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
@@ -15,17 +11,15 @@ namespace Pacman
         private BitmapImage play;
         private Point playButton;
 
-        public MenuState(GameStateManager manager, int level = 0) : base(manager, level) { }
-
-        public override void OnEntering()
+        public MenuState(GameStateManager manager, int level = 0)
+            : base(manager, level)
         {
-
         }
 
         public override void HandleClick(System.Windows.Point p)
         {
             if (p.X >= playButton.X && p.X <= playButton.X + play.PixelWidth && p.Y >= playButton.Y && p.Y <= playButton.Y + play.PixelHeight)
-            {     
+            {
                 manager.Switch(new PlayingState(manager, level));
             }
         }

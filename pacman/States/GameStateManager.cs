@@ -1,20 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Input;
 
 namespace Pacman
 {
     public delegate void ClickHandler(Point p);
+
     public delegate void KeyDownHandler(KeyEventArgs e);
-    
+
     public class GameStateManager
     {
         public ClickHandler ClickHandler { get; set; }
+
         public KeyDownHandler KeyDownHandler { get; set; }
+
         private AGameState currentState;
         private IDrawable drawable;
         private ILoopable loopable;
@@ -40,7 +38,6 @@ namespace Pacman
             if (loopable != null)
             {
                 loopable.Loop(window);
-
             }
             if (drawable != null)
             {
@@ -48,7 +45,8 @@ namespace Pacman
             }
         }
 
-        private void SetDrawableAndLoopAble(AGameState state) {
+        private void SetDrawableAndLoopAble(AGameState state)
+        {
             drawable = state is IDrawable ? (IDrawable)state : null;
             loopable = state is ILoopable ? (ILoopable)state : null;
         }

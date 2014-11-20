@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Media.Imaging;
 
@@ -13,12 +10,18 @@ namespace Pacman
         public static List<Vector2D> Directions;
 
         internal Field Field { get; set; }
+
         internal double Position { get; set; }
+
         internal Vector2D Direction { get; set; }
+
         public double Speed { get; set; }
+
         private BitmapImage moveable;
         protected Size size = new Size(20, 20);
+
         protected abstract string Resource { get; }
+
         protected AGameObject objectCovered;
 
         public AMoveable(Field field, Vector2D location)
@@ -46,7 +49,7 @@ namespace Pacman
             {
                 int x = Location.X + Direction.X;
                 int y = Location.Y + Direction.Y;
-                
+
                 AGameObject target = Field.GameObjects[y, x];
                 if (target is Wall || (this is Enemy && target is Enemy))
                 {

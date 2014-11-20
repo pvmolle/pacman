@@ -1,16 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Pacman
+﻿namespace Pacman
 {
-    delegate void Invoker();
+    internal delegate void Invoker();
 
-    interface ICommand
+    internal interface ICommand
     {
-      // public Invoker Up, Down, Left, Right;
+        // public Invoker Up, Down, Left, Right;
 
         void Execute(Pacman pacman);
     }

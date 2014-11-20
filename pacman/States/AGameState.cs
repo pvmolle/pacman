@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Input;
 
 namespace Pacman
@@ -12,6 +7,7 @@ namespace Pacman
     {
         protected GameStateManager manager;
         protected int level;
+
         public GameStateManager Manager
         {
             set
@@ -27,8 +23,9 @@ namespace Pacman
         }
 
         public abstract void Init(Tiwi.Window window);
-        public abstract void OnEntering();
+
         public abstract void HandleClick(Point p);
+
         public abstract void HandleKeyDown(KeyEventArgs e);
     }
 }

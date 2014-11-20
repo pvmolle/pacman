@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace Pacman
 {
@@ -10,7 +6,7 @@ namespace Pacman
     {
         public static Vector2D SolveForDirection(Field field, Vector2D from, Vector2D to, bool towards = true)
         {
-            Queue<Vector2D> queue  = new Queue<Vector2D>();
+            Queue<Vector2D> queue = new Queue<Vector2D>();
 
             AGameObject[,] gameObjects = field.GameObjects;
             int height = gameObjects.GetLength(0);
