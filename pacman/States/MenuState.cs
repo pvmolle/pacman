@@ -33,7 +33,10 @@ namespace Pacman
 
         public override void HandleKeyDown(System.Windows.Input.KeyEventArgs e)
         {
-
+            if (e.Key == System.Windows.Input.Key.Enter)
+            {
+                manager.Switch(new PlayingState(manager, level));
+            }
         }
 
         public override void Init(Tiwi.Window window)
