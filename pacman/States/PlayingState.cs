@@ -7,10 +7,10 @@ namespace Pacman
     public class PlayingState : AGameState, IDrawable, ILoopable
     {
         private Field field;
-        private UpCommand upCommand = new UpCommand();
-        private DownCommand downCommand = new DownCommand();
-        private LeftCommand leftCommand = new LeftCommand();
-        private RightCommand rightCommand = new RightCommand();
+        private ACommand upCommand;
+        private ACommand downCommand;
+        private ACommand leftCommand;
+        private ACommand rightCommand;
 
         public PlayingState(GameStateManager manager, int level = 0)
             : base(manager, level)
@@ -59,6 +59,11 @@ namespace Pacman
             field = director.Construct(new Builder());
             window.Width = field.GameObjects.GetLength(1) * 20;
             window.Height = field.GameObjects.GetLength(0) * 20;
+
+            upCommand = new UpCommand(field.Pacman);
+            downCommand = new DownCommand(field.Pacman);
+            leftCommand = new LeftCommand(field.Pacman);
+            rightCommand = new RightCommand(field.Pacman);
         }
 
         public override void HandleClick(System.Windows.Point p)
@@ -70,19 +75,19 @@ namespace Pacman
             switch (e.Key)
             {
                 case (Key.Left):
-                    leftCommand.Execute(field.Pacman);
+                    leftCommand.Execute();
                     break;
 
                 case (Key.Right):
-                    rightCommand.Execute(field.Pacman);
+                    rightCommand.Execute();
                     break;
 
                 case (Key.Up):
-                    upCommand.Execute(field.Pacman);
+                    upCommand.Execute();
                     break;
 
                 case (Key.Down):
-                    downCommand.Execute(field.Pacman);
+                    downCommand.Execute();
                     break;
             }
         }

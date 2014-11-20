@@ -50,7 +50,7 @@
     <Compile Include="States\EndState.cs" />
     <Compile Include="States\GameStateManager.cs" />
     <Compile Include="States\PlayingState.cs" />
-    <Compile Include="Commands\ICommand.cs" />
+    <Compile Include="Commands\ACommand.cs" />
     <Compile Include="Builder\ADirector.cs" />
     <Compile Include="GameObjects\AMoveable.cs" />
     <Compile Include="Builder\Builder.cs" />

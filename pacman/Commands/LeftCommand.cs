@@ -1,8 +1,13 @@
 ﻿namespace Pacman
 {
-    public class LeftCommand : ICommand
+    public class LeftCommand : ACommand
     {
-        public void Execute(Pacman pacman)
+        public LeftCommand(Pacman pacman)
+            : base(pacman)
+        {
+        }
+
+        public override void Execute()
         {
             pacman.Speed = 1;
             pacman.Direction = new Vector2D(-1, 0);
