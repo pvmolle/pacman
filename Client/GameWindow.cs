@@ -72,7 +72,6 @@ namespace Client
                 GameLoop();
                 Title = "Pacman - Score: " + field.Score;
             }
-
         }
 
         public void GameLoop()
