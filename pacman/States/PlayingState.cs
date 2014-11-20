@@ -49,6 +49,7 @@ namespace Pacman
             {
                 enemy.Loop();
             }
+            window.Title = "Pacman - Score: " + field.Score;
         }
 
         public override void Init(Tiwi.Window window)
