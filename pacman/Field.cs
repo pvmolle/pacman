@@ -23,7 +23,7 @@ namespace Pacman
                         count++;
                     }
                 }
-                return count == 0 || enemies.Count == 0;
+                return count == 0 || (enemies != null && enemies.Count == 0);
             }
         }
         public int Score { get; set; }
