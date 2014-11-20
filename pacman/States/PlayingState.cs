@@ -7,10 +7,7 @@ namespace Pacman
     public class PlayingState : AGameState, IDrawable, ILoopable
     {
         private Field field;
-        private ACommand upCommand;
-        private ACommand downCommand;
-        private ACommand leftCommand;
-        private ACommand rightCommand;
+        private ACommand upCommand, downCommand, leftCommand, rightCommand;
 
         public PlayingState(GameStateManager manager, int level = 0)
             : base(manager, level)
