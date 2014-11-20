@@ -11,7 +11,7 @@ namespace Pacman
         private Pacman pacman;
         private List<Enemy> enemies;
         public bool IsGameOver { get; set; }
-        public bool AllDotsCleared
+        public bool IsGameWon
         {
             get
             {

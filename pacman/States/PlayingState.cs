@@ -40,7 +40,7 @@ namespace Pacman
             {
                 manager.Switch(new EndState(manager, level));
             }
-            else if (field.AllDotsCleared)
+            else if (field.IsGameWon)
             {
                 manager.Switch(new MenuState(manager, level));
             }
