@@ -15,7 +15,7 @@ namespace Pacman
             {
                 if (IsFleeing)
                 {
-                    return "../../../assets/ghost.png";
+                    return base.Resource;
                 }
                 else
                 {

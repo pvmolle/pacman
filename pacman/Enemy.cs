@@ -14,7 +14,7 @@ namespace Pacman
 
         private IStrategy attackingStrategy;
         private IStrategy fleeingStrategy; // The item that's under the enemy
-        private int ticks;
+        protected int ticks;
         private bool isFleeing;
 
         public bool IsFleeing
@@ -30,6 +30,17 @@ namespace Pacman
                     ticks = 15 * 4;
                 }
                 isFleeing = value;
+            }
+        }
+
+        protected override string Resource
+        {
+            get {
+                if (ticks <= 12 && ticks % 3 == 0)
+                {
+                    return "../../../assets/ghost-blink.png";
+                }
+                return "../../../assets/ghost.png";
             }
         }
 
