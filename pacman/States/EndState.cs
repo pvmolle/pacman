@@ -30,6 +30,10 @@ namespace Pacman
 
         public override void HandleKeyDown(System.Windows.Input.KeyEventArgs e)
         {
+            if (e.Key == System.Windows.Input.Key.Enter)
+            {
+                manager.Switch(new MenuState(manager, 0));
+            }
         }
 
         public override void Init(Tiwi.Window window)
