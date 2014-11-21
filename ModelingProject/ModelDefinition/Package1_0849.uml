@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="096d7867-0ca2-4812-a665-4e3e4dce9dde"
+  name="Tiwi"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="919ee8fb-320d-4b34-b5a5-d964d9537c2b"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DTiwi"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="4cce9337-7192-49dc-9b99-86211ef31803"
+        name="Window"
+        isAbstract="true"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="83c06c16-4ca6-497a-8121-632e65684b86"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FLib%2FTiwiWindow.dll Namespace%3DTiwi Type%3DWindow"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="4151324b-5569-4a8c-958a-2753bc5e729d"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3c4967ad-71b1-47c8-81b0-7c20fe9589d4">
+                <propertyInstance
+                  Id="438c228d-5651-4577-875c-7707d6cdccf3"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a54f454b-e1c4-42e4-a7fe-1e5f08cf3cc1">
+                <propertyInstance
+                  Id="833345cd-8216-4c95-b297-f5c2e76be375"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d7e43edc-37d5-4b7b-83bc-03479fc4dedc">
+                <propertyInstance
+                  Id="239ae799-a578-4da9-a297-72746bf54222"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5ef3dce3-0d9d-4d81-b017-df233bc1fd3c">
+                <propertyInstance
+                  Id="bbb18d86-d825-4862-8693-4ab7e7778ee7"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1b4e8bd0-382f-4c64-95be-8300cfe7c524">
+                <propertyInstance
+                  Id="db7f95ef-b45e-45f5-a11b-e703788c5471"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="f39d3828-91b7-4e70-8926-b3171a3a9dbb"
+  name="Windows"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="fbbf415e-99dc-4070-8d2a-a46051bf16c3"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DSystem.Windows"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="f57e2eeb-d959-4d9f-b4f1-b291d3fa7f03"
+        name="Size"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="d147f578-9f85-4cd9-9ef6-c3c48546f8ec"
+            handle="viewcode://./CodeSchema_Struct?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FWindowsBase.dll&quot; Namespace%3DSystem.Windows Type%3DSize"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="8d5cffc0-6882-4238-81bf-a1f86395a8dc"
+            name="struct"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ad00d1b9-4809-480d-9558-d46d308f4255">
+                <propertyInstance
+                  Id="5b18b03f-2cc6-4a3f-b41c-83a942af088e"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6f563a76-5534-462c-82fa-59e897ae89e5">
+                <propertyInstance
+                  Id="0fa0bd4c-51d9-4bfc-bbb1-dd950fa865df"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1cb7102d-b568-4064-bb1c-6e6bcec4c2fa">
+                <propertyInstance
+                  Id="4e635979-691b-4ac5-b986-fb60295ae49d"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3caf1297-bd09-41e4-bd55-efa6d2845485">
+                <propertyInstance
+                  Id="e5440fb9-5b31-440e-bbd3-fcbe9b78bdf5"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="e1aa5cf6-1b8e-48e1-9e3d-085232f0f6da"
+        LastKnownName="Media"
+        LastKnownLocation="Package4_0849.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="30a49fbe-168d-48a9-8072-9188f49a7558"
+        LastKnownName="Input"
+        LastKnownLocation="Package_0911.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="47437b19-b09c-42ed-8f5a-e981d2017f5b"
+        name="Point"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="be130e96-4612-4e9d-8859-7346ef4b14c0"
+            handle="viewcode://./CodeSchema_Struct?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FWindowsBase.dll&quot; Namespace%3DSystem.Windows Type%3DPoint"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="d0060538-7ab0-4dd2-b813-baf1b2127842"
+            name="struct"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0c1fc7a6-4aca-428c-b054-1e98d9242c57">
+                <propertyInstance
+                  Id="4b10f4cc-a8a3-445f-9c9c-05e57bad330d"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e9b9158b-2980-4c73-ba7e-d1cca8b506dc">
+                <propertyInstance
+                  Id="9d595502-8f4e-4fb2-9f4f-09a498dedba5"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b05dd4df-ff80-4ab4-bba9-e0fb8aaf0b36">
+                <propertyInstance
+                  Id="b89a3949-9d2f-423e-a714-454a8d8bf644"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ea16d51c-a4ef-4d61-b507-f135fe0242c7">
+                <propertyInstance
+                  Id="6b82ec61-c9dd-498b-92b8-841fe71c69cd"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

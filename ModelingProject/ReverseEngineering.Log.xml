@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2014-11-21T09:25:52" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2014-11-21T09:25:54" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Client' -  (Package)" />
+  <Message Timestamp="2014-11-21T09:25:54" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject::Client::GameWindow' -  (Class)" />
+  <Message Timestamp="2014-11-21T09:25:54" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Client::GameWindow::GameWindow' -  (Operation)" />
+  <Message Timestamp="2014-11-21T09:25:54" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Client::GameWindow::LeftMouseClick' -  (Operation)" />
+  <Message Timestamp="2014-11-21T09:25:54" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Client::GameWindow::LeftMouseClick::p' -  (Parameter)" />
+  <Message Timestamp="2014-11-21T09:25:54" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Client::GameWindow::manager' -  (Property)" />
+  <Message Timestamp="2014-11-21T09:25:54" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Client::GameWindow::OnKeyDown' -  (Operation)" />
+  <Message Timestamp="2014-11-21T09:25:54" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Client::GameWindow::OnKeyDown::e' -  (Parameter)" />
+  <Message Timestamp="2014-11-21T09:25:54" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Client::GameWindow::TimerTick' -  (Operation)" />
+  <Message Timestamp="2014-11-21T09:25:54" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject::Client::Program' -  (Class)" />
+  <Message Timestamp="2014-11-21T09:25:54" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Client::Program::Main' -  (Operation)" />
+  <Message Timestamp="2014-11-21T09:25:54" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Client::Program::Main::args' -  (Parameter)" />
+  <Message Timestamp="2014-11-21T09:25:54" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Client::Program::Program' -  (Operation)" />
+  <Message Timestamp="2014-11-21T09:25:54" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman' -  (Package)" />
+  <Message Timestamp="2014-11-21T09:25:54" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::GameStateManager' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-11-21T09:25:54" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::System' -  (Package)" />
+  <Message Timestamp="2014-11-21T09:25:54" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::System::Windows' -  (Package)" />
+  <Message Timestamp="2014-11-21T09:25:54" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::System::Windows::Input' -  (Package)" />
+  <Message Timestamp="2014-11-21T09:25:54" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::System::Windows::Input::KeyEventArgs' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-11-21T09:25:54" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::System::Windows::Point' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-11-21T09:25:54" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Tiwi' -  (Package)" />
+  <Message Timestamp="2014-11-21T09:25:54" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Tiwi::Window' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-11-21T09:25:54" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'String' -  (PrimitiveType)" />
+  <Message Timestamp="2014-11-21T09:25:54" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject::Client::GameWindow to ModelingProject::Tiwi::Window (Generalization)" />
+  <Message Timestamp="2014-11-21T09:25:54" Importance="High" Text="(2) type(s) fully reverse engineered." />
+  <Message Timestamp="2014-11-21T09:25:54" Importance="High" Text="(4) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
+  <Message Timestamp="2014-11-21T09:25:54" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+</Log>

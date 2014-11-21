@@ -64,11 +64,11 @@
     <Compile Include="GameObjects\Enemies\EnemyClyde.cs" />
     <Compile Include="GameObjects\AGameObject.cs" />
     <Compile Include="Field.cs" />
-    <Compile Include="Strategies\IDrawable.cs" />
+    <Compile Include="States\IDrawable.cs" />
     <Compile Include="States\AGameState.cs" />
     <Compile Include="Strategies\IStrategy.cs" />
     <Compile Include="Commands\LeftCommand.cs" />
-    <Compile Include="Strategies\ILoopable.cs" />
+    <Compile Include="States\ILoopable.cs" />
     <Compile Include="Extra\MazeSolver.cs" />
     <Compile Include="States\MenuState.cs" />
     <Compile Include="GameObjects\Pacman.cs" />

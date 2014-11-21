@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Client">
+  <logicalClassDesignerModelMoniker Id="7aec8ac0-92fb-42e5-b4c2-dc49b08dc41f" />
+  <nestedChildShapes>
+    <classShape Id="70721201-a21c-4942-b5d2-b1ed8642c3a4" absoluteBounds="2.375, 0.75, 2.125, 1.8284605995814007" hideQualifiedName="false" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
+      <classMoniker Id="81213e1e-d078-4841-a6a9-e7c2df0d51ce" LastKnownName="GameWindow" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="e3c41129-7045-4731-8b56-792633d1fabc" absoluteBounds="2.3899999999999997, 1.2653356393178306, 2.0949999999999998, 0.36132811258236563" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="f17b16e5-9e39-46ad-a693-1b5dc1f9c95e" absoluteBounds="2.3899999999999997, 1.6366637519001959, 2.0949999999999998, 0.84179684768120455" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6c6b0c07-8ac5-416f-b0e9-fc26ae4a6fba" absoluteBounds="0.5, 0.75, 1.5, 1.3479918644825619" hideQualifiedName="false" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
+      <classMoniker Id="7c946f6e-f717-45e1-b398-e64daa0ac6dd" LastKnownName="Program" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="e0a7560c-b530-4069-9e02-5d15e61b704d" absoluteBounds="0.51500000000000012, 1.2653356393178306, 1.4700000000000002, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="45ee13df-64de-4780-b0d2-6b6c2f7cdaf3" absoluteBounds="0.51500000000000012, 1.4765075068672497, 1.4700000000000002, 0.521484357615312" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>
