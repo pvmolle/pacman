@@ -1,7 +1,5 @@
 ﻿namespace Pacman
 {
-    internal delegate void Invoker();
-
     public abstract class ACommand
     {
         protected Pacman pacman;

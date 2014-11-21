@@ -41,26 +41,6 @@ namespace Pacman
         {
         }
 
-        public void MoveUp()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void MoveDown()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void MoveLeft()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void MoveRight()
-        {
-            throw new NotImplementedException();
-        }
-
         public Vector2D GetDestination(int placesAhead)
         {
             Vector2D destination = new Vector2D(this.Location);
