@@ -21,6 +21,7 @@
       <class
         Id="5b22747b-699f-4917-90ee-0efedb00313d"
         name="Double"
+        visibility="Private"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">

@@ -21,7 +21,7 @@
         <referencesInternal>
           <reference
             Id="02e2a69b-16c3-48a7-8401-63ef57f73de4"
-            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DEnemyBlinky"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyBlinky"
             tag="ViewCode" />
         </referencesInternal>
         <appliedStereotypesInternal>
@@ -92,7 +92,7 @@
             <referencesInternal>
               <reference
                 Id="3a1abe91-57ad-4a1e-9eac-daf14fd3af5a"
-                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DEnemyBlinky Member%3DResource"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyBlinky Member%3DResource"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -172,7 +172,7 @@
             <referencesInternal>
               <reference
                 Id="9f5a4384-02e1-4188-a57b-fe433c81fce4"
-                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DEnemyBlinky Member%3DdefaultStrategy"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyBlinky Member%3DdefaultStrategy"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -238,7 +238,7 @@
             <referencesInternal>
               <reference
                 Id="b34cb09a-a6ce-4c89-9368-b2c740c3faed"
-                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DEnemyBlinky Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DField)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)])"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyBlinky Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)])"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -300,7 +300,7 @@
                   <referencesInternal>
                     <reference
                       Id="36358639-334a-4cb1-83bb-1c5c3e377f51"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DEnemyBlinky Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DField)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3Dfield"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyBlinky Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3Dfield"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -319,7 +319,7 @@
                   <referencesInternal>
                     <reference
                       Id="accd4af0-9606-4ba4-b857-50a65aae7a08"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DEnemyBlinky Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DField)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3Dlocation"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyBlinky Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3Dlocation"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -338,7 +338,7 @@
                   <referencesInternal>
                     <reference
                       Id="930c2829-0147-4494-831a-02fa10eca5f3"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DEnemyBlinky Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DField)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3DattackingStrategy"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyBlinky Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3DattackingStrategy"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -357,7 +357,7 @@
                   <referencesInternal>
                     <reference
                       Id="6d6d0020-1e2f-41a8-9636-cabbe6adc8f1"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DEnemyBlinky Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DField)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3DfleeingStrategy"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyBlinky Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3DfleeingStrategy"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -2994,7 +2994,7 @@
             <referencesInternal>
               <reference
                 Id="414cb5a0-3e4c-480b-acf9-a0e4820b6288"
-                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DEnemy Member%3DResource"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemy Member%3DResource"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -3074,7 +3074,7 @@
             <referencesInternal>
               <reference
                 Id="1e9391bb-d00c-4262-9f70-01e2488957c5"
-                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DEnemy Member%3DIsFleeing"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemy Member%3DIsFleeing"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -3154,7 +3154,7 @@
             <referencesInternal>
               <reference
                 Id="ba9d3784-555d-49c0-87cd-0b50cba66e4c"
-                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DEnemy Member%3DDefaultSpeed"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemy Member%3DDefaultSpeed"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -3221,7 +3221,7 @@
             <referencesInternal>
               <reference
                 Id="5b8861cf-4779-4a9b-b383-d48f9f83ccaf"
-                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DEnemy Member%3DattackingStrategy"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemy Member%3DattackingStrategy"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -3288,7 +3288,7 @@
             <referencesInternal>
               <reference
                 Id="d897c593-d6a8-4404-8800-2a27abf0ce76"
-                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DEnemy Member%3DfleeingStrategy"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemy Member%3DfleeingStrategy"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -3355,7 +3355,7 @@
             <referencesInternal>
               <reference
                 Id="3354c444-861b-4285-9e46-4613d0fb9668"
-                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DEnemy Member%3DisFleeing"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemy Member%3DisFleeing"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -3422,7 +3422,7 @@
             <referencesInternal>
               <reference
                 Id="8fd0d739-f2f9-49ba-a9b1-f20c7ede3882"
-                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DEnemy Member%3Dticks"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemy Member%3Dticks"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -3488,7 +3488,7 @@
             <referencesInternal>
               <reference
                 Id="f64da106-471f-496f-90b8-a21840175751"
-                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DEnemy Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DField)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)])"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemy Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)])"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -3550,7 +3550,7 @@
                   <referencesInternal>
                     <reference
                       Id="e1473827-fd50-48bc-a081-899b6a0b287e"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DEnemy Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DField)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3Dfield"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemy Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3Dfield"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -3569,7 +3569,7 @@
                   <referencesInternal>
                     <reference
                       Id="bb3b72b2-6a1b-45ce-8ce9-cd788b240a8b"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DEnemy Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DField)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3Dlocation"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemy Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3Dlocation"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -3588,7 +3588,7 @@
                   <referencesInternal>
                     <reference
                       Id="8c1e5987-8f70-4034-af1e-4e0be3afca18"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DEnemy Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DField)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3DattackingStrategy"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemy Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3DattackingStrategy"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -3607,7 +3607,7 @@
                   <referencesInternal>
                     <reference
                       Id="ebc19837-2fc3-47a4-9198-819e3c80cfef"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DEnemy Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DField)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3DfleeingStrategy"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemy Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3DfleeingStrategy"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -3631,7 +3631,7 @@
             <referencesInternal>
               <reference
                 Id="7d99595f-7ebc-4496-b716-43170cd98705"
-                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DEnemy Member%3DLoop"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemy Member%3DLoop"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -3698,7 +3698,7 @@
         <referencesInternal>
           <reference
             Id="a9e6bfcb-f3d2-4727-86e9-656bde3db0f9"
-            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DEnemyClyde"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyClyde"
             tag="ViewCode" />
         </referencesInternal>
         <appliedStereotypesInternal>
@@ -3769,7 +3769,7 @@
             <referencesInternal>
               <reference
                 Id="3fbbe9d6-4980-49ee-8338-5bec32053c41"
-                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DEnemyClyde Member%3DResource"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyClyde Member%3DResource"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -3849,7 +3849,7 @@
             <referencesInternal>
               <reference
                 Id="0b887d06-50e1-4feb-a57f-d78a4e0f0b5c"
-                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DEnemyClyde Member%3DdefaultStrategy"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyClyde Member%3DdefaultStrategy"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -3915,7 +3915,7 @@
             <referencesInternal>
               <reference
                 Id="2b7d7b71-7004-45c7-a27d-c1c2d914943e"
-                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DEnemyClyde Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DField)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)])"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyClyde Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)])"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -3977,7 +3977,7 @@
                   <referencesInternal>
                     <reference
                       Id="00a7ebcd-52e3-46b7-8669-71d0d77a533e"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DEnemyClyde Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DField)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3Dfield"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyClyde Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3Dfield"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -3996,7 +3996,7 @@
                   <referencesInternal>
                     <reference
                       Id="cef8ca3b-e44d-45bb-8b82-de416c62cadf"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DEnemyClyde Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DField)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3Dlocation"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyClyde Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3Dlocation"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -4015,7 +4015,7 @@
                   <referencesInternal>
                     <reference
                       Id="4ef94bc2-99af-41a9-b345-b8c1e052911c"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DEnemyClyde Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DField)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3DattackingStrategy"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyClyde Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3DattackingStrategy"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -4034,7 +4034,7 @@
                   <referencesInternal>
                     <reference
                       Id="6458abf7-3d33-4be6-9f96-5b9a55935ccf"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DEnemyClyde Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DField)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3DfleeingStrategy"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyClyde Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3DfleeingStrategy"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -4060,7 +4060,7 @@
         <referencesInternal>
           <reference
             Id="678e31cc-18bd-4334-a8f2-6e1fd968ea98"
-            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DEnemyInky"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyInky"
             tag="ViewCode" />
         </referencesInternal>
         <appliedStereotypesInternal>
@@ -4131,7 +4131,7 @@
             <referencesInternal>
               <reference
                 Id="11d1d2ee-ba8f-4160-bc61-f9f59b5aef80"
-                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DEnemyInky Member%3DResource"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyInky Member%3DResource"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -4211,7 +4211,7 @@
             <referencesInternal>
               <reference
                 Id="0c59532d-507c-4184-a996-4b646ff822cb"
-                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DEnemyInky Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DField)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)])"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyInky Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)])"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -4273,7 +4273,7 @@
                   <referencesInternal>
                     <reference
                       Id="c6ef18bf-0186-4973-89dd-1d44c61cf7f1"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DEnemyInky Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DField)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3Dfield"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyInky Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3Dfield"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -4292,7 +4292,7 @@
                   <referencesInternal>
                     <reference
                       Id="db9cdbf8-c37d-440c-9812-33bdd928a8c5"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DEnemyInky Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DField)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3Dlocation"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyInky Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3Dlocation"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -4311,7 +4311,7 @@
                   <referencesInternal>
                     <reference
                       Id="e1b833ff-a6b3-4878-9999-7ff7314369b7"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DEnemyInky Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DField)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3DattackingStrategy"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyInky Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3DattackingStrategy"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -4330,7 +4330,7 @@
                   <referencesInternal>
                     <reference
                       Id="6abcd7d8-d6f3-4009-ac3b-5809db70e32e"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DEnemyInky Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DField)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3DfleeingStrategy"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyInky Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3DfleeingStrategy"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -4356,7 +4356,7 @@
         <referencesInternal>
           <reference
             Id="62c0b4e2-995a-44f1-8bd2-e4a2476414bc"
-            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DEnemyPinky"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyPinky"
             tag="ViewCode" />
         </referencesInternal>
         <appliedStereotypesInternal>
@@ -4427,7 +4427,7 @@
             <referencesInternal>
               <reference
                 Id="b9164f5c-a5a4-4b3d-babc-0ff399499160"
-                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DEnemyPinky Member%3DResource"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyPinky Member%3DResource"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -4507,7 +4507,7 @@
             <referencesInternal>
               <reference
                 Id="f6f2e389-920a-4a91-a905-72910e336435"
-                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DEnemyPinky Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DField)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)])"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyPinky Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)])"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -4569,7 +4569,7 @@
                   <referencesInternal>
                     <reference
                       Id="b1340f92-572f-4b47-a1a7-c6a5a9a533f1"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DEnemyPinky Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DField)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3Dfield"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyPinky Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3Dfield"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -4588,7 +4588,7 @@
                   <referencesInternal>
                     <reference
                       Id="8dc458fe-ffa6-428d-a396-0577c09c08a8"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DEnemyPinky Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DField)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3Dlocation"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyPinky Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3Dlocation"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -4607,7 +4607,7 @@
                   <referencesInternal>
                     <reference
                       Id="38795435-72ed-480c-8604-5f28b3e6fac2"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DEnemyPinky Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DField)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3DattackingStrategy"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyPinky Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3DattackingStrategy"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -4626,7 +4626,7 @@
                   <referencesInternal>
                     <reference
                       Id="eaa4965e-2048-4f4c-84b5-b04297c1cd9f"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DEnemyPinky Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DField)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3DfleeingStrategy"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyPinky Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3DfleeingStrategy"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -4723,7 +4723,7 @@
             <referencesInternal>
               <reference
                 Id="047ee94f-4dd3-4e56-b348-72758a82d923"
-                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DPacman Member%3DResource"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DPacman Member%3DResource"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -4803,7 +4803,7 @@
             <referencesInternal>
               <reference
                 Id="c3e69a9c-4e13-4e49-a392-87f99130c5f1"
-                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DPacman Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DField)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DVector2D)])"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DPacman Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)])"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -4865,7 +4865,7 @@
                   <referencesInternal>
                     <reference
                       Id="13f4ef5c-cbbc-4d5d-971f-385419ea7577"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DPacman Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DField)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DVector2D)]) ParameterIdentifier%3Dfield"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DPacman Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)]) ParameterIdentifier%3Dfield"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -4884,7 +4884,7 @@
                   <referencesInternal>
                     <reference
                       Id="2dba1173-1103-414b-b60d-8a9c2dfdde61"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DPacman Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DField)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DVector2D)]) ParameterIdentifier%3Dlocation"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DPacman Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)]) ParameterIdentifier%3Dlocation"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -4908,7 +4908,7 @@
             <referencesInternal>
               <reference
                 Id="9f30347b-0600-4f2a-aa6e-90c931cc5352"
-                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DPacman Member%3D(Name%3DGetDestination OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DPacman Member%3D(Name%3DGetDestination OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -4982,7 +4982,7 @@
                   <referencesInternal>
                     <reference
                       Id="0163df08-c3f2-4cb5-a3cb-12b2cf1dabf8"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DPacman Member%3D(Name%3DGetDestination OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3DplacesAhead"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DPacman Member%3D(Name%3DGetDestination OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3DplacesAhead"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -5006,7 +5006,7 @@
             <referencesInternal>
               <reference
                 Id="b68aa15c-c9be-4d3f-85c6-e7272ca41d71"
-                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DPacman Member%3D(Name%3DHandleEnemyCollision OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DEnemy)])"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DPacman Member%3D(Name%3DHandleEnemyCollision OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemy)])"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -5068,7 +5068,7 @@
                   <referencesInternal>
                     <reference
                       Id="caff25e9-6c7a-4dab-9f32-6003514d0ff6"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DPacman Member%3D(Name%3DHandleEnemyCollision OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DEnemy)]) ParameterIdentifier%3Denemy"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DPacman Member%3D(Name%3DHandleEnemyCollision OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemy)]) ParameterIdentifier%3Denemy"
                       tag="ViewCode" />
                   </referencesInternal>
                   <type_NamedElement>
@@ -5092,7 +5092,7 @@
             <referencesInternal>
               <reference
                 Id="6b69d52e-8448-4474-9ebd-29a39209c8de"
-                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DPacman Member%3DLoop"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DPacman Member%3DLoop"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -5139,266 +5139,6 @@
                     Id="90c4f390-e463-4a89-adec-d14d02c94111">
                     <propertyInstance
                       Id="f9f922c9-2669-4190-a884-f85fc2e6e8ed"
-                      name="params"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                </propertyInstances>
-              </stereotypeInstance>
-            </appliedStereotypesInternal>
-          </operation>
-          <operation
-            Id="e664393b-1589-486f-83cb-1d5662a4e140"
-            name="MoveDown"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false">
-            <referencesInternal>
-              <reference
-                Id="b627305a-a58a-434f-9b45-fa327e7210a7"
-                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DPacman Member%3DMoveDown"
-                tag="ViewCode" />
-            </referencesInternal>
-            <appliedStereotypesInternal>
-              <stereotypeInstance
-                Id="86cdc2f8-db6b-4292-b0ac-b65cdb379874"
-                name="method"
-                profile="CSharpProfile">
-                <propertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="47d3615e-240b-48f3-9d6d-7e8c51d71cf4">
-                    <propertyInstance
-                      Id="5229bec3-8e59-4b56-be9c-9affb4bd4844"
-                      name="ClrAttributes" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="1b977b0f-9504-4730-b503-97911c75e551">
-                    <propertyInstance
-                      Id="f5af5175-a877-4c12-9b47-7ac797210f5f"
-                      name="IsPartial"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="4301578b-0d4d-4142-9f34-b56bac2700df">
-                    <propertyInstance
-                      Id="21fdd77f-a40f-4608-a9d5-f32c195bb9f1"
-                      name="IsUnsafe"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="79f9e199-b66f-4757-9d83-4d8a9d58e442">
-                    <propertyInstance
-                      Id="76c28266-7322-467c-a7cc-5facc9040b2d"
-                      name="Inheritance"
-                      value="none" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="8c96222d-b149-499c-95a6-05bd2c085d61">
-                    <propertyInstance
-                      Id="3a09c026-a64e-4993-8205-646cf8c3a8f5"
-                      name="PackageVisibility"
-                      value="internal" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="eedd789c-d2a3-401e-8d8e-d50c77f40eb8">
-                    <propertyInstance
-                      Id="8edbbe52-1df5-45ae-a9d5-019d3d75c0d8"
-                      name="params"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                </propertyInstances>
-              </stereotypeInstance>
-            </appliedStereotypesInternal>
-          </operation>
-          <operation
-            Id="ed2aa93a-5a62-4df6-8b8c-b32d847feda0"
-            name="MoveLeft"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false">
-            <referencesInternal>
-              <reference
-                Id="83a8ba62-8571-4d27-a063-a3301482503d"
-                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DPacman Member%3DMoveLeft"
-                tag="ViewCode" />
-            </referencesInternal>
-            <appliedStereotypesInternal>
-              <stereotypeInstance
-                Id="655988a1-c337-436e-be70-1facf09d5bd6"
-                name="method"
-                profile="CSharpProfile">
-                <propertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="3e02c3ca-b151-4106-be2a-2eccb295d63f">
-                    <propertyInstance
-                      Id="a1a3fd3e-df6e-4a58-801c-cd429ae25114"
-                      name="ClrAttributes" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="c14afe07-fb14-4600-8514-2c6d9455b4a0">
-                    <propertyInstance
-                      Id="e7199ca5-c655-4534-ab9d-2d886619a930"
-                      name="IsPartial"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="ed454b83-18eb-46f9-8760-02b05d7c4413">
-                    <propertyInstance
-                      Id="bb696351-e653-4ec2-81a3-b90f6f54d039"
-                      name="IsUnsafe"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="9f8a61cb-c1e0-4f0d-86db-9e7e33d9925a">
-                    <propertyInstance
-                      Id="8b114e49-0d89-4ade-a19b-b993e3f76641"
-                      name="Inheritance"
-                      value="none" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="b272346b-da0f-4dbf-981b-14b95ee266cf">
-                    <propertyInstance
-                      Id="1e7db0ea-a123-4119-8e23-696166365084"
-                      name="PackageVisibility"
-                      value="internal" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="4ef21cbb-272b-433c-a648-64be5fbcae33">
-                    <propertyInstance
-                      Id="b79b455a-3c59-4a4c-8ebf-7cc1d4348783"
-                      name="params"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                </propertyInstances>
-              </stereotypeInstance>
-            </appliedStereotypesInternal>
-          </operation>
-          <operation
-            Id="7918d382-eaef-4e4d-881a-f27b5fc6c8ae"
-            name="MoveRight"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false">
-            <referencesInternal>
-              <reference
-                Id="d97473f4-234b-4efc-b54c-9d551a51151b"
-                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DPacman Member%3DMoveRight"
-                tag="ViewCode" />
-            </referencesInternal>
-            <appliedStereotypesInternal>
-              <stereotypeInstance
-                Id="74de839f-09a8-4d13-8515-b24d9dfe6f3e"
-                name="method"
-                profile="CSharpProfile">
-                <propertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="13d606e6-2e26-49bc-bad2-e2652b3ef4ba">
-                    <propertyInstance
-                      Id="9ed28338-f650-4a8e-a049-0e7e024524aa"
-                      name="ClrAttributes" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="b194d8af-62a9-42dd-84b5-ea3eb894407e">
-                    <propertyInstance
-                      Id="ec46c6f0-e732-4da6-a198-0330b682ec01"
-                      name="IsPartial"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="b9469c18-42a5-48f1-a494-7b1fe4be3d8e">
-                    <propertyInstance
-                      Id="36c8f50c-c7fe-4a3b-8864-14958945183d"
-                      name="IsUnsafe"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="5208a2f8-28e9-42b7-83e1-afd71fcc53b2">
-                    <propertyInstance
-                      Id="691bb5ad-55be-4a85-87ac-24e67b45534e"
-                      name="Inheritance"
-                      value="none" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="a05a0fb9-9abb-4a6c-8c89-71b63914b9a5">
-                    <propertyInstance
-                      Id="fbb34009-f337-44c0-9912-876b628a419a"
-                      name="PackageVisibility"
-                      value="internal" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="2b84e7be-cea1-4f1a-8433-b0936aa40111">
-                    <propertyInstance
-                      Id="33bfd6ca-a8be-4752-9975-328eec94f991"
-                      name="params"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                </propertyInstances>
-              </stereotypeInstance>
-            </appliedStereotypesInternal>
-          </operation>
-          <operation
-            Id="254077ad-8aaf-47b3-836c-748dde94fb3d"
-            name="MoveUp"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false">
-            <referencesInternal>
-              <reference
-                Id="ec9ecbec-eae4-4edc-bbca-18f5d408cdf9"
-                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FSam%2FDesktop%2FPacman UML%2FPacman%2Fbin%2FDebug%2FPacman.dll&quot; Namespace%3DPacman Type%3DPacman Member%3DMoveUp"
-                tag="ViewCode" />
-            </referencesInternal>
-            <appliedStereotypesInternal>
-              <stereotypeInstance
-                Id="52ec1a17-d0eb-4c29-bfcb-f7f19ec48a7a"
-                name="method"
-                profile="CSharpProfile">
-                <propertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="7e93291a-6920-47d6-a8e2-679b6c45e84e">
-                    <propertyInstance
-                      Id="5c977ebd-0df9-4681-a6e1-4e13f08208c8"
-                      name="ClrAttributes" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="41072a17-caea-4b03-aaf7-9bde9f04d6d4">
-                    <propertyInstance
-                      Id="f7867da2-11ba-47bd-8c94-26590a685af5"
-                      name="IsPartial"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="3f36a959-4753-47cc-a692-89658c59bf03">
-                    <propertyInstance
-                      Id="29dd862a-20c8-41a6-ad71-fd79f5924f45"
-                      name="IsUnsafe"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="73b5230f-0e02-48e5-83e3-d6c5e1378153">
-                    <propertyInstance
-                      Id="9087f397-954e-4456-8b29-e117133e6444"
-                      name="Inheritance"
-                      value="none" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="b01f20b4-fefd-4a9c-bf73-aea9f482e3ec">
-                    <propertyInstance
-                      Id="cd880182-cd1f-4c0a-8659-b8089166bde4"
-                      name="PackageVisibility"
-                      value="internal" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="1d79e4ed-76e7-4ed1-8d70-174c5968a212">
-                    <propertyInstance
-                      Id="d4970f2f-18c6-417d-ad43-dbfcfdfa4132"
                       name="params"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
@@ -7887,7 +7627,7 @@
         Id="4343017f-c564-4878-b775-5508ce71fa26"
         name="AGameObject"
         visibility="Private"
-        isAbstract="false"
+        isAbstract="true"
         isLeaf="false"
         isActiveClass="false">
         <referencesInternal>
@@ -8420,6 +8160,47 @@
             </propertyInstances>
           </stereotypeInstance>
         </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="7f0a2961-dec9-4274-b49b-ea1c9fa69778"
+            isDerived="false"
+            sourceEndRoleName="ADirector"
+            targetEndRoleName="ABuilder"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="c204671c-8e8f-4f12-8bc2-7f30c5b30bc7"
+              LastKnownName="ABuilder"
+              LastKnownLocation="Package_0849.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="dd789a91-9831-491a-93be-6438bfd1b808"
+                  name="ADirector"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="33e4847e-12b8-44c3-8877-1176174b5039"
+                  name="ABuilder"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
         <ownedAttributesInternal>
           <property
             Id="52f6ee8f-59e4-41e5-8982-0e2be3b9ca2a"
@@ -12217,68 +11998,41 @@
         </appliedStereotypesInternal>
         <targetEnds>
           <association
-            Id="c4931d63-a90e-41ce-80c1-bafff7e7f89c"
+            Id="3b5fb090-cdb7-4ae5-9d0c-4da663ec9eb6"
             isDerived="false"
             sourceEndRoleName="AGameState"
-            targetEndRoleName="Manager"
+            targetEndRoleName="GameStateManager"
             isLeaf="false"
             isAbstract="false">
             <classMoniker
               Id="5e187940-baa9-41a0-8b4b-f7506a10a268"
               LastKnownName="GameStateManager"
               LastKnownLocation="Package_0849.uml" />
-            <description>Property Manager references type GameStateManager.</description>
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
                 <memberEnd
-                  Id="d82fca74-8010-4dfa-8e77-8cef70667f90"
+                  Id="a94d11a3-4ada-4624-8e0c-a414e8b3d6d5"
                   name="AGameState"
                   isLeaf="false"
                   isStatic="false"
                   isReadOnly="false"
                   isDerived="false"
                   isDerivedUnion="false"
-                  aggregation="None"
+                  aggregation="Shared"
                   isComposite="false"
-                  isNavigableOwned="false">
-                  <lowerValueInternal>
-                    <literalString
-                      Id="62a5d777-fa5d-44e2-9088-a8716e9167ad"
-                      name="Lower"
-                      value="*" />
-                  </lowerValueInternal>
-                  <upperValueInternal>
-                    <literalString
-                      Id="c84b77e5-e009-452d-80e9-944851e892bd"
-                      name="Upper"
-                      value="*" />
-                  </upperValueInternal>
-                </memberEnd>
+                  isNavigableOwned="false" />
               </associationHasOwnedEnds>
               <associationHasOwnedEnds>
                 <memberEnd
-                  Id="ecabb877-d74a-4de4-9da5-94a5d461caae"
-                  name="Manager"
+                  Id="5943f495-7d4f-4c94-9fd4-d86a262df198"
+                  name="GameStateManager"
                   isLeaf="false"
                   isStatic="false"
                   isReadOnly="false"
                   isDerived="false"
                   isDerivedUnion="false"
                   aggregation="None"
-                  isComposite="false">
-                  <lowerValueInternal>
-                    <literalString
-                      Id="1c3dcb3d-eeba-4352-b9c4-7a1cf05b7b54"
-                      name="Lower"
-                      value="1" />
-                  </lowerValueInternal>
-                  <upperValueInternal>
-                    <literalString
-                      Id="c86b2cfd-1fcb-4738-bd40-f86f14b5aba2"
-                      name="Upper"
-                      value="1" />
-                  </upperValueInternal>
-                </memberEnd>
+                  isComposite="false" />
               </associationHasOwnedEnds>
             </relationshipOwnedElementsInternal>
           </association>

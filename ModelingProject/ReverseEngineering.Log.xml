@@ -6,32 +6,69 @@
   <MessageClass Name="Error" Label="Error" Option="Show errors" />
   <MessageClass Name="Property" Label="Property" Option="Show metadata" />
   <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
-  <Message Timestamp="2014-11-21T09:25:52" Importance="High" Text="Reverse Engineering Started." />
-  <Message Timestamp="2014-11-21T09:25:54" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Client' -  (Package)" />
-  <Message Timestamp="2014-11-21T09:25:54" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject::Client::GameWindow' -  (Class)" />
-  <Message Timestamp="2014-11-21T09:25:54" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Client::GameWindow::GameWindow' -  (Operation)" />
-  <Message Timestamp="2014-11-21T09:25:54" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Client::GameWindow::LeftMouseClick' -  (Operation)" />
-  <Message Timestamp="2014-11-21T09:25:54" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Client::GameWindow::LeftMouseClick::p' -  (Parameter)" />
-  <Message Timestamp="2014-11-21T09:25:54" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Client::GameWindow::manager' -  (Property)" />
-  <Message Timestamp="2014-11-21T09:25:54" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Client::GameWindow::OnKeyDown' -  (Operation)" />
-  <Message Timestamp="2014-11-21T09:25:54" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Client::GameWindow::OnKeyDown::e' -  (Parameter)" />
-  <Message Timestamp="2014-11-21T09:25:54" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Client::GameWindow::TimerTick' -  (Operation)" />
-  <Message Timestamp="2014-11-21T09:25:54" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject::Client::Program' -  (Class)" />
-  <Message Timestamp="2014-11-21T09:25:54" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Client::Program::Main' -  (Operation)" />
-  <Message Timestamp="2014-11-21T09:25:54" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Client::Program::Main::args' -  (Parameter)" />
-  <Message Timestamp="2014-11-21T09:25:54" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Client::Program::Program' -  (Operation)" />
-  <Message Timestamp="2014-11-21T09:25:54" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman' -  (Package)" />
-  <Message Timestamp="2014-11-21T09:25:54" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::GameStateManager' -  (Class)   (partially reverse engineered - definition not updated) " />
-  <Message Timestamp="2014-11-21T09:25:54" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::System' -  (Package)" />
-  <Message Timestamp="2014-11-21T09:25:54" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::System::Windows' -  (Package)" />
-  <Message Timestamp="2014-11-21T09:25:54" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::System::Windows::Input' -  (Package)" />
-  <Message Timestamp="2014-11-21T09:25:54" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::System::Windows::Input::KeyEventArgs' -  (Class)   (partially reverse engineered - definition not updated) " />
-  <Message Timestamp="2014-11-21T09:25:54" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::System::Windows::Point' -  (Class)   (partially reverse engineered - definition not updated) " />
-  <Message Timestamp="2014-11-21T09:25:54" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Tiwi' -  (Package)" />
-  <Message Timestamp="2014-11-21T09:25:54" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Tiwi::Window' -  (Class)   (partially reverse engineered - definition not updated) " />
-  <Message Timestamp="2014-11-21T09:25:54" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'String' -  (PrimitiveType)" />
-  <Message Timestamp="2014-11-21T09:25:54" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject::Client::GameWindow to ModelingProject::Tiwi::Window (Generalization)" />
-  <Message Timestamp="2014-11-21T09:25:54" Importance="High" Text="(2) type(s) fully reverse engineered." />
-  <Message Timestamp="2014-11-21T09:25:54" Importance="High" Text="(4) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
-  <Message Timestamp="2014-11-21T09:25:54" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+  <Message Timestamp="2014-11-21T22:28:22" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Boolean' -  (PrimitiveType)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Integer' -  (PrimitiveType)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman' -  (Package)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::AMoveable' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::Enemy' -  (Class)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::Enemy::attackingStrategy' -  (Property)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::Enemy::DefaultSpeed' -  (Property)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::Enemy::Enemy' -  (Operation)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::Enemy::Enemy::attackingStrategy' -  (Parameter)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::Enemy::Enemy::field' -  (Parameter)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::Enemy::Enemy::fleeingStrategy' -  (Parameter)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::Enemy::Enemy::location' -  (Parameter)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::Enemy::fleeingStrategy' -  (Property)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::Enemy::isFleeing' -  (Property)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::Enemy::IsFleeing' -  (Property)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::Enemy::Loop' -  (Operation)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::Enemy::Resource' -  (Property)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::Enemy::ticks' -  (Property)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::EnemyBlinky' -  (Class)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::EnemyBlinky::defaultStrategy' -  (Property)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::EnemyBlinky::EnemyBlinky' -  (Operation)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::EnemyBlinky::EnemyBlinky::attackingStrategy' -  (Parameter)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::EnemyBlinky::EnemyBlinky::field' -  (Parameter)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::EnemyBlinky::EnemyBlinky::fleeingStrategy' -  (Parameter)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::EnemyBlinky::EnemyBlinky::location' -  (Parameter)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::EnemyBlinky::Resource' -  (Property)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::EnemyClyde' -  (Class)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::EnemyClyde::defaultStrategy' -  (Property)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::EnemyClyde::EnemyClyde' -  (Operation)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::EnemyClyde::EnemyClyde::attackingStrategy' -  (Parameter)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::EnemyClyde::EnemyClyde::field' -  (Parameter)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::EnemyClyde::EnemyClyde::fleeingStrategy' -  (Parameter)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::EnemyClyde::EnemyClyde::location' -  (Parameter)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::EnemyClyde::Resource' -  (Property)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::EnemyInky' -  (Class)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::EnemyInky::EnemyInky' -  (Operation)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::EnemyInky::EnemyInky::attackingStrategy' -  (Parameter)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::EnemyInky::EnemyInky::field' -  (Parameter)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::EnemyInky::EnemyInky::fleeingStrategy' -  (Parameter)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::EnemyInky::EnemyInky::location' -  (Parameter)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::EnemyInky::Resource' -  (Property)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::EnemyPinky' -  (Class)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::EnemyPinky::EnemyPinky' -  (Operation)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::EnemyPinky::EnemyPinky::attackingStrategy' -  (Parameter)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::EnemyPinky::EnemyPinky::field' -  (Parameter)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::EnemyPinky::EnemyPinky::fleeingStrategy' -  (Parameter)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::EnemyPinky::EnemyPinky::location' -  (Parameter)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::EnemyPinky::Resource' -  (Property)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::Field' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::IStrategy' -  (Interface)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::Pacman::Vector2D' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::System' -  (Package)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::System::Double' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'String' -  (PrimitiveType)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject::Pacman::EnemyInky to ModelingProject::Pacman::Enemy (Generalization)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject::Pacman::EnemyPinky to ModelingProject::Pacman::Enemy (Generalization)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject::Pacman::Enemy to ModelingProject::Pacman::AMoveable (Generalization)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject::Pacman::EnemyBlinky to ModelingProject::Pacman::Enemy (Generalization)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject::Pacman::EnemyClyde to ModelingProject::Pacman::Enemy (Generalization)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject::Pacman::AMoveable to ModelingProject::Pacman::AGameObject (Generalization)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject::Pacman::Pacman to ModelingProject::Pacman::AMoveable (Generalization)" />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="High" Text="(5) type(s) fully reverse engineered." />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="High" Text="(5) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
+  <Message Timestamp="2014-11-21T22:28:24" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
 </Log>

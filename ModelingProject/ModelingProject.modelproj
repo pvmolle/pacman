@@ -50,6 +50,13 @@
       <SubType>Content</SubType>
       <DependentUpon>Commands.classdiagram</DependentUpon>
     </Content>
+    <Content Include="Enemies.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Enemies.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Enemies.classdiagram</DependentUpon>
+    </Content>
     <Content Include="Extra.classdiagram">
       <SubType>Content</SubType>
     </Content>

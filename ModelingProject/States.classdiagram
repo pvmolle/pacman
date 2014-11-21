@@ -1,25 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="4456bb1f-318e-440a-b66c-50dfbc9b797b" name="States" linkedPackageId="3efd228d-12e6-4a7d-85a5-a7003f1f38f0" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
-  <profileInstances>
-    <packageHasProfileInstances Id="aec07d7b-5bb6-404e-9797-36429e7c0134">
-      <profileInstance Id="dafa35c3-8b86-4522-a4c7-327652c8aadc" name="StandardProfileL2">
-        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
-      </profileInstance>
-      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="344e75da-f025-4ecb-b4bf-7e000082fd75">
-      <profileInstance Id="39ba786e-ecc5-4c1f-98ae-37adf834be0d" name="StandardProfileL3">
-        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
-      </profileInstance>
-      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="16406988-7bd9-4c20-a0e6-9f721b6f6036">
-      <profileInstance Id="d9c662b1-528a-455a-9e83-c72c44b06099" name="CSharpProfile">
-        <elementDefinition Id="c479ebef-8ad7-4c0e-a780-85ec4bc70cba" />
-      </profileInstance>
-      <elementDefinition Id="36e099e3-0192-44b5-a942-0d40f1dd72d6" />
-    </packageHasProfileInstances>
-  </profileInstances>
   <packagedElements>
     <logicalClassDesignerModelHasTypes>
       <class Id="aa61a793-e2ee-43a8-a6db-c4dbb3a9d812" name="MenuState" isAbstract="false" isLeaf="false" isActiveClass="false">
@@ -1301,42 +1281,21 @@
         </appliedStereotypesInternal>
         <elementDefinition Id="b9bb4b15-f77f-465b-a294-cf86e417ac2c" />
         <targetEnds>
-          <association Id="e5d60b56-e207-40b2-bf99-7345e769163f" isDerived="false" sourceEndRoleName="AGameState" targetEndRoleName="Manager" isLeaf="false" isAbstract="false">
+          <association Id="8e9365fc-8ac9-4ecc-b00a-3d1cb4a3c642" isDerived="false" sourceEndRoleName="AGameState" targetEndRoleName="GameStateManager" isLeaf="false" isAbstract="false">
             <classMoniker Id="e4892bfd-b6ae-41e0-b06b-0a6edb9999b2" LastKnownName="GameStateManager" />
-            <description>Property Manager references type GameStateManager.</description>
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
-                <memberEnd Id="a43111cb-b5d6-4fe6-8ad4-fd69508243fe" name="AGameState" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
-                  <lowerValueInternal>
-                    <literalString Id="c9fda071-aa18-4db2-b3d9-0120dc910a57" name="Lower" value="*">
-                      <elementDefinition Id="62a5d777-fa5d-44e2-9088-a8716e9167ad" />
-                    </literalString>
-                  </lowerValueInternal>
-                  <upperValueInternal>
-                    <literalString Id="2ce3b4cb-4684-40e1-8448-34b3bdd6faad" name="Upper" value="*">
-                      <elementDefinition Id="c84b77e5-e009-452d-80e9-944851e892bd" />
-                    </literalString>
-                  </upperValueInternal>
-                  <elementDefinition Id="d82fca74-8010-4dfa-8e77-8cef70667f90" />
+                <memberEnd Id="9a482dbc-3c02-47a6-8345-f112273c0f69" name="AGameState" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a94d11a3-4ada-4624-8e0c-a414e8b3d6d5" />
                 </memberEnd>
               </associationHasOwnedEnds>
               <associationHasOwnedEnds>
-                <memberEnd Id="290a0613-3a16-4fe1-9fae-0d51ffa1aa26" name="Manager" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-                  <lowerValueInternal>
-                    <literalString Id="824ced05-7ad7-43fd-9e04-943ad8046656" name="Lower" value="1">
-                      <elementDefinition Id="1c3dcb3d-eeba-4352-b9c4-7a1cf05b7b54" />
-                    </literalString>
-                  </lowerValueInternal>
-                  <upperValueInternal>
-                    <literalString Id="bb5255bd-efc9-408d-92f1-09c08b827b35" name="Upper" value="1">
-                      <elementDefinition Id="c86b2cfd-1fcb-4738-bd40-f86f14b5aba2" />
-                    </literalString>
-                  </upperValueInternal>
-                  <elementDefinition Id="ecabb877-d74a-4de4-9da5-94a5d461caae" />
+                <memberEnd Id="92608a9a-f42b-4632-bfb2-cb479a5b7823" name="GameStateManager" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="5943f495-7d4f-4c94-9fd4-d86a262df198" />
                 </memberEnd>
               </associationHasOwnedEnds>
             </relationshipOwnedElementsInternal>
-            <elementDefinition Id="c4931d63-a90e-41ce-80c1-bafff7e7f89c" />
+            <elementDefinition Id="3b5fb090-cdb7-4ae5-9d0c-4da663ec9eb6" />
           </association>
         </targetEnds>
         <ownedAttributesInternal>
@@ -3127,5 +3086,25 @@
   </packagedElements>
   <package Id="3efd228d-12e6-4a7d-85a5-a7003f1f38f0" name="ModelingProject">
     <elementDefinition Id="d3ffafe7-7a44-45c3-b5fc-251bbaa6e990" />
+    <profileInstances>
+      <packageHasProfileInstances Id="aec07d7b-5bb6-404e-9797-36429e7c0134">
+        <profileInstance Id="dafa35c3-8b86-4522-a4c7-327652c8aadc" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="344e75da-f025-4ecb-b4bf-7e000082fd75">
+        <profileInstance Id="39ba786e-ecc5-4c1f-98ae-37adf834be0d" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="16406988-7bd9-4c20-a0e6-9f721b6f6036">
+        <profileInstance Id="d9c662b1-528a-455a-9e83-c72c44b06099" name="CSharpProfile">
+          <elementDefinition Id="c479ebef-8ad7-4c0e-a780-85ec4bc70cba" />
+        </profileInstance>
+        <elementDefinition Id="36e099e3-0192-44b5-a942-0d40f1dd72d6" />
+      </packageHasProfileInstances>
+    </profileInstances>
   </package>
 </logicalClassDesignerModel>

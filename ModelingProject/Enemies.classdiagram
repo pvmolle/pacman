@@ -1,0 +1,1614 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="8353e79c-9fa0-4142-98df-7d8633331d58" name="Enemies" linkedPackageId="07bdea45-9639-46bc-abd5-a36d3e324c4d" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="e471da59-89ee-4132-bb5f-9296d67c4d61">
+      <profileInstance Id="f56ca1f3-7755-4fe5-8bd6-a27c922efa4f" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="96bd5f3b-8faf-4ddf-a1b9-22dc2cd90165">
+      <profileInstance Id="bf17309a-02ae-4df3-8cad-08c2c759372a" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="364dc4b6-adb3-4cb9-beb6-f8abe179cdbb">
+      <profileInstance Id="8aed3d9d-5aea-4bd1-876d-9f0b9f7f3c6d" name="CSharpProfile">
+        <elementDefinition Id="c479ebef-8ad7-4c0e-a780-85ec4bc70cba" />
+      </profileInstance>
+      <elementDefinition Id="36e099e3-0192-44b5-a942-0d40f1dd72d6" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="4746e2a1-24d6-4409-a534-91892ff6d368" name="EnemyInky" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="d2c40d3e-df4f-4a71-91d7-60d35ecc2cae" handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyInky" tag="ViewCode">
+            <elementDefinition Id="678e31cc-18bd-4334-a8f2-6e1fd968ea98" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="af542e7b-3242-4b52-9f1f-dd987cec5f19" name="class" profile="CSharpProfile">
+            <elementDefinition Id="c25b6ec5-7a35-4fa0-8e70-df18f94a06ef" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="15703e1c-6585-49c7-a532-d5d02585a015">
+                <propertyInstance Id="ad6cf9d8-7d16-47bb-8b39-6bd0e6f5b74c" name="ClrAttributes">
+                  <elementDefinition Id="bfdcf1cf-6f29-497e-908b-96ad740e567e" />
+                </propertyInstance>
+                <elementDefinition Id="a0c85662-8c34-45cb-b625-3bae1704fafc" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="18dac786-231b-4815-be25-c6f0aaf85cb3">
+                <propertyInstance Id="28502bc8-2bf9-4363-aff6-519a6cc19c1a" name="IsPartial" value="false">
+                  <elementDefinition Id="99ceadb2-2617-46ff-a6a5-263b156c1534" />
+                </propertyInstance>
+                <elementDefinition Id="6cf38186-e168-4668-9eb7-aec5294ac3bc" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="9e9b1f46-5845-431a-86e7-f1ae403ecabe">
+                <propertyInstance Id="4357f7c3-1883-49d2-bbbd-8e2e2ec3478a" name="IsStatic" value="False">
+                  <elementDefinition Id="7f201cfa-f280-47a4-b8b3-61eedbd38ead" />
+                </propertyInstance>
+                <elementDefinition Id="769af7c0-892d-4ab4-8af1-933f3a38c7ad" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="bd119560-e4f4-4164-96c2-bbe5148d3807">
+                <propertyInstance Id="de2ffb22-0e49-4246-b39b-bb5b4254fff0" name="IsUnsafe" value="false">
+                  <elementDefinition Id="9cea4da4-25b6-4171-8c72-493270789cad" />
+                </propertyInstance>
+                <elementDefinition Id="91f2468a-865c-4fdb-96d5-1f5b6fea8e90" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="7be82292-cca6-420c-987c-f00f99414efe">
+                <propertyInstance Id="6545ce3f-1db4-4dcc-9607-1827a3554702" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="dc07027a-11af-4bb7-bb3d-ce2e856084f1" />
+                </propertyInstance>
+                <elementDefinition Id="f1c907e0-aead-4881-813c-67635070c874" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="6a220e61-35ed-4b56-8f55-e648c9fac761" />
+        <generalsInternal>
+          <generalization Id="a43caa1a-5ddc-41f0-bddb-eb495f3d8949" isSubstitutable="false">
+            <classMoniker Id="b42586f8-bb4f-420c-a73c-1c37c8389b8f" LastKnownName="Enemy" />
+            <elementDefinition Id="caf1df92-f032-4f33-b031-7ae1dee2a3c8" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="5f0ca603-f56c-464c-ac35-adff66e5c9e2" name="Resource" visibility="Protected" isLeaf="false" isStatic="false" isReadOnly="true" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="82a8fe2e-416f-41db-a49d-e8f12e96eb8f" handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyInky Member%3DResource" tag="ViewCode">
+                <elementDefinition Id="11d1d2ee-ba8f-4160-bc61-f9f59b5aef80" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="fbe6da6b-6746-4cb9-836f-c9d7c92b58ce" name="property" profile="CSharpProfile">
+                <elementDefinition Id="24f81881-99a0-4b3b-b67e-e23bede10d39" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="fc11baac-3b3d-4316-86e1-454bf78e95a3">
+                    <propertyInstance Id="d924fd32-b141-40e0-a7fa-b5c0deba6add" name="ClrAttributes">
+                      <elementDefinition Id="32c0061c-06be-4343-b972-57fa674b5cb9" />
+                    </propertyInstance>
+                    <elementDefinition Id="c6f4ad75-a777-45cb-93a7-a93f9a6a048c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="10e270da-fbed-485c-bda8-390432b657fe">
+                    <propertyInstance Id="6544fc36-b9ee-490b-a579-761954b159ad" name="Get" value="protected">
+                      <elementDefinition Id="f289abc9-ef32-45d9-b016-5909116d6958" />
+                    </propertyInstance>
+                    <elementDefinition Id="d8209ff5-c159-43b8-9ed2-882c42b8bfff" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="00ff6913-8ad6-476e-8a50-238cf3c05314">
+                    <propertyInstance Id="868a4c1d-7c3a-49a1-8ae9-aac4077e76e6" name="HasBody" value="false">
+                      <elementDefinition Id="f3ed028e-fd66-4476-b5a3-36dc93c1af01" />
+                    </propertyInstance>
+                    <elementDefinition Id="5df4ee39-7edf-4d18-ae16-229b4cedc8d8" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="ed475aad-6ad5-41a7-8519-6a7ef59b3eab">
+                    <propertyInstance Id="c9eab4ae-0c50-444d-9899-7a1ace875795" name="IsUnsafe" value="false">
+                      <elementDefinition Id="e61abc97-55d2-461b-9f8c-0673b1ab52ad" />
+                    </propertyInstance>
+                    <elementDefinition Id="79eefec6-79d1-4513-8d50-1e7724f59240" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="067f6dfa-a5ec-4adc-9ace-12850ecc7a30">
+                    <propertyInstance Id="7c95c574-4658-478e-ad9e-613d860bf773" name="Inheritance" value="none">
+                      <elementDefinition Id="68a9f250-3a0e-45ab-aa79-3c555eaf9c99" />
+                    </propertyInstance>
+                    <elementDefinition Id="9d675360-b532-4fb5-a5d2-ec24aa497ddf" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="5311d4ba-8998-45f0-a695-56bc7bafc4e8">
+                    <propertyInstance Id="e9a49a44-3585-4a5e-8cf7-bf6de5f24a09" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="4229a17c-2c29-4731-b6c7-3af3a6937d96" />
+                    </propertyInstance>
+                    <elementDefinition Id="db2f1e96-bd53-49c8-b546-4e1e85505a96" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="62526ffc-8578-4bd0-871c-bc737bf4b01e">
+                    <propertyInstance Id="6c391522-41b3-42e6-937d-9a917e046ff7" name="Set" value="none">
+                      <elementDefinition Id="53dd16e4-8867-4a29-a8b2-41866c7828ce" />
+                    </propertyInstance>
+                    <elementDefinition Id="63c57a4d-0b14-4b12-8f75-a59adb44c13f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="04bac73f-22ad-4810-9e11-610216c0a0dc" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="5c80cb7d-1e3a-48c5-8146-8f57970dcfc5" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="eddfe758-38b1-4a91-9850-c48238a27396" name="EnemyInky" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="9499d789-2b97-49ae-80f8-20af00abe1a6" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyInky Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)])" tag="ViewCode">
+                <elementDefinition Id="0c59532d-507c-4184-a996-4b646ff822cb" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="0c6c2e75-6875-40c3-82ff-fd15a153ea52" name="method" profile="CSharpProfile">
+                <elementDefinition Id="43b137cf-558a-449b-bc27-72be6fa159ae" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="1bd4f4bb-3cf5-4e32-aaec-1e58ff344625">
+                    <propertyInstance Id="4f7ce5a3-6170-4f37-94ee-a3589b58dd25" name="ClrAttributes">
+                      <elementDefinition Id="74637bf7-26f1-4f1e-a246-70b8a3382028" />
+                    </propertyInstance>
+                    <elementDefinition Id="6caa3643-d376-486b-b10b-5c8d1cda8d88" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="cd1a6ed7-febf-4b44-84f2-5edab2592ca1">
+                    <propertyInstance Id="e6463244-5ebb-4a01-bb33-1d533af109e9" name="IsPartial" value="false">
+                      <elementDefinition Id="0d2b9f46-1d68-4e3f-964c-ddc41069cbd8" />
+                    </propertyInstance>
+                    <elementDefinition Id="c73b8e42-f981-4678-88d6-694f0e19c476" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="474600b8-5749-4958-86ac-be52984077e1">
+                    <propertyInstance Id="4ab569a2-fc24-46e6-8ef8-9070c39de195" name="IsUnsafe" value="false">
+                      <elementDefinition Id="e9d1fd11-e082-4191-ba32-98bc6125effa" />
+                    </propertyInstance>
+                    <elementDefinition Id="b7c80e5b-e26d-4006-b585-8c9cc3399b16" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9024bb6f-82da-41fc-a999-ec301d6d217b">
+                    <propertyInstance Id="d8e506d1-15e5-4b09-a6f1-839c88324ede" name="Inheritance" value="none">
+                      <elementDefinition Id="f3893d47-ad1b-417c-b8a7-9aea2e72ffe7" />
+                    </propertyInstance>
+                    <elementDefinition Id="742035fe-5e37-454b-b1e4-6f62e66cd41d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b7adce5c-f328-4f0c-a26f-2d8641fe145e">
+                    <propertyInstance Id="f430df81-834c-4c8b-ab47-445ca451ae21" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="a0526014-40e8-4bc1-9b1f-e5106210468f" />
+                    </propertyInstance>
+                    <elementDefinition Id="0b78adad-626d-44f9-a60f-94d994f67cdb" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b37cbdf1-d37a-4f24-bbeb-3ab17e3d4ea1">
+                    <propertyInstance Id="ffe464a2-011a-48cb-8187-83f7de69d6dd" name="params" value="false">
+                      <elementDefinition Id="45112dc2-c190-41b7-831d-70a647164ce9" />
+                    </propertyInstance>
+                    <elementDefinition Id="fcf412d3-d927-49d1-81e3-3233c5969910" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="4adf8ec9-59cb-4494-9b43-1768d72ba719" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="05b921e5-1186-4942-80f6-81bef96839d7" name="field" direction="In">
+                  <referencesInternal>
+                    <reference Id="cbb74668-414f-47ba-af46-2485bb7b961e" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyInky Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3Dfield" tag="ViewCode">
+                      <elementDefinition Id="c6ef18bf-0186-4973-89dd-1d44c61cf7f1" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="cf94c02a-b50c-475b-beac-f872c04752bb" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="e52267df-4eef-48d7-b489-61d39717ddcc" LastKnownName="Field" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="3772dedc-197d-4ffe-95fb-017851c130ff" name="location" direction="In">
+                  <referencesInternal>
+                    <reference Id="09702a5b-97fd-4a5b-9f8b-d5dbee0dfa83" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyInky Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3Dlocation" tag="ViewCode">
+                      <elementDefinition Id="db9cdbf8-c37d-440c-9812-33bdd928a8c5" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="ca3ffc67-ee57-402e-903e-14f1cec529d1" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="cb82ffa3-05c4-43f1-8086-3ee4d6f10d08" LastKnownName="Vector2D" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="ba2df178-ccff-4dc6-9312-825e83c1ed01" name="attackingStrategy" direction="In">
+                  <referencesInternal>
+                    <reference Id="ab1226b0-3206-4c0d-8264-46dc0e10691b" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyInky Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3DattackingStrategy" tag="ViewCode">
+                      <elementDefinition Id="e1b833ff-a6b3-4878-9999-7ff7314369b7" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="e2ab7372-b2d1-42f0-913c-8be901c9885b" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c561d41f-6063-4feb-9bd4-a4e245d5d2fc" LastKnownName="IStrategy" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="392180ac-ac75-4d9d-8e8d-ddec58b2c3a0" name="fleeingStrategy" direction="In">
+                  <referencesInternal>
+                    <reference Id="f8e5affd-ba38-4ee3-b0c0-e64912be4ccd" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyInky Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3DfleeingStrategy" tag="ViewCode">
+                      <elementDefinition Id="6abcd7d8-d6f3-4009-ac3b-5809db70e32e" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="f4f49d62-ab39-47ad-a44a-0fc43da62952" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c561d41f-6063-4feb-9bd4-a4e245d5d2fc" LastKnownName="IStrategy" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="5c80cb7d-1e3a-48c5-8146-8f57970dcfc5" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="e52267df-4eef-48d7-b489-61d39717ddcc" name="Field" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject::Pacman::Field">
+        <elementDefinition Id="a4731537-9c07-407e-8b7d-e7fb7a42a55c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="cb82ffa3-05c4-43f1-8086-3ee4d6f10d08" name="Vector2D" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject::Pacman::Vector2D">
+        <elementDefinition Id="815e854b-b8be-4ce1-afda-4a6c586053e1" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="c561d41f-6063-4feb-9bd4-a4e245d5d2fc" name="IStrategy" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject::Pacman::IStrategy">
+        <elementDefinition Id="ba891a80-0640-4b94-b876-41f31a11e592" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="c55ce504-04dd-48c7-8e4a-3f37b337b107" name="EnemyPinky" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="1877bf2f-d345-4422-94c5-01e33723004d" handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyPinky" tag="ViewCode">
+            <elementDefinition Id="62c0b4e2-995a-44f1-8bd2-e4a2476414bc" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="5900def7-0299-4bea-96f1-b094e5374c63" name="class" profile="CSharpProfile">
+            <elementDefinition Id="4cd4d3c2-7ee8-4248-b7f6-6b0baab558d1" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="7f1a15e9-b240-4001-8c89-078b9c0915a2">
+                <propertyInstance Id="aef38512-a5c1-44f1-b413-f2205b1551bf" name="ClrAttributes">
+                  <elementDefinition Id="c9564a60-a852-4c1a-96c7-9ffdd25b9e21" />
+                </propertyInstance>
+                <elementDefinition Id="2a8b819c-fa75-4ba4-bcb6-deee805de118" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="70cff451-9795-4355-9276-139d93738518">
+                <propertyInstance Id="8eeb08c8-0705-4a1f-a2bc-46cfc9d51e5d" name="IsPartial" value="false">
+                  <elementDefinition Id="f935c5db-9174-4ca7-8b52-187bca8bd896" />
+                </propertyInstance>
+                <elementDefinition Id="9153156c-6f1f-448a-b7e3-515baecc75fa" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="23408269-2c4b-4969-8b7a-521e266e795f">
+                <propertyInstance Id="6084a227-9c88-4bbf-805f-d97e37c1775b" name="IsStatic" value="False">
+                  <elementDefinition Id="9e378527-0069-4335-9796-df764dbebe78" />
+                </propertyInstance>
+                <elementDefinition Id="3ae5419a-56da-43c4-bea1-5eb644cef3df" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="fd99700d-8f1f-461d-b936-d3d9b1282cda">
+                <propertyInstance Id="60039f6a-f2c3-490c-9952-d5febda247c7" name="IsUnsafe" value="false">
+                  <elementDefinition Id="01cdd40e-7711-4678-95a8-a166327ad446" />
+                </propertyInstance>
+                <elementDefinition Id="f94aa558-090e-4cd1-a387-e002327ed64d" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="c2d7e213-fd03-4409-a092-4ec901fd5c84">
+                <propertyInstance Id="201f2e57-e0d6-4b7f-9d22-2623fca300cc" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="4ec8222a-1f57-4546-a8f0-3c4cb8c5c5fc" />
+                </propertyInstance>
+                <elementDefinition Id="118d67d0-4412-4b55-ac07-db1f3adbfbdf" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="01154226-6a0d-4c59-a287-9179b09488d6" />
+        <generalsInternal>
+          <generalization Id="684ee8e3-dfa2-4f61-bd23-4351dbe7f4c0" isSubstitutable="false">
+            <classMoniker Id="b42586f8-bb4f-420c-a73c-1c37c8389b8f" LastKnownName="Enemy" />
+            <elementDefinition Id="c4f8389d-c50c-455a-b294-99d2e3109497" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="ca9c77e5-d82e-405d-9e6b-f4988182f1ff" name="Resource" visibility="Protected" isLeaf="false" isStatic="false" isReadOnly="true" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="4f914918-a190-4b04-996e-74d34c29d491" handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyPinky Member%3DResource" tag="ViewCode">
+                <elementDefinition Id="b9164f5c-a5a4-4b3d-babc-0ff399499160" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="d1ef5da9-be20-49d7-a3ef-897084cf7e19" name="property" profile="CSharpProfile">
+                <elementDefinition Id="4ee381d4-5938-497b-9a7d-d562e67dffc5" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a74585cf-2c4d-4e06-870e-c0f5668b7cea">
+                    <propertyInstance Id="8a80e08d-0bfc-4549-a92e-5ae029ff48ee" name="ClrAttributes">
+                      <elementDefinition Id="09be478e-53d6-4b2e-8d4c-51011472236e" />
+                    </propertyInstance>
+                    <elementDefinition Id="0ebb83e2-3d5f-44f9-8985-dc7edf8ac3db" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="48e825a9-07b9-460a-862d-785db0c392e8">
+                    <propertyInstance Id="9e57f618-8638-4e87-a921-cb89c1cea0ab" name="Get" value="protected">
+                      <elementDefinition Id="e817118a-e71a-4fac-b571-095bf79f2cc0" />
+                    </propertyInstance>
+                    <elementDefinition Id="2dab6128-d444-4c7d-9eaf-bd4e0cf8b320" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="30ea767b-b4fc-45c1-a7b8-fa397cd88ed0">
+                    <propertyInstance Id="ef2509cb-faef-466f-baf7-267b0df6d65e" name="HasBody" value="false">
+                      <elementDefinition Id="41f9d89a-321d-4b41-871a-9e776c83b875" />
+                    </propertyInstance>
+                    <elementDefinition Id="13a0562c-d08e-4adf-8e3e-bc2f54a0b3eb" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="0825036e-5e3a-4439-9429-45b5f17c4877">
+                    <propertyInstance Id="5bbe52d3-99ae-454f-bdfc-08fc4b271077" name="IsUnsafe" value="false">
+                      <elementDefinition Id="e09ae9b1-fb9f-4648-b9b1-82c4dc57b735" />
+                    </propertyInstance>
+                    <elementDefinition Id="5221bb11-06a9-42bf-8801-4357e9390c16" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e5d329c0-c016-4225-be6a-619e845d6f4f">
+                    <propertyInstance Id="42230f63-2bca-4891-bc4d-152f70456290" name="Inheritance" value="none">
+                      <elementDefinition Id="64675a88-76f9-4497-b6a4-2a5ccd116682" />
+                    </propertyInstance>
+                    <elementDefinition Id="5fa2006e-95ba-4f44-bf4a-99ace07c2a03" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="7f0102ad-66aa-467c-8a3c-625dc10248fa">
+                    <propertyInstance Id="0d608365-b722-4edb-b96a-9cbfdcd94f56" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="30fe1ace-45fc-42ee-a641-a9c429fe8f0a" />
+                    </propertyInstance>
+                    <elementDefinition Id="48e6f413-6790-4485-b08c-15bfd7dd7ad9" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="39b239b4-c3aa-4ce4-8000-f4f3863191e8">
+                    <propertyInstance Id="97c9ef12-eb39-49ff-9fd6-0c898c83d143" name="Set" value="none">
+                      <elementDefinition Id="ed4c14b9-6091-4df0-a445-517f50b4fa49" />
+                    </propertyInstance>
+                    <elementDefinition Id="27efe2a9-3a85-4c7d-acbd-ad6b23d13fe9" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="ca29c6df-a830-4276-915c-7847cd157cc7" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="5c80cb7d-1e3a-48c5-8146-8f57970dcfc5" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="be87436b-d95b-441f-a929-d0b4fc2e3040" name="EnemyPinky" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="59568581-c943-453a-9f4c-5c211a944175" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyPinky Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)])" tag="ViewCode">
+                <elementDefinition Id="f6f2e389-920a-4a91-a905-72910e336435" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="88c0e6d2-661e-41b7-98de-ff5d7eef75ff" name="method" profile="CSharpProfile">
+                <elementDefinition Id="00e3e7c0-6095-4b7a-9329-9f954f70b6c5" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="cc0061c1-6ec3-4611-9c08-3e9a0145249b">
+                    <propertyInstance Id="75005290-fd69-485e-997f-947e331629e4" name="ClrAttributes">
+                      <elementDefinition Id="f605aace-df5b-4327-a8e8-da0f3455008f" />
+                    </propertyInstance>
+                    <elementDefinition Id="0bb4a36a-586c-4a2e-815b-942a05d5a129" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e55e57c8-7ac8-4b37-aa87-cf6623c7bdde">
+                    <propertyInstance Id="dd1184a9-f24e-42de-94e4-355f66e98ded" name="IsPartial" value="false">
+                      <elementDefinition Id="d5d0eb15-5600-465d-a1b4-cbd17ed7acf5" />
+                    </propertyInstance>
+                    <elementDefinition Id="fe3a4e28-3465-45c4-b45c-9d84ab69634a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="11e06196-1872-4b65-8ade-e1ff90dc57b0">
+                    <propertyInstance Id="fcb29b8f-45c3-4bf2-810b-28b38494110f" name="IsUnsafe" value="false">
+                      <elementDefinition Id="2005b4be-e540-4490-9452-8f70cdf9fd83" />
+                    </propertyInstance>
+                    <elementDefinition Id="e12ec0af-74fd-4214-95fb-50487548c16a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a1db0f93-4765-486e-aeef-9dd48078d820">
+                    <propertyInstance Id="aff9728e-57c4-4c2c-b689-98cdb03e7942" name="Inheritance" value="none">
+                      <elementDefinition Id="1a8e4ff4-12c2-4e33-aa0c-a409eb59402e" />
+                    </propertyInstance>
+                    <elementDefinition Id="486094e7-ac74-4c91-af72-cef44e27e517" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="64fbcd1a-777a-4ca6-aa20-c3e95b79b6aa">
+                    <propertyInstance Id="e9831850-a2b3-4f35-b851-87addafe297c" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="a5d7ae8d-ba23-46d6-a12b-6b932b649145" />
+                    </propertyInstance>
+                    <elementDefinition Id="b702d776-9d0a-432d-836d-60d9e4e13b95" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="33fa5548-17de-470b-8bc5-078c89935c99">
+                    <propertyInstance Id="89db58f6-302c-46e7-bf9f-7268963267b6" name="params" value="false">
+                      <elementDefinition Id="d01c5e6f-d60c-4c51-87fa-40bff7b43537" />
+                    </propertyInstance>
+                    <elementDefinition Id="68b0ab15-d405-4099-9425-1aa6c7c2d67e" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="a8efc3b2-b9c1-4d00-97c9-fab60bc86762" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="553d3ec0-87f0-4b9d-999b-0b2239c8449a" name="field" direction="In">
+                  <referencesInternal>
+                    <reference Id="2dcffdfd-a057-43bd-a200-a0a2fe8425af" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyPinky Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3Dfield" tag="ViewCode">
+                      <elementDefinition Id="b1340f92-572f-4b47-a1a7-c6a5a9a533f1" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="7ffc598a-eea7-4079-8cac-6ad5bdb317de" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="e52267df-4eef-48d7-b489-61d39717ddcc" LastKnownName="Field" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="850c5e71-245a-4545-8a45-579c78bfbcf6" name="location" direction="In">
+                  <referencesInternal>
+                    <reference Id="e14af70e-b687-4f3d-8b53-7f361bd0c9dc" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyPinky Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3Dlocation" tag="ViewCode">
+                      <elementDefinition Id="8dc458fe-ffa6-428d-a396-0577c09c08a8" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="4fc8a0ba-2516-4e75-8ff4-23959c7148c4" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="cb82ffa3-05c4-43f1-8086-3ee4d6f10d08" LastKnownName="Vector2D" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="37263d79-870d-4427-a2ec-82b7bfda34f2" name="attackingStrategy" direction="In">
+                  <referencesInternal>
+                    <reference Id="95b34094-dd11-4b11-95f2-68429fcc8f11" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyPinky Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3DattackingStrategy" tag="ViewCode">
+                      <elementDefinition Id="38795435-72ed-480c-8604-5f28b3e6fac2" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="8102c6f3-1031-4e07-9b76-abf5558898f7" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c561d41f-6063-4feb-9bd4-a4e245d5d2fc" LastKnownName="IStrategy" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="b693771f-7688-4c46-99f3-8aa836f21573" name="fleeingStrategy" direction="In">
+                  <referencesInternal>
+                    <reference Id="6d057594-7e3f-4749-b5de-4e571b2cfdfc" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyPinky Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3DfleeingStrategy" tag="ViewCode">
+                      <elementDefinition Id="eaa4965e-2048-4f4c-84b5-b04297c1cd9f" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="ac7e86c7-b3cb-4c0b-9485-95adce0bab4e" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c561d41f-6063-4feb-9bd4-a4e245d5d2fc" LastKnownName="IStrategy" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b42586f8-bb4f-420c-a73c-1c37c8389b8f" name="Enemy" isAbstract="true" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="aab36e2d-2b6a-42d8-84eb-4a017e260fd7" handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemy" tag="ViewCode">
+            <elementDefinition Id="af19341a-cbb1-4b2c-ae79-855170486b32" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="e92df580-a493-4b55-9685-583e69625c64" name="class" profile="CSharpProfile">
+            <elementDefinition Id="f29dbf32-0124-4b41-a7ce-03769525e864" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="0bfc5318-1476-4b67-97c4-445a859a772a">
+                <propertyInstance Id="ab3d7b3e-9234-4f49-8d18-a8daa41d53d3" name="ClrAttributes">
+                  <elementDefinition Id="6dfa77f6-dacd-4286-bedb-e6eae6ad7d79" />
+                </propertyInstance>
+                <elementDefinition Id="b8aeed76-aa95-41ee-a408-819e0cc98b46" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="3f321088-b8e7-4a3a-a8cb-7fb6cbef768a">
+                <propertyInstance Id="053aa89d-509d-4b6e-9fe9-c01436653237" name="IsPartial" value="false">
+                  <elementDefinition Id="148a516e-3b3c-45ea-9415-e1231fc18d34" />
+                </propertyInstance>
+                <elementDefinition Id="3c54f4f2-d376-4659-943d-513a10c3aab1" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="2de60615-5b85-4464-b5d4-a5946a56de22">
+                <propertyInstance Id="96197945-1ce7-47cc-98d4-539536a5aa4f" name="IsStatic" value="False">
+                  <elementDefinition Id="4cabee7a-d649-41cd-9592-35fc99ad46ff" />
+                </propertyInstance>
+                <elementDefinition Id="36d8c631-6891-4473-a6d9-8d1b067ee66f" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="5980ee82-8c84-437f-b688-102acd6c4438">
+                <propertyInstance Id="c00793c7-07ba-4488-b363-6948678c2377" name="IsUnsafe" value="false">
+                  <elementDefinition Id="ee295d5d-d37c-4198-a2ef-21d0ca58cfad" />
+                </propertyInstance>
+                <elementDefinition Id="1b6137d7-5cf4-4abb-be48-876da64c611a" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="8d583b3c-9ecb-43ad-b0a5-de058589804e">
+                <propertyInstance Id="062400a9-7b52-43cc-bab6-248f028f5d15" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="678adbc1-28bd-4fc1-b544-9b0fee8f749e" />
+                </propertyInstance>
+                <elementDefinition Id="0b0eb667-42d3-43fb-8f74-2c0fbe4bb6b9" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="8d6de716-a59c-4f4e-b5d7-db03295c7d78" />
+        <ownedAttributesInternal>
+          <property Id="d5d908c3-9850-48cd-8cf0-7ed26f18cd9d" name="Resource" visibility="Protected" isLeaf="false" isStatic="false" isReadOnly="true" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="66904db7-925a-4c50-a138-67631bdadcef" handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemy Member%3DResource" tag="ViewCode">
+                <elementDefinition Id="414cb5a0-3e4c-480b-acf9-a0e4820b6288" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="0723e878-e637-4246-a8df-4618c59d5b3c" name="property" profile="CSharpProfile">
+                <elementDefinition Id="bf4227b1-1dab-45b7-bf99-4781ce577d31" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="247e91cb-f02d-4b88-91ee-a4ced558f1e2">
+                    <propertyInstance Id="6957c3d0-9098-4fee-b6cb-1081f401379a" name="ClrAttributes">
+                      <elementDefinition Id="87000255-0b74-4a64-a3f8-97bfbf333bc4" />
+                    </propertyInstance>
+                    <elementDefinition Id="310d569b-b6b8-4d71-b3de-b40a1c2f08c6" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="efdd9a3b-a5f9-4fc9-a7cd-3014eb7e4b03">
+                    <propertyInstance Id="62474f99-4725-4bf9-b285-0039ae288228" name="Get" value="protected">
+                      <elementDefinition Id="1a64f181-6117-4745-a0f4-2871cf82d07c" />
+                    </propertyInstance>
+                    <elementDefinition Id="f2bf587f-0def-4be7-bda7-0443f95d59e1" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="d06b444b-19dd-4c2b-9f5f-eafd2dd341ec">
+                    <propertyInstance Id="400e82bf-0fd8-4b5e-831e-1cb42618cb8e" name="HasBody" value="false">
+                      <elementDefinition Id="bc65d667-2016-40a0-aaa9-1b73af65fb12" />
+                    </propertyInstance>
+                    <elementDefinition Id="d9f4f65a-ba24-46fe-9b04-1da060d8ede9" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="2fc75e11-56d3-4146-aaa0-9604c9c8dbaa">
+                    <propertyInstance Id="01f70596-9da9-4d70-80b4-96b71e925928" name="IsUnsafe" value="false">
+                      <elementDefinition Id="7e766ab7-3e4b-4698-98c9-63506d81eb3d" />
+                    </propertyInstance>
+                    <elementDefinition Id="6d68fd75-9e43-4582-924c-494e33076357" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="6fa8e184-ebc3-4212-9ccd-1e06d1e3b730">
+                    <propertyInstance Id="024d38c8-462c-4960-8e73-fdbbb16d6a86" name="Inheritance" value="none">
+                      <elementDefinition Id="6faa8930-0ed3-48c7-8a15-e1d094d01bb9" />
+                    </propertyInstance>
+                    <elementDefinition Id="f2b4b13a-f10d-468b-b074-2f9f81dbfd47" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="8a4f322d-ba51-49b0-8f65-d43c26d0cb5c">
+                    <propertyInstance Id="15e7c2e9-b8ff-4fac-b9e7-057e65c94cda" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="57ddfdf8-8917-4614-9089-c31843e9e15e" />
+                    </propertyInstance>
+                    <elementDefinition Id="314467b4-a0c8-43dc-9586-031dd7cc1966" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="1685f47e-fd8d-4d8b-a306-738856b0a1f6">
+                    <propertyInstance Id="1b6344e7-ca2a-42bf-8e66-bc4440b4883b" name="Set" value="none">
+                      <elementDefinition Id="fff39dd1-114e-4cdb-91da-66fa149f5b09" />
+                    </propertyInstance>
+                    <elementDefinition Id="e59681ca-c607-41d8-9ba3-a752710a2b17" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="fb5040d8-b84c-4f56-b0cc-d757326bae34" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="5c80cb7d-1e3a-48c5-8146-8f57970dcfc5" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="f8603de1-f322-4cb1-9b79-83e5047a6254" name="IsFleeing" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="6caebec3-9f93-4f05-bc8c-6b0489a9080d" handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemy Member%3DIsFleeing" tag="ViewCode">
+                <elementDefinition Id="1e9391bb-d00c-4262-9f70-01e2488957c5" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="99450b90-f484-4b8d-b52a-4c4c9648fd2d" name="property" profile="CSharpProfile">
+                <elementDefinition Id="102d5dfe-09b1-405b-852d-f5c93995d317" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b3bfb051-d0a9-4d29-9428-9563e9f2eff8">
+                    <propertyInstance Id="23eb37b8-0a43-4c5d-ac2d-3c69aafc9f05" name="ClrAttributes">
+                      <elementDefinition Id="1ad6a098-331c-4a8f-a5f7-1b5f36067bd1" />
+                    </propertyInstance>
+                    <elementDefinition Id="083810ea-2037-4c7a-a9b0-bfb44ee2c508" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9187df48-085c-4b90-8fe6-768655a0f072">
+                    <propertyInstance Id="7770c7a2-02bc-4057-917e-ab4953477018" name="Get" value="public">
+                      <elementDefinition Id="38f4860a-d684-4d99-a5aa-b71f5c3c1b22" />
+                    </propertyInstance>
+                    <elementDefinition Id="8c468ffd-18f4-46fa-ad6f-55e5a2fe719f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="d35dcc8e-dc80-41a1-ab75-5ec9bd537e6a">
+                    <propertyInstance Id="b64f0eca-2714-43c3-85da-73a2d3938390" name="HasBody" value="false">
+                      <elementDefinition Id="c20d6da5-b6aa-4e16-8ef5-6cd0030c29fc" />
+                    </propertyInstance>
+                    <elementDefinition Id="987aee34-aed0-424b-8d91-b3192500a781" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e4bf84e1-f5ea-4297-91f3-240f78812967">
+                    <propertyInstance Id="1a8de105-d9ce-43c7-982c-b3a407134396" name="IsUnsafe" value="false">
+                      <elementDefinition Id="5972a751-69f2-4196-b81c-64b72dfc4fde" />
+                    </propertyInstance>
+                    <elementDefinition Id="933c8993-d134-4d24-8638-8d0dc73ed8f0" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="19d44514-7cdc-435c-abf8-579d50682713">
+                    <propertyInstance Id="d91487ef-7349-460b-9324-c8aa2f06402b" name="Inheritance" value="none">
+                      <elementDefinition Id="894d73cf-271e-4bfe-87e6-e7ab576bd9d5" />
+                    </propertyInstance>
+                    <elementDefinition Id="208bb551-f8fb-4a79-9033-440c0f437a8a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="7d0ed19d-c6a7-45ba-82db-d71372b18795">
+                    <propertyInstance Id="99f87c6c-17c1-45cd-b600-bbb775c00f68" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="5491e33c-fd5b-4b0e-a430-3d4676241f91" />
+                    </propertyInstance>
+                    <elementDefinition Id="09d5928c-e82f-48b8-9362-3e7610cbc10a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="2ee30a81-03cc-47b1-8859-d90a4764634e">
+                    <propertyInstance Id="ea6ebcd4-e56e-460f-b563-63dc8c0fe429" name="Set" value="public">
+                      <elementDefinition Id="5d38c552-0168-4dcf-b0a2-8b490fdb8a57" />
+                    </propertyInstance>
+                    <elementDefinition Id="4fec8e9d-ce4a-49a1-99a3-fb4edf7a154c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="5567b5bd-25d3-40f9-9afc-6ef5ef1f72d8" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="b3000394-fc93-4249-9475-d1abc6b82d65" LastKnownName="Boolean" />
+            </type_NamedElement>
+          </property>
+          <property Id="ed747cbb-468e-4657-ab4f-2ed7e43818a0" name="DefaultSpeed" isLeaf="false" isStatic="true" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="f42de277-9267-4c6e-a149-1c3093f96745" handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemy Member%3DDefaultSpeed" tag="ViewCode">
+                <elementDefinition Id="ba9d3784-555d-49c0-87cd-0b50cba66e4c" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="55f52035-0a41-49f6-9adc-d7d811e5d36c" name="field" profile="CSharpProfile">
+                <elementDefinition Id="ab224477-c81a-4e95-acf8-c51dedca4173" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9595c8c5-bbc9-449d-b4fd-3241dbdb83f8">
+                    <propertyInstance Id="0022018b-6eb6-464f-a243-0b896f86966c" name="ClrAttributes">
+                      <elementDefinition Id="e3a3fc3f-8ecb-4dee-845e-2ecef189b1d7" />
+                    </propertyInstance>
+                    <elementDefinition Id="6951eae7-9b20-4de5-8296-6db04f134024" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="5a513318-3c7b-40d5-8372-076e716185f5">
+                    <propertyInstance Id="751013bf-9c61-4f3e-ae0a-d7d6893afb2c" name="IsConst" value="false">
+                      <elementDefinition Id="27ea21bc-6c9d-4d03-9fde-f5b5a391bd7b" />
+                    </propertyInstance>
+                    <elementDefinition Id="60849c28-4215-47ad-a6bd-1d4ec78168c0" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="ab9d040a-3baa-4522-b89d-b10a354f87b3">
+                    <propertyInstance Id="ba86c2e5-66b2-474a-be4f-863a44f5413f" name="IsNullable" value="false">
+                      <elementDefinition Id="201b1b98-262a-4036-9d9b-48214cf3ff21" />
+                    </propertyInstance>
+                    <elementDefinition Id="627ae7ff-448c-431f-9d7c-cf6e711faac3" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b7cfb848-fcdf-4475-9c21-0aa74f9ce47b">
+                    <propertyInstance Id="e958833c-042d-4da9-914b-12c629d77b08" name="IsVolatile" value="false">
+                      <elementDefinition Id="ed099583-e9c0-4470-88aa-33b22e3852f1" />
+                    </propertyInstance>
+                    <elementDefinition Id="62e16757-9528-4f0a-8890-0df5f19d391d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e19a1194-1150-4501-9148-6a407c8738b6">
+                    <propertyInstance Id="fa477227-413f-4a69-8432-128b8017c826" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="5d3d8eaa-a750-4026-8e11-567a86d11532" />
+                    </propertyInstance>
+                    <elementDefinition Id="7e286843-271c-4b5f-935b-39b38e675ad0" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="910cb5ef-3cbc-42d9-b335-5accd47fd18c" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="cad68901-3620-4d38-a6f3-c03d13d0f7c2" LastKnownName="Double" />
+            </type_NamedElement>
+          </property>
+          <property Id="7aaf5624-c21e-4f25-95db-a108f1f2b50a" name="attackingStrategy" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="c4556d79-ee6b-4e79-bf83-3f45a6ff560d" handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemy Member%3DattackingStrategy" tag="ViewCode">
+                <elementDefinition Id="5b8861cf-4779-4a9b-b383-d48f9f83ccaf" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="faf588f7-5a3d-45b7-bce2-b010063398de" name="field" profile="CSharpProfile">
+                <elementDefinition Id="49b5caae-eecd-44c6-ba82-d2c664e094bc" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c57ae9ec-24a8-457d-bed0-c0a0a21ca384">
+                    <propertyInstance Id="e81a2f5c-36b8-4a89-8038-e2360b7384a7" name="ClrAttributes">
+                      <elementDefinition Id="978a61d1-8c1f-48aa-ad33-901f20789f85" />
+                    </propertyInstance>
+                    <elementDefinition Id="cd17289f-2e67-4067-b3d3-1410342f1a39" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="17ee33b2-6724-4a14-a4df-89ab4e2e7020">
+                    <propertyInstance Id="3b78a542-011f-40e0-9d89-4576a933acc5" name="IsConst" value="false">
+                      <elementDefinition Id="505c03d2-d9a2-4299-b2d1-92fd4fb9f4e9" />
+                    </propertyInstance>
+                    <elementDefinition Id="7747a452-f990-4bc4-a800-7da0901db8b9" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3de65f8f-52e1-4fc5-9af2-541b654c94e6">
+                    <propertyInstance Id="203a044d-677a-44df-a6ca-a2b555d736a7" name="IsNullable" value="false">
+                      <elementDefinition Id="148fe016-0a92-4041-8a77-8b28794bc005" />
+                    </propertyInstance>
+                    <elementDefinition Id="b230471b-1ba2-40b6-aecb-8844509518f2" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="f5ccd147-60de-4e58-93f8-20e8b6ea6188">
+                    <propertyInstance Id="6a806cab-6844-4447-8eb9-6a045392df17" name="IsVolatile" value="false">
+                      <elementDefinition Id="969394da-526a-494c-a6be-8aa4e1571845" />
+                    </propertyInstance>
+                    <elementDefinition Id="f3567bcc-19d3-44aa-a01c-0de42b5f5eaa" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="ff3855b7-09af-49b4-a480-20b192d3bbbf">
+                    <propertyInstance Id="7ca2ac3e-67b0-46ed-afe0-0525f783cc98" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="dfe0682f-7e37-4472-8996-2867e054f0cd" />
+                    </propertyInstance>
+                    <elementDefinition Id="6341547e-16d9-45df-b075-b6f4cd66f08c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="21f5334f-e851-47b9-b112-a6e87c83b5bb" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="c561d41f-6063-4feb-9bd4-a4e245d5d2fc" LastKnownName="IStrategy" />
+            </type_NamedElement>
+          </property>
+          <property Id="0a874dc5-1232-4f9c-8e77-54c772d2a0f4" name="fleeingStrategy" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="0bc3462b-df77-4724-98ea-35a68e30c0fd" handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemy Member%3DfleeingStrategy" tag="ViewCode">
+                <elementDefinition Id="d897c593-d6a8-4404-8800-2a27abf0ce76" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="198b5819-d3be-4496-b14e-67098c3eada0" name="field" profile="CSharpProfile">
+                <elementDefinition Id="1ede8afb-b1a5-46e0-9c62-7b6055cc53c7" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="d58d733e-0c33-4913-8828-31f9735d24dc">
+                    <propertyInstance Id="a09e9579-0101-49c9-8ac6-20fe95ced2a8" name="ClrAttributes">
+                      <elementDefinition Id="d28903ee-f5e0-4e9a-8034-7cfbc5c2ccbc" />
+                    </propertyInstance>
+                    <elementDefinition Id="5c03091b-c3f1-4b10-9357-a13df1a5504d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="0a18e6d3-0c37-4f8b-b591-60ce47131797">
+                    <propertyInstance Id="d5bd0aec-f113-45ca-903d-07069912859e" name="IsConst" value="false">
+                      <elementDefinition Id="c22ce9d1-8558-4011-b139-ff71f78f6141" />
+                    </propertyInstance>
+                    <elementDefinition Id="94f3b2c5-ccb4-4662-8f55-90d29b9435a6" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="5753f8fa-1d60-41fe-8eca-df003c53f961">
+                    <propertyInstance Id="1f6332b5-5ff5-4d03-8b13-8d1f9b0c5b0b" name="IsNullable" value="false">
+                      <elementDefinition Id="1e5826ec-3e4d-4e6b-b10e-327e4cfedbba" />
+                    </propertyInstance>
+                    <elementDefinition Id="f07710cd-507c-4c0a-b37a-534c9100757f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="1fdccf21-097e-4968-b000-c9fb853d880f">
+                    <propertyInstance Id="3981cb12-ab22-4e53-be45-5161c49f6b3e" name="IsVolatile" value="false">
+                      <elementDefinition Id="a9040b0e-4947-44b4-861a-43478ab4ff4e" />
+                    </propertyInstance>
+                    <elementDefinition Id="51b2ceab-6d71-4cdd-82eb-01df4ebb04ae" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9df2d96d-8a53-4389-bdc4-30318c5b5545">
+                    <propertyInstance Id="c00b3d51-2e7b-419f-ae26-caee9c647ef0" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="567ae7d8-5e0b-4b8d-8b1d-49f7da884475" />
+                    </propertyInstance>
+                    <elementDefinition Id="3d6fc615-0114-491e-b2cb-f9d6752d96d1" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="ffb2c403-bf9d-4d5a-84c4-c13c46293a8b" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="c561d41f-6063-4feb-9bd4-a4e245d5d2fc" LastKnownName="IStrategy" />
+            </type_NamedElement>
+          </property>
+          <property Id="ef5f12e7-137d-460d-8b54-1aa2dc5d1c98" name="isFleeing" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="d376a97a-8435-4b39-85f0-665ed0b18e65" handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemy Member%3DisFleeing" tag="ViewCode">
+                <elementDefinition Id="3354c444-861b-4285-9e46-4613d0fb9668" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="4e40556a-6d10-47c5-9d8a-da40f53f60cf" name="field" profile="CSharpProfile">
+                <elementDefinition Id="66c4af50-7aa3-4cd9-b832-fbf5b849a1b9" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="642b93b9-625b-4781-bf05-ffd9b40c882a">
+                    <propertyInstance Id="40375a09-00b3-4d9f-b841-9eca1c44b9f8" name="ClrAttributes">
+                      <elementDefinition Id="06df3417-ec7f-4c70-acec-deb5248ad0c6" />
+                    </propertyInstance>
+                    <elementDefinition Id="7e44531d-fba7-4c70-baee-17335cffd123" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="de996f7b-78f5-4217-8565-3e8f0df068db">
+                    <propertyInstance Id="e41275c9-f356-4f2f-b37d-45753ad0ad85" name="IsConst" value="false">
+                      <elementDefinition Id="a7a1d4ec-f6fc-4f6a-89f5-7ae6c4a82102" />
+                    </propertyInstance>
+                    <elementDefinition Id="7b73e9ce-17b1-42d8-9af9-48ec2dd4f006" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="655a8578-e34d-416b-bbe9-4260775edac0">
+                    <propertyInstance Id="f618d382-9647-4f6a-b8cd-32003f832afc" name="IsNullable" value="false">
+                      <elementDefinition Id="a559f2c9-742f-442a-8d5f-1cd8ec14bf89" />
+                    </propertyInstance>
+                    <elementDefinition Id="8a24f358-3c0b-46b9-a9ec-0a02b7eddaf9" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="4440a950-f7d9-46e7-8546-e962ff736d60">
+                    <propertyInstance Id="192b9b57-26e6-45f5-a6be-fe6c37ad739e" name="IsVolatile" value="false">
+                      <elementDefinition Id="e01df11d-1e40-4e0e-b5ce-5847849cad0e" />
+                    </propertyInstance>
+                    <elementDefinition Id="80aa5e8a-9eb2-4103-acad-25f18dfdec7b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="914f10fe-39c9-4d16-b167-332a639b3aa7">
+                    <propertyInstance Id="1facdc84-a2a3-4f8e-8b81-69c9b1c9fc12" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="7203a04b-d5bd-490d-b82c-9e2609eb1096" />
+                    </propertyInstance>
+                    <elementDefinition Id="0d1c8f1c-1a56-43db-a9ab-061cfb2eea6c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="241a90ae-497b-48cf-a1c3-b7917550b16c" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="b3000394-fc93-4249-9475-d1abc6b82d65" LastKnownName="Boolean" />
+            </type_NamedElement>
+          </property>
+          <property Id="7ddf3f90-294f-47b7-a400-38f4790a1aaf" name="ticks" visibility="Protected" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="5f6313ad-b440-483c-a3e7-a3dcba7fec2e" handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemy Member%3Dticks" tag="ViewCode">
+                <elementDefinition Id="8fd0d739-f2f9-49ba-a9b1-f20c7ede3882" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="7bfac6de-52a9-44fb-b427-f052234da33a" name="field" profile="CSharpProfile">
+                <elementDefinition Id="309af291-9b9c-4b6a-8a65-3f04d8b621e8" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9e6ef95a-c60a-4ecf-b9bb-3ff4c9960886">
+                    <propertyInstance Id="f76f2e1e-031b-4373-ac47-6e8fa36aea15" name="ClrAttributes">
+                      <elementDefinition Id="ac6370ff-f58b-41c1-8e4f-45ed05d77e70" />
+                    </propertyInstance>
+                    <elementDefinition Id="9c74e3e5-cbd1-4a37-9e73-c3eb8041ee44" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="798cc963-c1f3-47ec-8ec4-b3eaf6d631dd">
+                    <propertyInstance Id="215731d8-bff0-43af-b884-c1fd28f041cb" name="IsConst" value="false">
+                      <elementDefinition Id="6e46356e-ad16-462d-bc33-298d9dad64f4" />
+                    </propertyInstance>
+                    <elementDefinition Id="5e30c1a6-c8f0-4c6b-965e-e7cfe50affc0" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="0781c379-96e4-45c0-9b85-7c52e53ac07e">
+                    <propertyInstance Id="b82d1cce-be25-48ce-a63f-a3681962b02e" name="IsNullable" value="false">
+                      <elementDefinition Id="a98b916a-7ba8-4a12-b26e-40eb1afd6bf1" />
+                    </propertyInstance>
+                    <elementDefinition Id="9d3eece4-48ae-458a-9576-1ac082073053" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="ee886a1c-b63a-4219-ad42-d500903b9bef">
+                    <propertyInstance Id="a26b87f9-2510-497d-8713-3b6ff9181b3e" name="IsVolatile" value="false">
+                      <elementDefinition Id="25dd036b-2b6f-42fe-9cdc-34ea94d74622" />
+                    </propertyInstance>
+                    <elementDefinition Id="607d037b-4944-41dd-80e2-c1f2d616eed6" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3822d26a-b829-4250-bafa-6cf3a1326228">
+                    <propertyInstance Id="b01208fd-ce88-46f0-b4ea-c10358b32940" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="ac05169c-05af-42a7-bedf-d0da1751aaa1" />
+                    </propertyInstance>
+                    <elementDefinition Id="1a8ff119-4ab9-48f5-af9a-555198ee9da2" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="beb61bb8-8097-4607-99c1-5650dc10bba5" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="246f70c1-512a-411c-9a78-b24c70cc0c17" LastKnownName="Integer" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="8d09b5a5-a0b9-4f0a-9ece-3fdac6489154" name="Enemy" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="b7b72b59-7e17-41ee-b69b-dc20415c5254" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemy Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)])" tag="ViewCode">
+                <elementDefinition Id="f64da106-471f-496f-90b8-a21840175751" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="80e1f630-076c-46a2-9cc3-5e87db95facd" name="method" profile="CSharpProfile">
+                <elementDefinition Id="ffb2e683-a98f-443e-b677-d2dad784bdd9" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="618ea053-58ef-411f-a215-75b364e13a7a">
+                    <propertyInstance Id="eaf4ba5c-ea79-4657-a1a3-80d6a0615124" name="ClrAttributes">
+                      <elementDefinition Id="a3da8857-f961-4829-8350-27707eb4fb00" />
+                    </propertyInstance>
+                    <elementDefinition Id="4db13eed-a3de-465c-b4a8-8940fed8785d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="724bde20-1e9b-417e-b7ce-382298ff5607">
+                    <propertyInstance Id="03ac3705-692b-477d-93b1-66627a038efd" name="IsPartial" value="false">
+                      <elementDefinition Id="a697b8fb-639e-45ac-bd87-a01b359dc00c" />
+                    </propertyInstance>
+                    <elementDefinition Id="4dc8bf99-a0cd-46d9-97d8-e4a7fafdb551" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b80f441e-6a82-4f4b-ba8c-f778c766768d">
+                    <propertyInstance Id="2ad23540-9dde-4215-bcdb-5d287deafc20" name="IsUnsafe" value="false">
+                      <elementDefinition Id="4ee07ead-93ed-4138-af84-c0eaea6c3a6e" />
+                    </propertyInstance>
+                    <elementDefinition Id="685e6195-3ee8-4f50-b185-7eb54527328c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="4f975610-4768-4f58-bdf5-a025ad8bf889">
+                    <propertyInstance Id="8bbba86a-e2e6-44f8-94ba-9df6573b0aa2" name="Inheritance" value="none">
+                      <elementDefinition Id="431d2574-b79a-4847-b22f-f37329c1830f" />
+                    </propertyInstance>
+                    <elementDefinition Id="eec40af9-fbad-45fc-8ec0-b981aac43320" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="295561d6-1e58-4d1f-8f50-a246e7f5d0e2">
+                    <propertyInstance Id="74b36222-f5bc-40c5-9b81-1366531c6561" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="6f89f005-bc24-4b10-8754-aa0b0216fe1e" />
+                    </propertyInstance>
+                    <elementDefinition Id="b42e90b5-2c98-4b6d-8e2a-e716bff52d48" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="d78ec235-ddc0-4524-98e6-b08398998e20">
+                    <propertyInstance Id="e872ead2-3d16-4607-8571-3e2264810648" name="params" value="false">
+                      <elementDefinition Id="cc8cb8ce-b65f-452d-b729-476eb0151a6c" />
+                    </propertyInstance>
+                    <elementDefinition Id="57a6a756-d91a-4c4a-834e-b38add0af2e0" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="ae1216e7-7d28-407e-815d-2c45e523f513" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="225709c8-a8fb-45ec-ad10-39907018c071" name="field" direction="In">
+                  <referencesInternal>
+                    <reference Id="614ef6b2-e053-45c1-9023-88ca2fb9d46d" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemy Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3Dfield" tag="ViewCode">
+                      <elementDefinition Id="e1473827-fd50-48bc-a081-899b6a0b287e" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="c64ee1d4-c43c-4dcd-bec2-f28dbdb93437" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="e52267df-4eef-48d7-b489-61d39717ddcc" LastKnownName="Field" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="c6bce271-0560-416e-8908-e9ebdf2bcb29" name="location" direction="In">
+                  <referencesInternal>
+                    <reference Id="4ace4e29-fc1f-4f26-bd46-af42369c3fbd" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemy Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3Dlocation" tag="ViewCode">
+                      <elementDefinition Id="bb3b72b2-6a1b-45ce-8ce9-cd788b240a8b" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="02cb7ef5-86d6-4b5b-94da-28de9455a6ee" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="cb82ffa3-05c4-43f1-8086-3ee4d6f10d08" LastKnownName="Vector2D" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="4c1bdd5e-5774-4fa7-86c4-3bcf8dc235ed" name="attackingStrategy" direction="In">
+                  <referencesInternal>
+                    <reference Id="08343135-0a7d-4883-8c91-f4d0dd509dc9" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemy Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3DattackingStrategy" tag="ViewCode">
+                      <elementDefinition Id="8c1e5987-8f70-4034-af1e-4e0be3afca18" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="e9dfd3ba-9d58-4ee8-9ad7-d52db61f8105" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c561d41f-6063-4feb-9bd4-a4e245d5d2fc" LastKnownName="IStrategy" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="4a565232-f89a-41c1-ac8e-5682d8988c2b" name="fleeingStrategy" direction="In">
+                  <referencesInternal>
+                    <reference Id="bb25dabb-1957-4eb2-9977-1b3f8a8f7cc9" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemy Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3DfleeingStrategy" tag="ViewCode">
+                      <elementDefinition Id="ebc19837-2fc3-47a4-9198-819e3c80cfef" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="37b029fe-662a-4380-a660-bd7769d1e0e6" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c561d41f-6063-4feb-9bd4-a4e245d5d2fc" LastKnownName="IStrategy" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="4dc64678-dac3-4898-a33d-df5d88e18e93" name="Loop" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="a58a0e42-9fe4-4d97-9d1c-e39d39634a13" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemy Member%3DLoop" tag="ViewCode">
+                <elementDefinition Id="7d99595f-7ebc-4496-b716-43170cd98705" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="c4cae914-77e3-45c9-a2eb-68581f8ef9d0" name="method" profile="CSharpProfile">
+                <elementDefinition Id="fca3f41f-e856-4216-94ab-6bf07a230943" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="7528f78e-0d3f-4fe8-bce2-6de78520699f">
+                    <propertyInstance Id="0273f9f5-4b6d-4c22-8fef-d76fff01c20c" name="ClrAttributes">
+                      <elementDefinition Id="ead773a5-a963-4522-8273-5a0fd2fea4d5" />
+                    </propertyInstance>
+                    <elementDefinition Id="4708f92b-bdc6-4daa-9a6e-50b9c544a388" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="0cc0616b-be52-4ebe-a8fb-6c0f4e5970ec">
+                    <propertyInstance Id="827ef14c-7161-4d38-97c4-169733f6ab42" name="IsPartial" value="false">
+                      <elementDefinition Id="84eeee2b-1a43-413e-831a-ea3d77cfac72" />
+                    </propertyInstance>
+                    <elementDefinition Id="e2ffbbd4-d123-48e7-8156-3c0e2e1bf6bd" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="08b1bcb5-4378-4267-93f9-56f8c91854f3">
+                    <propertyInstance Id="9ce21655-f075-4f68-a14f-dcfd6304a78c" name="IsUnsafe" value="false">
+                      <elementDefinition Id="a8c1a71a-e59d-4c18-9f96-84c11d871001" />
+                    </propertyInstance>
+                    <elementDefinition Id="9058ef93-31f0-48aa-ba51-6789194e415e" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="867717b2-68f3-49fb-a05c-eeda616a6fbf">
+                    <propertyInstance Id="9e91a60e-388f-418e-a06f-9d4b7bb8d548" name="Inheritance" value="none">
+                      <elementDefinition Id="a8ee9b42-841a-4f09-b92e-017b0b7452a1" />
+                    </propertyInstance>
+                    <elementDefinition Id="5273003d-4210-4f2e-a8a7-b0a8a28a3162" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="5e1302a9-352a-49d4-bf81-65362fa0fa80">
+                    <propertyInstance Id="06f39f64-2aea-4980-9031-1dcf1e8da1d6" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="b352d52b-f875-45a1-bd7c-8908dedf9d3f" />
+                    </propertyInstance>
+                    <elementDefinition Id="a2482550-c9f2-4925-8b71-2543ab6474be" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="90ecb658-0381-4d1a-8554-fa4e95d8b5f2">
+                    <propertyInstance Id="72cee289-a4b7-4f87-9e91-caa5a2d7c236" name="params" value="false">
+                      <elementDefinition Id="3049c0fd-b4fa-4bd6-bfc9-309519863ba3" />
+                    </propertyInstance>
+                    <elementDefinition Id="3e67b5f0-3a0e-4876-bee0-2f0890079044" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="5ecab8a7-c9e8-4255-a3df-e3069bc821b8" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="b3000394-fc93-4249-9475-d1abc6b82d65" name="Boolean" isAbstract="false" isLeaf="false" cachedFullName="Boolean">
+        <elementDefinition Id="8943dc84-709e-4f62-b15a-a3273aa6f165" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="cad68901-3620-4d38-a6f3-c03d13d0f7c2" name="Double" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject::System::Double">
+        <elementDefinition Id="5b22747b-699f-4917-90ee-0efedb00313d" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="246f70c1-512a-411c-9a78-b24c70cc0c17" name="Integer" isAbstract="false" isLeaf="false" cachedFullName="Integer">
+        <elementDefinition Id="220a3521-e091-4221-bae9-3ef9018e845c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="984df312-2451-46a9-be26-cdcf730cb594" name="EnemyBlinky" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="7e5def52-9a93-4a42-9757-5d26bb982830" handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyBlinky" tag="ViewCode">
+            <elementDefinition Id="02e2a69b-16c3-48a7-8401-63ef57f73de4" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="d012ab41-6933-4119-9f60-de2c4837fa0c" name="class" profile="CSharpProfile">
+            <elementDefinition Id="49840a7e-2fe9-451e-b975-6210e0634d2c" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="a5b20fab-c522-49e4-9eb9-3d20241647e3">
+                <propertyInstance Id="507b8c99-9fea-4226-a913-87bf7b7eba32" name="ClrAttributes">
+                  <elementDefinition Id="c877116e-5376-48e5-9ea7-78928f451c11" />
+                </propertyInstance>
+                <elementDefinition Id="c6169660-a760-4c07-b3b7-6c64978778c4" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="b395cf37-e585-45ba-bd6a-bfcb27209fbd">
+                <propertyInstance Id="64649fd5-4adf-478e-8f58-c48d1d08d82f" name="IsPartial" value="false">
+                  <elementDefinition Id="2a332170-28da-4859-8f37-fd9cb6462b58" />
+                </propertyInstance>
+                <elementDefinition Id="f14f6414-d2b6-4d63-a2be-25ea1c6549e3" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="e0482297-b412-49c3-8e54-b1c5fe217878">
+                <propertyInstance Id="ac1f4ec0-4c5b-4f94-a4ed-4a55c0750103" name="IsStatic" value="False">
+                  <elementDefinition Id="184be1e7-c1b9-4434-bc73-97509b3b0a1d" />
+                </propertyInstance>
+                <elementDefinition Id="d0c3c221-3cea-4beb-8935-c2d6827d1c97" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="4dbd60a4-d521-4032-ab3a-a338de6620a1">
+                <propertyInstance Id="66923e39-f13e-4f9c-b30d-1969a80ffc1e" name="IsUnsafe" value="false">
+                  <elementDefinition Id="3afe37fa-0402-4579-be18-ca4aa0ce0073" />
+                </propertyInstance>
+                <elementDefinition Id="298f1d92-9108-465d-9c9a-f137427b1c9a" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="1a07a33a-1ee6-4730-a5ec-49d7b42deaab">
+                <propertyInstance Id="2334f3c2-803f-4aca-b04c-7abb87b5f6d4" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="107eca3e-086d-4001-bee9-f4e869265f31" />
+                </propertyInstance>
+                <elementDefinition Id="9c55016a-f376-4ea3-87fe-462843e81fb0" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="420796c4-20c5-4296-8537-277ab0f9647c" />
+        <generalsInternal>
+          <generalization Id="de6d7f21-6a54-40c0-babb-a926eee0325a" isSubstitutable="false">
+            <classMoniker Id="b42586f8-bb4f-420c-a73c-1c37c8389b8f" LastKnownName="Enemy" />
+            <elementDefinition Id="ecde511b-b0c8-4c5a-bbe9-88965252ff0b" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="79cbb3ed-b267-4dee-a8af-3db23267b528" name="Resource" visibility="Protected" isLeaf="false" isStatic="false" isReadOnly="true" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="5292e48a-8819-4c98-abde-87a52aa27a40" handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyBlinky Member%3DResource" tag="ViewCode">
+                <elementDefinition Id="3a1abe91-57ad-4a1e-9eac-daf14fd3af5a" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="61163c1b-cba3-4c22-8170-3143be4a5559" name="property" profile="CSharpProfile">
+                <elementDefinition Id="567ac115-d22a-48a6-a077-a880e3155fab" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="8111c95f-37da-4ea3-9ffd-905e667c7ebd">
+                    <propertyInstance Id="3d8b0e25-4d98-4ee6-8675-ef254358fe48" name="ClrAttributes">
+                      <elementDefinition Id="61d36ed8-f9c5-4684-bc52-b0f37b88509e" />
+                    </propertyInstance>
+                    <elementDefinition Id="b4b01922-a2af-4859-a430-b26eccd9c483" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="6128657f-4718-40b4-8909-83b925a7fa8d">
+                    <propertyInstance Id="d656a66f-bcab-48ff-b3b4-9f0b9a4a81e6" name="Get" value="protected">
+                      <elementDefinition Id="f7b4a0b3-46f8-4552-a81a-3ec7166bd7e1" />
+                    </propertyInstance>
+                    <elementDefinition Id="8e2fd67f-1fe3-4aeb-90e7-efa56ea766b7" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a3ff8587-69d2-47a2-8fe6-bd74240be8ab">
+                    <propertyInstance Id="7fa5338c-cc65-4f10-aceb-9f310db78d84" name="HasBody" value="false">
+                      <elementDefinition Id="797f7a6c-07a9-41d2-8ab4-032d6eacc56a" />
+                    </propertyInstance>
+                    <elementDefinition Id="14b8ac5f-071f-4188-95b9-4114f38ff50c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="5ff33d4e-fea1-48bc-92cf-0af31d05859e">
+                    <propertyInstance Id="8f5af675-8690-42f8-aa65-5c8f7e4344c4" name="IsUnsafe" value="false">
+                      <elementDefinition Id="28d1985e-9b46-46c2-85c6-e3312e6a8cba" />
+                    </propertyInstance>
+                    <elementDefinition Id="8684d01d-0042-4748-b326-0f5a6473697f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3e2770c6-a108-4560-81a8-ab871b659132">
+                    <propertyInstance Id="08e746e4-20d6-47b8-9492-03c115aa8d45" name="Inheritance" value="none">
+                      <elementDefinition Id="46891bda-0146-4e36-87b3-1d5713883feb" />
+                    </propertyInstance>
+                    <elementDefinition Id="b8eb06e6-8f6c-4463-8d80-c1e0102c6d0e" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="bceb1c3c-cb39-4e2e-a97d-da26bdd8320a">
+                    <propertyInstance Id="8b54bcaa-0a41-4dc3-92a2-313bdbc59a57" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="c64d5421-2b28-4362-b051-1807a03db8e2" />
+                    </propertyInstance>
+                    <elementDefinition Id="0b92f14b-bd2c-4ae3-a422-ceaf7d58285a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="f25f1080-cc16-49c2-a829-0b6641b66534">
+                    <propertyInstance Id="69148184-ea65-4469-9df4-e9ee799eae76" name="Set" value="none">
+                      <elementDefinition Id="41ad96a7-d519-47f6-8e21-a1ba4f0c9867" />
+                    </propertyInstance>
+                    <elementDefinition Id="a39e8515-05ef-4c50-a72d-975a524f5bbd" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="ef63d498-ecbf-48de-a74e-e3cae00e26b5" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="5c80cb7d-1e3a-48c5-8146-8f57970dcfc5" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="f4ff6508-75c8-4f70-8d00-7f2e52eb33a6" name="defaultStrategy" isLeaf="false" isStatic="true" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="6c6dcc52-4c2d-4513-8815-b78817fcd17f" handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyBlinky Member%3DdefaultStrategy" tag="ViewCode">
+                <elementDefinition Id="9f5a4384-02e1-4188-a57b-fe433c81fce4" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="704b8004-79f6-4787-b22e-4a34693f13e3" name="field" profile="CSharpProfile">
+                <elementDefinition Id="bce474c2-5952-4a22-99e9-ff575366dab0" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a9b36a6d-1f6f-4b33-8ddb-7f92c5c6fa13">
+                    <propertyInstance Id="70041fcb-df17-4612-ba31-e26a386a286e" name="ClrAttributes">
+                      <elementDefinition Id="e86aaaa5-9dee-4294-a680-e1a5a8790965" />
+                    </propertyInstance>
+                    <elementDefinition Id="f144058c-77aa-46b3-a645-acf1e8fa3275" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3f635071-7007-40c8-899e-3558f12537cb">
+                    <propertyInstance Id="4d3eaa01-7860-4e89-b88f-896673076c9a" name="IsConst" value="false">
+                      <elementDefinition Id="86bfd581-b4aa-46d0-bbc5-718bc9e79ecb" />
+                    </propertyInstance>
+                    <elementDefinition Id="4fc5affc-34e7-492b-9d38-c4b628ee0051" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="56c06082-ea9b-47e1-a5f0-335abd808c2c">
+                    <propertyInstance Id="b6bbf062-2057-4e2c-b0ef-dca88e976ae7" name="IsNullable" value="false">
+                      <elementDefinition Id="707381ad-f8c0-4b08-a243-4eeab346048f" />
+                    </propertyInstance>
+                    <elementDefinition Id="7ab890ac-f844-457a-8899-913aa67493ff" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="1ca143ee-bc2e-4187-93bd-3a16ffd1aca9">
+                    <propertyInstance Id="f0e40ff7-645b-4883-8413-d15c93c86613" name="IsVolatile" value="false">
+                      <elementDefinition Id="63665fa2-6b95-4da0-a8ab-9cc10d3f7284" />
+                    </propertyInstance>
+                    <elementDefinition Id="ba914697-5195-4917-be29-f415b15500af" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="79029882-bd14-4011-a5eb-b7bf5c7779d0">
+                    <propertyInstance Id="5e85eda2-7ed6-4e62-b58d-68ca56d6c97a" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="cacc9bde-e420-400e-b2e0-ea23cbb72a8f" />
+                    </propertyInstance>
+                    <elementDefinition Id="b4e7a75a-d573-4790-a0e6-785f82b4b9fb" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="8f8857b0-28bf-46f1-a84b-bb8860f7cdc1" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="c561d41f-6063-4feb-9bd4-a4e245d5d2fc" LastKnownName="IStrategy" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="fdf93ac2-ea71-496a-bf35-60121c91e502" name="EnemyBlinky" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="285326bf-d283-4070-8300-a74ff4fd341b" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyBlinky Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)])" tag="ViewCode">
+                <elementDefinition Id="b34cb09a-a6ce-4c89-9368-b2c740c3faed" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="61fb5a58-2dc6-45f8-8a85-7243f843f90a" name="method" profile="CSharpProfile">
+                <elementDefinition Id="e636862d-a702-47bc-aaef-65bd07fa0e21" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="d6175fae-7f17-4dbf-a62a-c7fde9dccb92">
+                    <propertyInstance Id="73395223-3988-4a31-b7f9-e96d3d0374ab" name="ClrAttributes">
+                      <elementDefinition Id="b2261c4f-8925-4a02-97a1-139ed30c9414" />
+                    </propertyInstance>
+                    <elementDefinition Id="5c2ce58b-16ed-42b2-8982-bfda8a50c773" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="968644cd-e388-4327-a66d-014de60c7587">
+                    <propertyInstance Id="c996dce4-265d-4383-8dc5-8050b92824e7" name="IsPartial" value="false">
+                      <elementDefinition Id="18ca0f04-072d-404f-bb0b-db2998f5595e" />
+                    </propertyInstance>
+                    <elementDefinition Id="6851b429-846e-4b91-9473-4e8fa83e62a1" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="02ef3967-a554-4a97-a1f4-6cc7e2be3b3a">
+                    <propertyInstance Id="e47d1a7c-6298-4885-a1d0-731e6b863d26" name="IsUnsafe" value="false">
+                      <elementDefinition Id="7ebecd21-6e62-489d-b983-2e4fa742ea43" />
+                    </propertyInstance>
+                    <elementDefinition Id="3c63dd48-2818-46ba-b956-7d6b642ce727" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c4e6f434-b0a3-4f66-83c4-d9aebd1d033d">
+                    <propertyInstance Id="74115e0b-4318-414f-8343-6f134c878558" name="Inheritance" value="none">
+                      <elementDefinition Id="04c2ad09-4a55-48e4-a42c-2bb1459642cf" />
+                    </propertyInstance>
+                    <elementDefinition Id="a44eb37b-cbbb-42df-934c-d5b20907130f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="23cea8ae-ca4a-454c-8486-ea1c2d38191a">
+                    <propertyInstance Id="dda4c6f4-585e-46ca-8b18-9f86ff1591e1" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="c609d4fc-e81b-4907-a1e0-16fb0619edf7" />
+                    </propertyInstance>
+                    <elementDefinition Id="62606980-4888-496a-94f0-521021e77643" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="2ec46b57-35da-4128-aa8c-62ae2d224f4c">
+                    <propertyInstance Id="17df1830-9398-4d9d-9894-8e4947dc6d83" name="params" value="false">
+                      <elementDefinition Id="4fe4997b-cdc4-42ab-b70b-d2533778b2d0" />
+                    </propertyInstance>
+                    <elementDefinition Id="a580e45e-0917-4ed3-8a77-fa07cf6495d8" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="8ba0ca22-dbf5-4e9c-8f22-eb5dc8fb3ebc" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="60b8677f-0058-461e-be53-32a3676927cf" name="field" direction="In">
+                  <referencesInternal>
+                    <reference Id="a1b7f4c9-4636-41b4-84e0-0f46ffcbadc8" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyBlinky Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3Dfield" tag="ViewCode">
+                      <elementDefinition Id="36358639-334a-4cb1-83bb-1c5c3e377f51" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="2deaf58f-02ed-45c3-aefb-631209723b36" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="e52267df-4eef-48d7-b489-61d39717ddcc" LastKnownName="Field" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="4063bd07-e258-4ce5-9ee9-ca8a5a2dc917" name="location" direction="In">
+                  <referencesInternal>
+                    <reference Id="1dab4550-5d45-4308-8ec5-f6878a18b98e" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyBlinky Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3Dlocation" tag="ViewCode">
+                      <elementDefinition Id="accd4af0-9606-4ba4-b857-50a65aae7a08" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="cffed944-af41-4d89-99d0-cf5edaac32f6" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="cb82ffa3-05c4-43f1-8086-3ee4d6f10d08" LastKnownName="Vector2D" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="2c1e5535-35fd-49a4-ab49-364b6e7997b8" name="attackingStrategy" direction="In">
+                  <referencesInternal>
+                    <reference Id="f0969105-dd90-472f-bcf1-21e8802ec942" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyBlinky Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3DattackingStrategy" tag="ViewCode">
+                      <elementDefinition Id="930c2829-0147-4494-831a-02fa10eca5f3" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="587faabf-2f5c-4f83-8019-0d098282ad61" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c561d41f-6063-4feb-9bd4-a4e245d5d2fc" LastKnownName="IStrategy" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="bf40fd3a-001a-4ceb-9c5f-3e38080d22db" name="fleeingStrategy" direction="In">
+                  <referencesInternal>
+                    <reference Id="bb86974b-b031-45ea-bce2-d4ff5f3321eb" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyBlinky Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3DfleeingStrategy" tag="ViewCode">
+                      <elementDefinition Id="6d6d0020-1e2f-41a8-9636-cabbe6adc8f1" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="0b6d984a-471f-4f6b-83fa-afef2d0b335b" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c561d41f-6063-4feb-9bd4-a4e245d5d2fc" LastKnownName="IStrategy" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="6b9ffe81-775d-4e16-ade5-401574e2f024" name="EnemyClyde" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="8ed23a0f-5448-47d2-b5a9-5ba6c71f240e" handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyClyde" tag="ViewCode">
+            <elementDefinition Id="a9e6bfcb-f3d2-4727-86e9-656bde3db0f9" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="b355231d-cfe9-4ff7-95f5-52fa7e4f17fe" name="class" profile="CSharpProfile">
+            <elementDefinition Id="cdb0e1fd-56c8-4c79-bb68-200be552f9d4" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="bec2288d-ac1a-4889-99ed-d19286e23f3e">
+                <propertyInstance Id="06183b95-23b5-4bbe-bc0b-02ae8323c914" name="ClrAttributes">
+                  <elementDefinition Id="412c1c92-f196-4395-ae76-9d8f82ded493" />
+                </propertyInstance>
+                <elementDefinition Id="19ad9ff9-85ed-47da-87a7-c948f569c8d9" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="043343c4-9941-4405-adf4-e45922236239">
+                <propertyInstance Id="ea812349-33b9-4b05-9f51-5b6bdd02f7db" name="IsPartial" value="false">
+                  <elementDefinition Id="ecd404e1-9404-48b2-b9e0-f070c1d30186" />
+                </propertyInstance>
+                <elementDefinition Id="3df9004e-a242-4be2-aff6-427fef0b727e" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="306519bd-ac94-4f92-96b5-362bfc05ff4d">
+                <propertyInstance Id="f1dd7b36-2b5b-4252-a588-3f07ab5c9b9d" name="IsStatic" value="False">
+                  <elementDefinition Id="087988c9-7282-4208-917e-fd4256d2daa9" />
+                </propertyInstance>
+                <elementDefinition Id="c3fdf0a3-b91c-4e1d-a882-0542508ef2a1" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="307d1d40-b42e-4813-84fd-495ba6e8f40d">
+                <propertyInstance Id="b7c30c08-742a-4d1a-aa51-dc4b929e70cb" name="IsUnsafe" value="false">
+                  <elementDefinition Id="7a3c4c8f-15f4-4f5b-809e-1b709090998d" />
+                </propertyInstance>
+                <elementDefinition Id="61218c9a-8323-4595-a67e-aa4f30baade3" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="202a2dd1-d582-4fce-948d-12fad6c2e842">
+                <propertyInstance Id="ab02b4f9-40ab-4756-b85a-2ddbecdc31f8" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="4f9e3ba4-e3f3-42ad-ad10-57427d1c577b" />
+                </propertyInstance>
+                <elementDefinition Id="9ddf4330-22e1-473c-be5f-fdbbf16007d0" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="61d37345-09ce-4822-9b4a-7da89fc92ed2" />
+        <generalsInternal>
+          <generalization Id="83228f28-0e7e-4394-b621-806d308b6cad" isSubstitutable="false">
+            <classMoniker Id="b42586f8-bb4f-420c-a73c-1c37c8389b8f" LastKnownName="Enemy" />
+            <elementDefinition Id="579ce9a0-2396-4a31-8742-7cdb6f028ae3" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="62a4ee82-dc63-4b69-97c7-984526587f05" name="Resource" visibility="Protected" isLeaf="false" isStatic="false" isReadOnly="true" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="cbd1e052-d75f-42eb-b824-b276dd32bfcd" handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyClyde Member%3DResource" tag="ViewCode">
+                <elementDefinition Id="3fbbe9d6-4980-49ee-8338-5bec32053c41" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="1d39df75-654b-4be7-949c-96aeda7ff01c" name="property" profile="CSharpProfile">
+                <elementDefinition Id="9e87e9be-ed1f-4c11-9f03-21b17ea5bef0" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="fb50721d-bab0-4835-ba46-c929274abd45">
+                    <propertyInstance Id="7c1ff0f8-7ce1-4543-afbd-327453cd5cb8" name="ClrAttributes">
+                      <elementDefinition Id="f567f892-9481-439f-a541-605a4711a92e" />
+                    </propertyInstance>
+                    <elementDefinition Id="52216843-8533-4bd5-ad61-c843e4f54e91" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3afd00b8-ce1b-476a-bbf5-e3ee062628b1">
+                    <propertyInstance Id="275a1ed9-fe66-44da-89f5-1d7ad67d3926" name="Get" value="protected">
+                      <elementDefinition Id="aefd8349-2f71-43e3-a22d-50fcf93d5f50" />
+                    </propertyInstance>
+                    <elementDefinition Id="6be69722-0405-4ad3-8085-0b3a6c6e8c15" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="29734ea2-6307-4749-aadb-716b7dc15bb6">
+                    <propertyInstance Id="32c298bf-04cb-42eb-9b90-0755c19dcc73" name="HasBody" value="false">
+                      <elementDefinition Id="a6fac6c7-e298-4925-8908-45dbbebde231" />
+                    </propertyInstance>
+                    <elementDefinition Id="73792c53-4e52-4ad8-a966-e92b307d2b28" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="436f4896-8a0b-4553-b5fb-45300c170719">
+                    <propertyInstance Id="a71c12b1-1cee-4a14-92de-11eca4034d73" name="IsUnsafe" value="false">
+                      <elementDefinition Id="6042cfac-a347-425f-a72e-2f1fb488dbe9" />
+                    </propertyInstance>
+                    <elementDefinition Id="c71b9db3-6b19-4735-986a-9fae8fe9b151" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a727b9d1-183e-43c5-a2e9-cb2950c42024">
+                    <propertyInstance Id="53252a1b-a8a2-41eb-b93d-8d5d8c7ebb48" name="Inheritance" value="none">
+                      <elementDefinition Id="b47603d3-adb0-4cf5-9e25-1948d7b31926" />
+                    </propertyInstance>
+                    <elementDefinition Id="02a672f9-3138-47c5-a661-2cd50542b52c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="2db89e23-c41e-4399-96f9-2dabac5fd7ac">
+                    <propertyInstance Id="4cfd4d9d-2179-4a5d-8044-d0585d6fb535" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="b183a4da-6ce6-4712-844b-a93435c2ed22" />
+                    </propertyInstance>
+                    <elementDefinition Id="79a0a7d3-e60e-423b-b4e7-a21e14d24ccd" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e27e431c-05cf-4e29-921f-5093b2125dab">
+                    <propertyInstance Id="df1349ae-10c8-43cf-9675-6e3f564f8b71" name="Set" value="none">
+                      <elementDefinition Id="00110a73-f06f-48c0-b953-8aade4c90584" />
+                    </propertyInstance>
+                    <elementDefinition Id="c80d006b-d5c8-4f58-b9b2-a8530597cddb" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="a7e5d456-61a6-433e-8c4c-524ca098a82d" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="5c80cb7d-1e3a-48c5-8146-8f57970dcfc5" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="1d55a292-b753-475d-90dc-ff9e8c5f6868" name="defaultStrategy" isLeaf="false" isStatic="true" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="ea141812-012e-403d-b764-9b3197665c9b" handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyClyde Member%3DdefaultStrategy" tag="ViewCode">
+                <elementDefinition Id="0b887d06-50e1-4feb-a57f-d78a4e0f0b5c" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="fe7023e9-8d66-47d9-b8cf-a0a3d7153ca5" name="field" profile="CSharpProfile">
+                <elementDefinition Id="1c149f82-5c1e-4870-9161-880000e2bd80" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="bf1fd329-baee-4949-8600-2b675f74e7bd">
+                    <propertyInstance Id="485d6934-c354-44c1-81c3-9dcb968b2696" name="ClrAttributes">
+                      <elementDefinition Id="86fb1da8-e64a-4a5c-92d1-20ccba2efc97" />
+                    </propertyInstance>
+                    <elementDefinition Id="f46d743d-dcd2-4b12-843b-186d969a6a64" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="5774ec3a-e733-44f0-bc0b-984ffd0f5bbd">
+                    <propertyInstance Id="2e0f2b95-7c33-4baa-8705-24b364ec1a56" name="IsConst" value="false">
+                      <elementDefinition Id="7eed798b-953f-46de-bd77-b8dce657f848" />
+                    </propertyInstance>
+                    <elementDefinition Id="96217166-da59-4cda-b507-0d6a13085047" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="bb92e45d-3fcb-4df6-af4a-a623454c50a6">
+                    <propertyInstance Id="711d0e96-d934-4b5d-a70c-c1b0d2487252" name="IsNullable" value="false">
+                      <elementDefinition Id="3efcdfc0-0337-4dba-aa51-0dd4982f9c4a" />
+                    </propertyInstance>
+                    <elementDefinition Id="146d8b77-c284-4427-8f8d-1276561ed083" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="d9cd2748-15d2-4a52-bd23-e94136c1d4fd">
+                    <propertyInstance Id="6e8187c8-1d73-44d3-a706-17d367f63b0a" name="IsVolatile" value="false">
+                      <elementDefinition Id="8e02c858-b8a4-4a72-932e-b2a3ab094b83" />
+                    </propertyInstance>
+                    <elementDefinition Id="660b9d60-e11d-4924-9d78-4ba41ffe5b08" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="37e97563-189b-4b83-a404-0eab3d0aee31">
+                    <propertyInstance Id="8039db4b-5dbe-4305-9f1e-e8a891402b26" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="4658cb7b-9a4e-46a5-8749-ef6de9c135f0" />
+                    </propertyInstance>
+                    <elementDefinition Id="176a8e04-6cc9-45dc-97c6-cb97cc220c27" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="d49d3720-2915-4627-b98b-900249bf7615" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="c561d41f-6063-4feb-9bd4-a4e245d5d2fc" LastKnownName="IStrategy" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="c4009d8a-566f-4270-960d-5593e4abcdd0" name="EnemyClyde" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="7bf04a0d-ddb0-4d0a-b2f5-368a3e55bcca" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyClyde Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)])" tag="ViewCode">
+                <elementDefinition Id="2b7d7b71-7004-45c7-a27d-c1c2d914943e" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="59f5c3f1-ec6c-4f03-8acd-b4fd44a4ec28" name="method" profile="CSharpProfile">
+                <elementDefinition Id="2ec38a70-9316-4886-aecf-66b098fcba4f" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e2fb44b2-8f9b-47fb-85a4-f999f2f5cc5f">
+                    <propertyInstance Id="2098989f-d561-4a4f-9b03-8a691414ecfd" name="ClrAttributes">
+                      <elementDefinition Id="4377c6ba-ce59-4760-a759-42afc0f40139" />
+                    </propertyInstance>
+                    <elementDefinition Id="00f5cb7d-9af1-421f-9ba9-ec77a90f4a1e" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="d6c8057a-4d8e-4b8a-ad36-f4506dd1a921">
+                    <propertyInstance Id="520a9d82-ee52-4f5a-91e9-2bdf501c35d8" name="IsPartial" value="false">
+                      <elementDefinition Id="9c101908-ea22-4669-baa5-cf6f2d87fdf7" />
+                    </propertyInstance>
+                    <elementDefinition Id="a2fbc836-6e2a-4720-b3fd-1ae57f8be7b3" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3116119a-22de-4b94-bc9a-0b43fa74307f">
+                    <propertyInstance Id="a3ee337e-dd67-4e0d-961b-1838f9b7f9f5" name="IsUnsafe" value="false">
+                      <elementDefinition Id="f83ee821-cdc9-4b42-be92-5dcd754864a3" />
+                    </propertyInstance>
+                    <elementDefinition Id="0281a8db-44b5-40ea-8877-e8f234651c76" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="318d5c35-d9d5-40d1-8409-0b1a4c9a7080">
+                    <propertyInstance Id="6dcfe19c-97e9-4121-9a5a-09fd57fd9c4d" name="Inheritance" value="none">
+                      <elementDefinition Id="d48b9981-ca9e-45a3-8aab-37d9bf3ded2f" />
+                    </propertyInstance>
+                    <elementDefinition Id="015c7a3c-1e9a-4e9b-8dc1-97ec1ff05f42" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e418dfc0-baa5-4230-9585-5c7204a21252">
+                    <propertyInstance Id="80ea4450-d3db-4ff0-aee8-987418d7d7c3" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="3cc87357-ce99-4c01-84ea-5190221e1f01" />
+                    </propertyInstance>
+                    <elementDefinition Id="b8a87133-9e05-405c-abbc-c76c57895140" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="35672367-c41b-41ec-87f0-3cf25e6bf9c8">
+                    <propertyInstance Id="bd485d4c-82d3-49f3-a3a2-9b4aad3c79a5" name="params" value="false">
+                      <elementDefinition Id="b557bb3f-2a15-4b56-8c47-4a53728b0bec" />
+                    </propertyInstance>
+                    <elementDefinition Id="18af9ff1-c880-415a-a6a8-16426ce721d7" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="6d41bce6-8068-4b15-8c1d-0b010d1e6b83" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="bc9e743c-2c12-4bb6-8c9f-02ef75584cab" name="field" direction="In">
+                  <referencesInternal>
+                    <reference Id="fa3db698-609c-477b-b6e1-3624a04d69f1" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyClyde Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3Dfield" tag="ViewCode">
+                      <elementDefinition Id="00a7ebcd-52e3-46b7-8669-71d0d77a533e" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="024fa5af-b1a4-44ab-8d97-9e6fe181a659" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="e52267df-4eef-48d7-b489-61d39717ddcc" LastKnownName="Field" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="5d5c8e01-9960-4c37-bf74-024a0812ff9e" name="location" direction="In">
+                  <referencesInternal>
+                    <reference Id="ccd383d2-a315-40fb-88c6-9427407fea9f" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyClyde Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3Dlocation" tag="ViewCode">
+                      <elementDefinition Id="cef8ca3b-e44d-45bb-8b82-de416c62cadf" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="ca74d342-04a1-4954-b7e8-32e0db79a662" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="cb82ffa3-05c4-43f1-8086-3ee4d6f10d08" LastKnownName="Vector2D" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="bc7c0d3b-bb7f-4d42-82a4-28e4633e26f6" name="attackingStrategy" direction="In">
+                  <referencesInternal>
+                    <reference Id="fe549cf3-d83e-43ff-aae3-edc5dd72c654" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyClyde Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3DattackingStrategy" tag="ViewCode">
+                      <elementDefinition Id="4ef94bc2-99af-41a9-b345-b8c1e052911c" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="f01a31ea-5ecd-469a-bb60-7313a7626ac8" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c561d41f-6063-4feb-9bd4-a4e245d5d2fc" LastKnownName="IStrategy" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="77238610-7789-4e87-be70-1b5e2ccf6b90" name="fleeingStrategy" direction="In">
+                  <referencesInternal>
+                    <reference Id="aaa2963f-2a76-4acc-ad50-44aafacd7180" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DEnemyClyde Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DField)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DVector2D)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FSam%2FDocuments%2FPacman%2FPacman%2Fbin%2FDebug%2FPacman.dll Namespace%3DPacman Type%3DIStrategy)]) ParameterIdentifier%3DfleeingStrategy" tag="ViewCode">
+                      <elementDefinition Id="6458abf7-3d33-4be6-9f96-5b9a55935ccf" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="b481aed0-aa10-4150-b3e7-ed2b3679eaa8" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c561d41f-6063-4feb-9bd4-a4e245d5d2fc" LastKnownName="IStrategy" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="07bdea45-9639-46bc-abd5-a36d3e324c4d" name="ModelingProject">
+    <elementDefinition Id="d3ffafe7-7a44-45c3-b5fc-251bbaa6e990" />
+  </package>
+</logicalClassDesignerModel>
